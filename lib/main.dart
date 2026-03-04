@@ -18,6 +18,8 @@ import 'modules/home/controllers/home_controller.dart';
 import 'services/global_settings_service.dart';
 import 'core/services/supabase_rest_client.dart';
 import 'core/services/realtime_service.dart';
+import 'core/services/update_service.dart';
+import 'core/widgets/update_dialog.dart';
 
 void main() async {
   logDebug('App Started');
@@ -80,6 +82,17 @@ void main() async {
       logDebug('All initialization complete, running app...');
 
       runApp(const OkadaVetClinicApp());
+
+      // Check for updates after app is fully loaded (non-blocking)
+      Future.delayed(const Duration(seconds: 3), () {
+        if (Platform.isWindows && Get.isRegistered<UpdateService>()) {
+          UpdateService.to.checkForUpdate().then((hasUpdate) {
+            if (hasUpdate) {
+              UpdateDialog.show();
+            }
+          });
+        }
+      });
     },
     (error, stack) {
       debugPrint('Uncaught error: $error');

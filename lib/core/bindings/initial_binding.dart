@@ -15,6 +15,7 @@ import '../services/tenant_manager.dart';
 import '../services/data_migration_service.dart';
 import '../services/supabase_storage_service.dart';
 import '../services/attachment_service.dart';
+import '../services/update_service.dart';
 import '../sync/sync_engine.dart';
 import '../services/permission_service.dart';
 import '../../services/return_service.dart';
@@ -86,6 +87,11 @@ class InitialBinding extends Bindings {
     }
     if (!Get.isRegistered<AttachmentService>()) {
       Get.put<AttachmentService>(AttachmentService(), permanent: true);
+    }
+
+    // Auto-Update Service (Windows only)
+    if (!Get.isRegistered<UpdateService>()) {
+      Get.put<UpdateService>(UpdateService(), permanent: true);
     }
   }
 }

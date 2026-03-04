@@ -23,6 +23,10 @@ OutputBaseFilename=OkadaVetClinicSetup
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
+; Auto-update support: close running app and restart after install
+CloseApplications=yes
+CloseApplicationsFilter=okada_vet_clinic.exe
+RestartApplications=yes
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
