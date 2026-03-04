@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Clinic — 02. Navigation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            padding: 20px
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 22px;
+            color: #fff;
+            margin-bottom: 4px
+        }
+
+        .sub {
+            text-align: center;
+            color: #64748b;
+            font-size: 12px;
+            margin-bottom: 24px
+        }
+
+        .section {
+            font-size: 15px;
+            font-weight: 700;
+            margin: 28px 0 12px;
+            padding-left: 8px;
+            border-left: 3px solid
+        }
+
+        .grid {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 32px
+        }
+
+        .frame {
+            background: #fff;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            overflow: hidden;
+            color: #1e293b
+        }
+
+        .frame-d {
+            width: 880px
+        }
+
+        .frame-m {
+            width: 360px;
+            border-radius: 20px;
+            border: 3px solid #334155;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, .3)
+        }
+
+        .frame-label {
+            background: #1e293b;
+            color: #94a3b8;
+            font-size: 10px;
+            padding: 3px 12px;
+            text-align: center;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-transform: uppercase
+        }
+
+        .status-bar {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 16px;
+            font-size: 10px;
+            font-weight: 600;
+            background: #fff
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 10px;
+            border-radius: 6px;
+            color: #94a3b8;
+            margin-bottom: 2px;
+            font-size: 12px;
+            cursor: pointer
+        }
+
+        .nav-active {
+            background: rgba(37, 99, 235, .15);
+            color: #60a5fa;
+            font-weight: 500
+        }
+
+        .nav-badge {
+            margin-left: auto;
+            font-size: 9px;
+            padding: 1px 5px;
+            border-radius: 99px;
+            font-weight: 600;
+            color: #fff
+        }
+
+        .nav-cat {
+            font-size: 9px;
+            font-weight: 600;
+            color: #475569;
+            padding: 12px 10px 4px;
+            text-transform: uppercase;
+            letter-spacing: 1px
+        }
+    </style>
+</head>
+
+<body>
+    <h1>🧭 Pet Clinic — Navigation</h1>
+    <p class="sub">Module 02: Sidebar Desktop • Bottom Nav Mobile • Drawer • Tab Thêm</p>
+
+    <!-- ═══════ SIDEBAR DESKTOP ═══════ -->
+    <div class="section" style="color:#10b981;border-color:#10b981">💻 Desktop — Sidebar Navigation</div>
+    <div class="grid">
+        <div class="frame frame-d">
+            <div class="frame-label">Desktop — Full Layout với Sidebar</div>
+            <div style="display:flex;min-height:580px">
+                <!-- Sidebar -->
+                <div
+                    style="width:220px;background:#1e293b;color:#e2e8f0;display:flex;flex-direction:column;flex-shrink:0">
+                    <div style="padding:16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid #334155">
+                        <div
+                            style="width:36px;height:36px;background:linear-gradient(135deg,#2563eb,#38bdf8);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px">
+                            🐾</div>
+                        <div>
+                            <div style="font-size:14px;font-weight:700;color:#fff">Pet Clinic</div>
+                            <div style="font-size:9px;color:#64748b">Vet Clinic</div>
+                        </div>
+                    </div>
+                    <div style="padding:8px;flex:1;overflow-y:auto">
+                        <div class="nav-cat" style="padding-top:8px">Tổng quan</div>
+                        <div class="nav-item nav-active"><span class="material-icons-round"
+                                style="font-size:18px">dashboard</span>Dashboard</div>
+                        <div class="nav-item"><span class="material-icons-round" style="font-size:18px">event</span>Lịch
+                            Hẹn<span class="nav-badge" style="background:#ef4444">3</span></div>
+                        <div class="nav-cat">Khám chữa bệnh</div>
+                        <div class="nav-item"><span class="material-icons-round"
+                                style="font-size:18px">medical_services</span>Ca Khám</div>
+                        <div class="nav-item"><span class="material-icons-round"
+                                style="font-size:18px">local_hospital</span>Nội Trú<span class="nav-badge"
+                                style="background:#f59e0b">5</span></div>
+                        <div class="nav-cat">Kho & Bán hàng</div>
+                        <div class="nav-item"><span class="material-icons-round"
+                                style="font-size:18px">medication</span>Kho Thuốc<span class="nav-badge"
+                                style="background:#ef4444">!</span></div>
+                        <div class="nav-item"><span class="material-icons-round"
+                                style="font-size:18px">storefront</span>Petshop</div>
+                        <div class="nav-cat">Khách hàng</div>
+                        <div class="nav-item"><span class="material-icons-round" style="font-size:18px">people</span>KH
+                            & Thú Cưng</div>
+                        <div class="nav-cat">Báo cáo</div>
+                        <div class="nav-item"><span class="material-icons-round"
+                                style="font-size:18px">bar_chart</span>Báo Cáo</div>
+                        <div class="nav-item"><span class="material-icons-round"
+                                style="font-size:18px">account_balance_wallet</span>Chi Phí</div>
+                    </div>
+                    <div style="padding:8px;border-top:1px solid #334155">
+                        <div class="nav-item"><span class="material-icons-round"
+                                style="font-size:18px">settings</span>Cài Đặt</div>
+                        <div
+                            style="display:flex;align-items:center;gap:8px;padding:10px;margin-top:4px;background:#0f172a;border-radius:8px">
+                            <div
+                                style="width:32px;height:32px;background:linear-gradient(135deg,#2563eb,#7c3aed);border-radius:8px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;font-weight:700">
+                                BS</div>
+                            <div style="flex:1">
+                                <div style="font-size:11px;font-weight:600;color:#fff">BS. Nguyễn An</div>
+                                <div style="font-size:9px;color:#64748b">Bác sĩ thú y</div>
+                            </div>
+                            <span class="material-icons-round" style="font-size:16px;color:#64748b">more_vert</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Main -->
+                <div style="flex:1;background:#f1f5f9;padding:16px">
+                    <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px">
+                        <div style="flex:1">
+                            <div style="font-size:18px;font-weight:700;color:#1e293b">Dashboard</div>
+                            <div style="font-size:11px;color:#64748b">Thứ 3, 18 Feb 2026</div>
+                        </div>
+                        <div
+                            style="display:flex;align-items:center;gap:6px;background:#fff;border:1px solid #e2e8f0;border-radius:8px;padding:6px 12px;width:200px">
+                            <span class="material-icons-round" style="font-size:16px;color:#94a3b8">search</span><span
+                                style="font-size:11px;color:#cbd5e1">Tìm kiếm...</span>
+                        </div>
+                        <div
+                            style="position:relative;width:32px;height:32px;background:#fff;border:1px solid #e2e8f0;border-radius:8px;display:flex;align-items:center;justify-content:center">
+                            <span class="material-icons-round" style="font-size:18px;color:#10b981">cloud_done</span>
+                        </div>
+                        <div
+                            style="position:relative;width:32px;height:32px;background:#fff;border:1px solid #e2e8f0;border-radius:8px;display:flex;align-items:center;justify-content:center">
+                            <span class="material-icons-round" style="font-size:18px;color:#64748b">notifications</span>
+                            <div
+                                style="position:absolute;top:-2px;right:-2px;width:14px;height:14px;background:#ef4444;border-radius:99px;font-size:8px;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;border:2px solid #f1f5f9">
+                                2</div>
+                        </div>
+                    </div>
+                    <div
+                        style="height:400px;background:#fff;border-radius:10px;border:1px solid #e2e8f0;display:flex;align-items:center;justify-content:center;color:#cbd5e1;font-size:13px">
+                        [Content Area — Nội dung module hiện tại]</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════ MOBILE BOTTOM NAV ═══════ -->
+    <div class="section" style="color:#f59e0b;border-color:#f59e0b">📱 Mobile — Bottom Navigation</div>
+    <div class="grid">
+        <div class="frame frame-m">
+            <div class="frame-label">Mobile — Bottom Nav (5 tabs)</div>
+            <div class="status-bar"><span>9:41</span>
+                <div style="display:flex;gap:4px"><span class="material-icons-round"
+                        style="font-size:14px">signal_cellular_alt</span><span class="material-icons-round"
+                        style="font-size:14px">wifi</span><span class="material-icons-round"
+                        style="font-size:14px">battery_full</span></div>
+            </div>
+            <div
+                style="background:#fff;padding:10px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid #f1f5f9">
+                <span class="material-icons-round" style="font-size:22px;color:#475569;cursor:pointer">menu</span>
+                <div style="flex:1;font-size:15px;font-weight:700;color:#1e293b">Dashboard</div>
+                <div style="position:relative"><span class="material-icons-round"
+                        style="font-size:20px;color:#64748b">notifications</span>
+                    <div
+                        style="position:absolute;top:-4px;right:-4px;width:12px;height:12px;background:#ef4444;border-radius:99px;font-size:7px;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;border:2px solid #fff">
+                        2</div>
+                </div>
+                <span class="material-icons-round" style="font-size:20px;color:#10b981">cloud_done</span>
+            </div>
+            <div
+                style="background:#f1f5f9;height:380px;display:flex;align-items:center;justify-content:center;color:#94a3b8;font-size:12px">
+                [Content Area]</div>
+            <!-- Bottom Nav -->
+            <div style="background:#fff;border-top:1px solid #e2e8f0;display:flex;padding:6px 0 10px">
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#2563eb"><span
+                        class="material-icons-round" style="font-size:22px">dashboard</span><span
+                        style="font-size:8px;font-weight:600">Tổng Quan</span></div>
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#94a3b8"><span
+                        class="material-icons-round" style="font-size:22px">medical_services</span><span
+                        style="font-size:8px;font-weight:500">Ca Khám</span></div>
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#94a3b8"><span
+                        class="material-icons-round" style="font-size:22px">local_hospital</span><span
+                        style="font-size:8px;font-weight:500">Nội Trú</span></div>
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#94a3b8"><span
+                        class="material-icons-round" style="font-size:22px">medication</span><span
+                        style="font-size:8px;font-weight:500">Kho Thuốc</span></div>
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#94a3b8"><span
+                        class="material-icons-round" style="font-size:22px">more_horiz</span><span
+                        style="font-size:8px;font-weight:500">Thêm</span></div>
+            </div>
+        </div>
+
+        <!-- Drawer -->
+        <div class="frame frame-m">
+            <div class="frame-label">Mobile — Drawer Menu (mở)</div>
+            <div style="display:flex;height:580px">
+                <div
+                    style="width:260px;background:#1e293b;color:#e2e8f0;display:flex;flex-direction:column;height:100%">
+                    <div
+                        style="padding:20px 16px;background:linear-gradient(135deg,#1e3a5f,#2563eb);display:flex;align-items:center;gap:10px">
+                        <div
+                            style="width:40px;height:40px;background:rgba(255,255,255,.2);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;color:#fff">
+                            BS</div>
+                        <div>
+                            <div style="font-size:13px;font-weight:700;color:#fff">BS. Nguyễn An</div>
+                            <div style="font-size:10px;color:rgba(255,255,255,.7)">Bác sĩ thú y</div>
+                        </div>
+                    </div>
+                    <div style="flex:1;padding:8px;overflow-y:auto">
+                        <div class="nav-item nav-active"><span class="material-icons-round"
+                                style="font-size:18px">dashboard</span>Dashboard</div>
+                        <div class="nav-item"><span class="material-icons-round" style="font-size:18px">event</span>Lịch
+                            Hẹn<span class="nav-badge" style="background:#ef4444">3</span></div>
+                        <div class="nav-item"><span class="material-icons-round"
+                                style="font-size:18px">medical_services</span>Ca Khám</div>
+                        <div class="nav-item"><span class="material-icons-round"
+                                style="font-size:18px">local_hospital</span>Nội Trú<span class="nav-badge"
+                                style="background:#f59e0b">5</span></div>
+                        <div class="nav-item"><span class="material-icons-round"
+                                style="font-size:18px">medication</span>Kho Thuốc<span class="nav-badge"
+                                style="background:#ef4444">!</span></div>
+                        <div class="nav-item"><span class="material-icons-round"
+                                style="font-size:18px">storefront</span>Petshop</div>
+                        <div class="nav-item"><span class="material-icons-round" style="font-size:18px">people</span>KH
+                            & Thú Cưng</div>
+                        <div class="nav-item"><span class="material-icons-round"
+                                style="font-size:18px">bar_chart</span>Báo Cáo</div>
+                        <div class="nav-item"><span class="material-icons-round"
+                                style="font-size:18px">account_balance_wallet</span>Chi Phí</div>
+                        <div class="nav-item"><span class="material-icons-round"
+                                style="font-size:18px">menu_book</span>Thư Viện</div>
+                    </div>
+                    <div style="padding:10px;border-top:1px solid #334155">
+                        <div class="nav-item"><span class="material-icons-round"
+                                style="font-size:18px">settings</span>Cài Đặt</div>
+                        <div class="nav-item" style="color:#ef4444"><span class="material-icons-round"
+                                style="font-size:18px">logout</span>Đăng Xuất</div>
+                    </div>
+                </div>
+                <div style="flex:1;background:rgba(0,0,0,.4)"></div>
+            </div>
+        </div>
+
+        <!-- Tab Thêm -->
+        <div class="frame frame-m">
+            <div class="frame-label">Mobile — Tab "Thêm"</div>
+            <div class="status-bar"><span>9:41</span>
+                <div style="display:flex;gap:4px"><span class="material-icons-round"
+                        style="font-size:14px">signal_cellular_alt</span><span class="material-icons-round"
+                        style="font-size:14px">wifi</span><span class="material-icons-round"
+                        style="font-size:14px">battery_full</span></div>
+            </div>
+            <div style="background:#fff;padding:10px 16px;border-bottom:1px solid #f1f5f9">
+                <div style="font-size:15px;font-weight:700;color:#1e293b">Thêm</div>
+            </div>
+            <div style="background:#f1f5f9;padding:12px;min-height:380px">
+                <div
+                    style="font-size:10px;font-weight:600;color:#64748b;margin-bottom:6px;text-transform:uppercase;letter-spacing:.5px">
+                    Thao tác nhanh</div>
+                <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:16px">
+                    <div
+                        style="background:#fff;border-radius:10px;padding:12px;text-align:center;border:1px solid #e2e8f0">
+                        <div
+                            style="width:36px;height:36px;background:#eff6ff;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;margin-bottom:4px">
+                            <span class="material-icons-round" style="font-size:18px;color:#2563eb">add_circle</span>
+                        </div>
+                        <div style="font-size:9px;font-weight:600;color:#1e293b">Ca Khám Mới</div>
+                    </div>
+                    <div
+                        style="background:#fff;border-radius:10px;padding:12px;text-align:center;border:1px solid #e2e8f0">
+                        <div
+                            style="width:36px;height:36px;background:#f0fdf4;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;margin-bottom:4px">
+                            <span class="material-icons-round" style="font-size:18px;color:#10b981">person_add</span>
+                        </div>
+                        <div style="font-size:9px;font-weight:600;color:#1e293b">KH Mới</div>
+                    </div>
+                    <div
+                        style="background:#fff;border-radius:10px;padding:12px;text-align:center;border:1px solid #e2e8f0">
+                        <div
+                            style="width:36px;height:36px;background:#fdf4ff;border-radius:10px;display:inline-flex;align-items:center;justify-content:center;margin-bottom:4px">
+                            <span class="material-icons-round" style="font-size:18px;color:#a855f7">pets</span></div>
+                        <div style="font-size:9px;font-weight:600;color:#1e293b">Thú Cưng Mới</div>
+                    </div>
+                </div>
+                <div
+                    style="font-size:10px;font-weight:600;color:#64748b;margin-bottom:6px;text-transform:uppercase;letter-spacing:.5px">
+                    Chức năng</div>
+                <div style="background:#fff;border-radius:10px;border:1px solid #e2e8f0;overflow:hidden">
+                    <div style="display:flex;align-items:center;gap:10px;padding:12px;border-bottom:1px solid #f1f5f9">
+                        <div
+                            style="width:32px;height:32px;background:#fef3c7;border-radius:8px;display:flex;align-items:center;justify-content:center">
+                            <span class="material-icons-round" style="font-size:16px;color:#f59e0b">event</span></div>
+                        <div style="flex:1">
+                            <div style="font-size:12px;font-weight:600">Lịch Hẹn</div>
+                            <div style="font-size:9px;color:#94a3b8">Quản lý lịch hẹn khám</div>
+                        </div><span class="material-icons-round"
+                            style="font-size:16px;color:#cbd5e1">chevron_right</span>
+                    </div>
+                    <div style="display:flex;align-items:center;gap:10px;padding:12px;border-bottom:1px solid #f1f5f9">
+                        <div
+                            style="width:32px;height:32px;background:#fce7f3;border-radius:8px;display:flex;align-items:center;justify-content:center">
+                            <span class="material-icons-round" style="font-size:16px;color:#ec4899">people</span></div>
+                        <div style="flex:1">
+                            <div style="font-size:12px;font-weight:600">KH & Thú Cưng</div>
+                            <div style="font-size:9px;color:#94a3b8">Quản lý khách hàng</div>
+                        </div><span class="material-icons-round"
+                            style="font-size:16px;color:#cbd5e1">chevron_right</span>
+                    </div>
+                    <div style="display:flex;align-items:center;gap:10px;padding:12px;border-bottom:1px solid #f1f5f9">
+                        <div
+                            style="width:32px;height:32px;background:#dcfce7;border-radius:8px;display:flex;align-items:center;justify-content:center">
+                            <span class="material-icons-round" style="font-size:16px;color:#10b981">storefront</span>
+                        </div>
+                        <div style="flex:1">
+                            <div style="font-size:12px;font-weight:600">Petshop</div>
+                            <div style="font-size:9px;color:#94a3b8">Bán hàng & sản phẩm</div>
+                        </div><span class="material-icons-round"
+                            style="font-size:16px;color:#cbd5e1">chevron_right</span>
+                    </div>
+                    <div style="display:flex;align-items:center;gap:10px;padding:12px;border-bottom:1px solid #f1f5f9">
+                        <div
+                            style="width:32px;height:32px;background:#ede9fe;border-radius:8px;display:flex;align-items:center;justify-content:center">
+                            <span class="material-icons-round" style="font-size:16px;color:#8b5cf6">bar_chart</span>
+                        </div>
+                        <div style="flex:1">
+                            <div style="font-size:12px;font-weight:600">Báo Cáo</div>
+                            <div style="font-size:9px;color:#94a3b8">Thống kê & doanh thu</div>
+                        </div><span class="material-icons-round"
+                            style="font-size:16px;color:#cbd5e1">chevron_right</span>
+                    </div>
+                    <div style="display:flex;align-items:center;gap:10px;padding:12px;border-bottom:1px solid #f1f5f9">
+                        <div
+                            style="width:32px;height:32px;background:#fee2e2;border-radius:8px;display:flex;align-items:center;justify-content:center">
+                            <span class="material-icons-round"
+                                style="font-size:16px;color:#ef4444">account_balance_wallet</span></div>
+                        <div style="flex:1">
+                            <div style="font-size:12px;font-weight:600">Chi Phí</div>
+                            <div style="font-size:9px;color:#94a3b8">Quản lý chi phí</div>
+                        </div><span class="material-icons-round"
+                            style="font-size:16px;color:#cbd5e1">chevron_right</span>
+                    </div>
+                    <div style="display:flex;align-items:center;gap:10px;padding:12px">
+                        <div
+                            style="width:32px;height:32px;background:#f1f5f9;border-radius:8px;display:flex;align-items:center;justify-content:center">
+                            <span class="material-icons-round" style="font-size:16px;color:#64748b">settings</span>
+                        </div>
+                        <div style="flex:1">
+                            <div style="font-size:12px;font-weight:600">Cài Đặt</div>
+                            <div style="font-size:9px;color:#94a3b8">Cấu hình hệ thống</div>
+                        </div><span class="material-icons-round"
+                            style="font-size:16px;color:#cbd5e1">chevron_right</span>
+                    </div>
+                </div>
+            </div>
+            <div style="background:#fff;border-top:1px solid #e2e8f0;display:flex;padding:6px 0 10px">
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#94a3b8"><span
+                        class="material-icons-round" style="font-size:22px">dashboard</span><span
+                        style="font-size:8px;font-weight:500">Tổng Quan</span></div>
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#94a3b8"><span
+                        class="material-icons-round" style="font-size:22px">medical_services</span><span
+                        style="font-size:8px;font-weight:500">Ca Khám</span></div>
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#94a3b8"><span
+                        class="material-icons-round" style="font-size:22px">local_hospital</span><span
+                        style="font-size:8px;font-weight:500">Nội Trú</span></div>
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#94a3b8"><span
+                        class="material-icons-round" style="font-size:22px">medication</span><span
+                        style="font-size:8px;font-weight:500">Kho Thuốc</span></div>
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#2563eb"><span
+                        class="material-icons-round" style="font-size:22px">more_horiz</span><span
+                        style="font-size:8px;font-weight:600">Thêm</span></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

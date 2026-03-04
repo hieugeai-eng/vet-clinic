@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kho Thuốc Redesign Mockup</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f1f5f9;
+            padding: 20px;
+            color: #1e293b;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 8px;
+            font-size: 22px;
+            color: #0f172a;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #64748b;
+            margin-bottom: 24px;
+            font-size: 13px;
+        }
+
+        .container {
+            display: flex;
+            gap: 24px;
+            align-items: flex-start;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        /* ── DESKTOP ────────────────────────────────── */
+        .desktop {
+            width: 880px;
+            background: #fff;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            overflow: hidden;
+        }
+
+        .desktop .header {
+            background: #f8fafc;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 10px 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .desktop .header h2 {
+            font-size: 15px;
+            font-weight: 600;
+            color: #0f172a;
+            flex: 1;
+        }
+
+        .stats-bar {
+            display: flex;
+            border-bottom: 1px solid #e2e8f0;
+            background: #fafbfc;
+        }
+
+        .stat-item {
+            flex: 1;
+            padding: 10px 14px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border-right: 1px solid #e2e8f0;
+        }
+
+        .stat-item:last-child {
+            border-right: none;
+        }
+
+        .stat-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .stat-icon .material-icons-round {
+            font-size: 16px;
+        }
+
+        .stat-value {
+            font-size: 16px;
+            font-weight: 700;
+            color: #0f172a;
+            line-height: 1.2;
+        }
+
+        .stat-label {
+            font-size: 10px;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .toolbar {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 12px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .tab-group {
+            display: flex;
+            background: #f1f5f9;
+            border-radius: 6px;
+            padding: 2px;
+        }
+
+        .tab {
+            padding: 5px 14px;
+            font-size: 12px;
+            font-weight: 500;
+            border-radius: 4px;
+            cursor: pointer;
+            color: #64748b;
+        }
+
+        .tab.active {
+            background: #fff;
+            color: #0f172a;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+        }
+
+        .search-box {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 0 10px;
+            height: 30px;
+        }
+
+        .search-box input {
+            border: none;
+            background: none;
+            font-size: 12px;
+            width: 100%;
+            outline: none;
+        }
+
+        .search-box .material-icons-round {
+            font-size: 16px;
+            color: #94a3b8;
+            margin-right: 6px;
+        }
+
+        .btn {
+            padding: 5px 12px;
+            font-size: 11px;
+            border-radius: 6px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-weight: 500;
+        }
+
+        .btn-outline {
+            background: #fff;
+            border: 1px solid #e2e8f0;
+            color: #475569;
+        }
+
+        .btn-outline:hover {
+            background: #f8fafc;
+        }
+
+        .btn-orange {
+            background: #fff;
+            border: 1px solid #fb923c;
+            color: #ea580c;
+        }
+
+        .btn-primary {
+            background: #4f46e5;
+            color: #fff;
+            border: none;
+        }
+
+        /* Data Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 12px;
+        }
+
+        thead th {
+            background: #f8fafc;
+            padding: 8px 10px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 11px;
+            color: #475569;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            border-bottom: 2px solid #e2e8f0;
+            white-space: nowrap;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        tbody tr:hover {
+            background: #f8fafc;
+        }
+
+        tbody td {
+            padding: 6px 10px;
+            vertical-align: middle;
+        }
+
+        .med-name {
+            font-weight: 500;
+            color: #0f172a;
+        }
+
+        .med-unit {
+            font-size: 11px;
+            color: #94a3b8;
+        }
+
+        .badge {
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 10px;
+            font-weight: 500;
+            display: inline-block;
+            white-space: nowrap;
+        }
+
+        .badge-indigo {
+            background: #e0e7ff;
+            color: #4f46e5;
+        }
+
+        .badge-cyan {
+            background: #cffafe;
+            color: #0891b2;
+        }
+
+        .badge-violet {
+            background: #ede9fe;
+            color: #7c3aed;
+        }
+
+        .badge-sky {
+            background: #e0f2fe;
+            color: #0284c7;
+        }
+
+        .stock-ok {
+            color: #16a34a;
+            font-weight: 600;
+        }
+
+        .stock-low {
+            color: #dc2626;
+            font-weight: 600;
+            background: #fef2f2;
+            padding: 1px 6px;
+            border-radius: 4px;
+        }
+
+        .exp-ok {
+            color: #64748b;
+            font-size: 11px;
+        }
+
+        .exp-warn {
+            color: #d97706;
+            font-weight: 500;
+            font-size: 11px;
+            background: #fef3c7;
+            padding: 1px 6px;
+            border-radius: 4px;
+        }
+
+        .exp-danger {
+            color: #dc2626;
+            font-weight: 500;
+            font-size: 11px;
+            background: #fef2f2;
+            padding: 1px 6px;
+            border-radius: 4px;
+            text-decoration: line-through;
+        }
+
+        .price {
+            font-variant-numeric: tabular-nums;
+        }
+
+        .actions-cell {
+            display: flex;
+            gap: 4px;
+        }
+
+        .act-btn {
+            width: 24px;
+            height: 24px;
+            border-radius: 4px;
+            border: 1px solid #e2e8f0;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+
+        .act-btn:hover {
+            background: #f1f5f9;
+        }
+
+        .act-btn .material-icons-round {
+            font-size: 14px;
+            color: #64748b;
+        }
+
+        .pagination {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 8px 12px;
+            border-top: 1px solid #e2e8f0;
+            font-size: 11px;
+            color: #64748b;
+        }
+
+        .page-btns {
+            display: flex;
+            gap: 4px;
+        }
+
+        .page-btn {
+            width: 26px;
+            height: 26px;
+            border-radius: 4px;
+            border: 1px solid #e2e8f0;
+            background: #fff;
+            font-size: 11px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .page-btn.active {
+            background: #4f46e5;
+            color: #fff;
+            border-color: #4f46e5;
+        }
+
+        /* ── MOBILE ─────────────────────────────────── */
+        .mobile-frame {
+            width: 360px;
+            background: #f8fafc;
+            border-radius: 24px;
+            border: 3px solid #1e293b;
+            overflow: hidden;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+        }
+
+        .mobile-status {
+            background: #1e293b;
+            color: #fff;
+            padding: 6px 16px;
+            font-size: 11px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .mobile-header {
+            background: #fff;
+            padding: 10px 12px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .mobile-header h3 {
+            font-size: 15px;
+            font-weight: 600;
+            flex: 1;
+        }
+
+        .mobile-header .material-icons-round {
+            color: #64748b;
+            font-size: 22px;
+            cursor: pointer;
+        }
+
+        .m-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px;
+            padding: 8px 10px;
+        }
+
+        .m-stat {
+            background: #fff;
+            border-radius: 8px;
+            padding: 8px 10px;
+            border: 1px solid #e2e8f0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .m-stat-icon {
+            width: 28px;
+            height: 28px;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .m-stat-icon .material-icons-round {
+            font-size: 15px;
+        }
+
+        .m-stat-val {
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 1;
+        }
+
+        .m-stat-lbl {
+            font-size: 9px;
+            color: #64748b;
+            text-transform: uppercase;
+        }
+
+        .m-actions {
+            display: flex;
+            gap: 6px;
+            padding: 0 10px;
+        }
+
+        .m-action-btn {
+            flex: 1;
+            padding: 8px;
+            border-radius: 8px;
+            font-size: 11px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            cursor: pointer;
+        }
+
+        .m-action-orange {
+            background: #fff7ed;
+            border: 1px solid #fed7aa;
+            color: #ea580c;
+        }
+
+        .m-action-primary {
+            background: #4f46e5;
+            border: none;
+            color: #fff;
+        }
+
+        .m-toolbar {
+            padding: 8px 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .m-tabs {
+            display: flex;
+            background: #e2e8f0;
+            border-radius: 8px;
+            padding: 2px;
+        }
+
+        .m-tab {
+            flex: 1;
+            text-align: center;
+            padding: 6px;
+            font-size: 11px;
+            font-weight: 500;
+            border-radius: 6px;
+            color: #64748b;
+        }
+
+        .m-tab.active {
+            background: #fff;
+            color: #0f172a;
+            font-weight: 600;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+        }
+
+        .m-search {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 6px 10px;
+            font-size: 12px;
+            color: #94a3b8;
+            gap: 6px;
+        }
+
+        .m-list {
+            padding: 0 10px 10px;
+        }
+
+        .m-card {
+            background: #fff;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            padding: 10px;
+            margin-bottom: 6px;
+        }
+
+        .m-card-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .m-card-name {
+            font-size: 13px;
+            font-weight: 600;
+            color: #0f172a;
+        }
+
+        .m-card-unit {
+            font-size: 10px;
+            color: #94a3b8;
+        }
+
+        .m-card-row {
+            display: flex;
+            gap: 6px;
+            margin-top: 6px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .m-card-label {
+            font-size: 10px;
+            color: #94a3b8;
+            min-width: 48px;
+        }
+
+        .m-card-value {
+            font-size: 11px;
+            font-weight: 500;
+            color: #0f172a;
+        }
+
+        .m-card-divider {
+            height: 1px;
+            background: #f1f5f9;
+            margin: 6px 0;
+        }
+
+        .m-card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .m-card-price {
+            font-size: 12px;
+            font-weight: 600;
+            color: #4f46e5;
+        }
+
+        .m-stock-badge {
+            font-size: 10px;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        .m-stock-ok {
+            background: #dcfce7;
+            color: #16a34a;
+        }
+
+        .m-stock-low {
+            background: #fef2f2;
+            color: #dc2626;
+        }
+
+        .m-exp-badge {
+            font-size: 10px;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .m-exp-warn {
+            background: #fef3c7;
+            color: #d97706;
+        }
+
+        .m-exp-danger {
+            background: #fef2f2;
+            color: #dc2626;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>💊 Kho Thuốc Redesign — Compact Professional</h1>
+    <p class="subtitle">Desktop (trái) + Mobile (phải)</p>
+    <div class="container">
+
+        <!-- DESKTOP -->
+        <div class="desktop">
+            <div class="header">
+                <span class="material-icons-round" style="color:#4f46e5">medication</span>
+                <h2>Kho Thuốc</h2>
+                <div class="btn btn-orange"><span class="material-icons-round" style="font-size:14px">swap_horiz</span>
+                    Nhập/Xuất</div>
+                <div class="btn btn-primary"><span class="material-icons-round" style="font-size:14px">add</span> Thêm
+                    Thuốc</div>
+            </div>
+            <div class="stats-bar">
+                <div class="stat-item">
+                    <div class="stat-icon" style="background:#e0e7ff;color:#4f46e5"><span
+                            class="material-icons-round">medication</span></div>
+                    <div>
+                        <div class="stat-value">86</div>
+                        <div class="stat-label">Tổng thuốc</div>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon" style="background:#fef3c7;color:#d97706"><span
+                            class="material-icons-round">warning_amber</span></div>
+                    <div>
+                        <div class="stat-value" style="color:#d97706">12</div>
+                        <div class="stat-label">Sắp hết</div>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon" style="background:#ffedd5;color:#ea580c"><span
+                            class="material-icons-round">schedule</span></div>
+                    <div>
+                        <div class="stat-value" style="color:#ea580c">5</div>
+                        <div class="stat-label">Sắp HSD</div>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon" style="background:#fef2f2;color:#dc2626"><span
+                            class="material-icons-round">dangerous</span></div>
+                    <div>
+                        <div class="stat-value" style="color:#dc2626">2</div>
+                        <div class="stat-label">Hết HSD</div>
+                    </div>
+                </div>
+            </div>
+            <div class="toolbar">
+                <div class="tab-group">
+                    <div class="tab active">Danh Sách</div>
+                    <div class="tab">Lịch Sử N/X</div>
+                    <div class="tab">Cảnh Báo</div>
+                </div>
+                <div class="search-box"><span class="material-icons-round">search</span><input
+                        placeholder="Tìm thuốc..."></div>
+                <div class="btn btn-outline"><span class="material-icons-round"
+                        style="font-size:14px">filter_list</span> Nhóm thuốc</div>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Tên thuốc</th>
+                        <th>Nhóm</th>
+                        <th style="text-align:right">Tồn kho</th>
+                        <th>HSD</th>
+                        <th style="text-align:right">Giá nhập</th>
+                        <th style="text-align:right">Giá bán</th>
+                        <th style="text-align:center">Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><span class="med-name">Amoxicillin 500mg</span><br><span class="med-unit">Viên · Hộp
+                                100</span></td>
+                        <td><span class="badge badge-indigo">Kháng sinh</span></td>
+                        <td style="text-align:right"><span class="stock-ok">250</span></td>
+                        <td><span class="exp-ok">15/08/2026</span></td>
+                        <td class="price" style="text-align:right">3.500</td>
+                        <td class="price" style="text-align:right">5.000</td>
+                        <td>
+                            <div class="actions-cell">
+                                <div class="act-btn"><span class="material-icons-round">edit</span></div>
+                                <div class="act-btn"><span class="material-icons-round">delete</span></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><span class="med-name">Dexamethasone 2mg</span><br><span class="med-unit">Ống tiêm · Hộp
+                                10</span></td>
+                        <td><span class="badge badge-cyan">Kháng viêm</span></td>
+                        <td style="text-align:right"><span class="stock-low">8 ⚠</span></td>
+                        <td><span class="exp-warn">⚠ 20/04/2026</span></td>
+                        <td class="price" style="text-align:right">12.000</td>
+                        <td class="price" style="text-align:right">18.000</td>
+                        <td>
+                            <div class="actions-cell">
+                                <div class="act-btn"><span class="material-icons-round">edit</span></div>
+                                <div class="act-btn"><span class="material-icons-round">delete</span></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><span class="med-name">Ivermectin 1%</span><br><span class="med-unit">Lọ 50ml</span></td>
+                        <td><span class="badge badge-violet">Ký sinh trùng</span></td>
+                        <td style="text-align:right"><span class="stock-ok">35</span></td>
+                        <td><span class="exp-ok">10/12/2026</span></td>
+                        <td class="price" style="text-align:right">85.000</td>
+                        <td class="price" style="text-align:right">120.000</td>
+                        <td>
+                            <div class="actions-cell">
+                                <div class="act-btn"><span class="material-icons-round">edit</span></div>
+                                <div class="act-btn"><span class="material-icons-round">delete</span></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><span class="med-name">NaCl 0.9%</span><br><span class="med-unit">Chai 500ml</span></td>
+                        <td><span class="badge badge-sky">Dịch truyền</span></td>
+                        <td style="text-align:right"><span class="stock-ok">120</span></td>
+                        <td><span class="exp-ok">30/06/2027</span></td>
+                        <td class="price" style="text-align:right">15.000</td>
+                        <td class="price" style="text-align:right">25.000</td>
+                        <td>
+                            <div class="actions-cell">
+                                <div class="act-btn"><span class="material-icons-round">edit</span></div>
+                                <div class="act-btn"><span class="material-icons-round">delete</span></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td><span class="med-name">Metronidazole 250mg</span><br><span class="med-unit">Viên · Hộp
+                                50</span></td>
+                        <td><span class="badge badge-indigo">Kháng sinh</span></td>
+                        <td style="text-align:right"><span class="stock-low">5 ⚠</span></td>
+                        <td><span class="exp-danger">✕ 01/01/2026</span></td>
+                        <td class="price" style="text-align:right">2.800</td>
+                        <td class="price" style="text-align:right">4.500</td>
+                        <td>
+                            <div class="actions-cell">
+                                <div class="act-btn"><span class="material-icons-round">edit</span></div>
+                                <div class="act-btn"><span class="material-icons-round">delete</span></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td><span class="med-name">Prednisolone 5mg</span><br><span class="med-unit">Viên · Hộp
+                                100</span></td>
+                        <td><span class="badge badge-cyan">Kháng viêm</span></td>
+                        <td style="text-align:right"><span class="stock-ok">180</span></td>
+                        <td><span class="exp-ok">22/09/2026</span></td>
+                        <td class="price" style="text-align:right">1.500</td>
+                        <td class="price" style="text-align:right">3.000</td>
+                        <td>
+                            <div class="actions-cell">
+                                <div class="act-btn"><span class="material-icons-round">edit</span></div>
+                                <div class="act-btn"><span class="material-icons-round">delete</span></div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="pagination"><span>Hiển thị 1-6 / 86 thuốc</span>
+                <div class="page-btns">
+                    <div class="page-btn">‹</div>
+                    <div class="page-btn active">1</div>
+                    <div class="page-btn">2</div>
+                    <div class="page-btn">3</div>
+                    <div class="page-btn">›</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MOBILE -->
+        <div class="mobile-frame">
+            <div class="mobile-status"><span>12:37</span><span>📶 🔋</span></div>
+            <div class="mobile-header"><span class="material-icons-round" style="margin-right:8px">menu</span>
+                <h3>Kho Thuốc</h3><span class="material-icons-round">more_vert</span>
+            </div>
+            <div class="m-stats">
+                <div class="m-stat">
+                    <div class="m-stat-icon" style="background:#e0e7ff;color:#4f46e5"><span
+                            class="material-icons-round">medication</span></div>
+                    <div>
+                        <div class="m-stat-val">86</div>
+                        <div class="m-stat-lbl">Tổng thuốc</div>
+                    </div>
+                </div>
+                <div class="m-stat">
+                    <div class="m-stat-icon" style="background:#fef3c7;color:#d97706"><span
+                            class="material-icons-round">warning_amber</span></div>
+                    <div>
+                        <div class="m-stat-val" style="color:#d97706">12</div>
+                        <div class="m-stat-lbl">Sắp hết</div>
+                    </div>
+                </div>
+                <div class="m-stat">
+                    <div class="m-stat-icon" style="background:#ffedd5;color:#ea580c"><span
+                            class="material-icons-round">schedule</span></div>
+                    <div>
+                        <div class="m-stat-val" style="color:#ea580c">5</div>
+                        <div class="m-stat-lbl">Sắp HSD</div>
+                    </div>
+                </div>
+                <div class="m-stat">
+                    <div class="m-stat-icon" style="background:#fef2f2;color:#dc2626"><span
+                            class="material-icons-round">dangerous</span></div>
+                    <div>
+                        <div class="m-stat-val" style="color:#dc2626">2</div>
+                        <div class="m-stat-lbl">Hết HSD</div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-actions">
+                <div class="m-action-btn m-action-orange"><span class="material-icons-round"
+                        style="font-size:14px">swap_horiz</span> Nhập/Xuất</div>
+                <div class="m-action-btn m-action-primary"><span class="material-icons-round"
+                        style="font-size:14px">add</span> Thêm Thuốc</div>
+            </div>
+            <div class="m-toolbar">
+                <div class="m-tabs">
+                    <div class="m-tab active">Danh Sách</div>
+                    <div class="m-tab">Lịch Sử</div>
+                    <div class="m-tab">Cảnh Báo</div>
+                </div>
+                <div class="m-search"><span class="material-icons-round" style="font-size:16px">search</span>Tìm
+                    thuốc...</div>
+            </div>
+            <div class="m-list">
+                <div class="m-card">
+                    <div class="m-card-top">
+                        <div>
+                            <div class="m-card-name">Amoxicillin 500mg</div>
+                            <div class="m-card-unit">Viên · Hộp 100 · <span class="badge badge-indigo"
+                                    style="font-size:9px">Kháng sinh</span></div>
+                        </div>
+                        <span class="m-stock-badge m-stock-ok">250</span>
+                    </div>
+                    <div class="m-card-divider"></div>
+                    <div class="m-card-footer">
+                        <span class="m-card-price">5.000₫/viên</span>
+                        <span class="exp-ok" style="font-size:10px">HSD: 15/08/2026</span>
+                    </div>
+                </div>
+                <div class="m-card">
+                    <div class="m-card-top">
+                        <div>
+                            <div class="m-card-name">Dexamethasone 2mg</div>
+                            <div class="m-card-unit">Ống tiêm · Hộp 10 · <span class="badge badge-cyan"
+                                    style="font-size:9px">Kháng viêm</span></div>
+                        </div>
+                        <span class="m-stock-badge m-stock-low">8 ⚠</span>
+                    </div>
+                    <div class="m-card-divider"></div>
+                    <div class="m-card-footer">
+                        <span class="m-card-price">18.000₫/ống</span>
+                        <span class="m-exp-badge m-exp-warn">⚠ HSD: 20/04/2026</span>
+                    </div>
+                </div>
+                <div class="m-card">
+                    <div class="m-card-top">
+                        <div>
+                            <div class="m-card-name">Ivermectin 1%</div>
+                            <div class="m-card-unit">Lọ 50ml · <span class="badge badge-violet" style="font-size:9px">Ký
+                                    sinh trùng</span></div>
+                        </div>
+                        <span class="m-stock-badge m-stock-ok">35</span>
+                    </div>
+                    <div class="m-card-divider"></div>
+                    <div class="m-card-footer">
+                        <span class="m-card-price">120.000₫/lọ</span>
+                        <span class="exp-ok" style="font-size:10px">HSD: 10/12/2026</span>
+                    </div>
+                </div>
+                <div class="m-card">
+                    <div class="m-card-top">
+                        <div>
+                            <div class="m-card-name">Metronidazole 250mg</div>
+                            <div class="m-card-unit">Viên · Hộp 50 · <span class="badge badge-indigo"
+                                    style="font-size:9px">Kháng sinh</span></div>
+                        </div>
+                        <span class="m-stock-badge m-stock-low">5 ⚠</span>
+                    </div>
+                    <div class="m-card-divider"></div>
+                    <div class="m-card-footer">
+                        <span class="m-card-price">4.500₫/viên</span>
+                        <span class="m-exp-badge m-exp-danger">✕ Hết HSD!</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

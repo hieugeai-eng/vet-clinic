@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Clinic - Bệnh Án (Medical Cases) Chi Tiết</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            padding: 20px
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 22px;
+            color: #fff;
+            margin-bottom: 4px
+        }
+
+        .sub {
+            text-align: center;
+            color: #64748b;
+            font-size: 12px;
+            margin-bottom: 24px
+        }
+
+        .section {
+            font-size: 15px;
+            font-weight: 700;
+            color: #a78bfa;
+            margin: 28px 0 12px;
+            padding-left: 8px;
+            border-left: 3px solid #a78bfa
+        }
+
+        .grid {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 32px
+        }
+
+        .frame {
+            background: #fff;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            overflow: hidden;
+            color: #1e293b
+        }
+
+        .frame-d {
+            width: 820px
+        }
+
+        .frame-label {
+            background: #1e293b;
+            color: #94a3b8;
+            font-size: 10px;
+            padding: 3px 12px;
+            text-align: center;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-transform: uppercase
+        }
+
+        .hdr {
+            background: #f8fafc;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 8px 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px
+        }
+
+        .hdr h2 {
+            font-size: 13px;
+            font-weight: 600;
+            flex: 1
+        }
+
+        .btn-s {
+            padding: 3px 10px;
+            font-size: 10px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 3px;
+            font-weight: 500
+        }
+
+        .btn-p {
+            background: #7c3aed;
+            color: #fff
+        }
+
+        .btn-o {
+            background: #fff;
+            border: 1px solid #e2e8f0;
+            color: #475569
+        }
+
+        .btn-g {
+            background: #16a34a;
+            color: #fff
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 11px
+        }
+
+        thead th {
+            background: #f8fafc;
+            padding: 5px 8px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 10px;
+            color: #475569;
+            border-bottom: 2px solid #e2e8f0;
+            white-space: nowrap
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #f1f5f9
+        }
+
+        tbody tr:hover {
+            background: #f8fafc
+        }
+
+        tbody td {
+            padding: 5px 8px
+        }
+
+        .nm {
+            font-weight: 500;
+            color: #0f172a
+        }
+
+        .sub-t {
+            font-size: 10px;
+            color: #94a3b8
+        }
+
+        .badge {
+            padding: 1px 7px;
+            border-radius: 10px;
+            font-size: 9px;
+            font-weight: 500;
+            display: inline-block
+        }
+
+        .b-green {
+            background: #dcfce7;
+            color: #16a34a
+        }
+
+        .b-blue {
+            background: #dbeafe;
+            color: #2563eb
+        }
+
+        .b-amber {
+            background: #fef3c7;
+            color: #d97706
+        }
+
+        .b-red {
+            background: #fef2f2;
+            color: #dc2626
+        }
+
+        .b-violet {
+            background: #ede9fe;
+            color: #7c3aed
+        }
+
+        .b-slate {
+            background: #f1f5f9;
+            color: #475569
+        }
+
+        .pg {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 10px;
+            font-size: 10px;
+            color: #64748b;
+            border-top: 1px solid #e2e8f0
+        }
+
+        .tbar {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 10px;
+            border-bottom: 1px solid #e2e8f0
+        }
+
+        .sb {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 5px;
+            padding: 0 8px;
+            height: 28px;
+            font-size: 11px;
+            color: #94a3b8
+        }
+
+        .stepper {
+            display: flex;
+            background: #f8fafc;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 8px 12px;
+            gap: 4px
+        }
+
+        .step {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 10px;
+            border-radius: 6px;
+            font-size: 10px;
+            font-weight: 500;
+            color: #94a3b8
+        }
+
+        .step.active {
+            background: #7c3aed;
+            color: #fff;
+            font-weight: 600
+        }
+
+        .step.done {
+            background: #dcfce7;
+            color: #16a34a
+        }
+
+        .step-num {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 9px;
+            font-weight: 700;
+            border: 1.5px solid currentColor
+        }
+
+        .step.active .step-num {
+            background: #fff;
+            color: #7c3aed;
+            border-color: #fff
+        }
+
+        .step.done .step-num {
+            background: #16a34a;
+            color: #fff;
+            border-color: #16a34a
+        }
+
+        .fcard {
+            background: #fff;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            margin: 8px 12px;
+            overflow: hidden
+        }
+
+        .fcard-h {
+            background: #f8fafc;
+            padding: 6px 10px;
+            font-size: 11px;
+            font-weight: 600;
+            color: #475569;
+            border-bottom: 1px solid #e2e8f0;
+            display: flex;
+            align-items: center;
+            gap: 5px
+        }
+
+        .fcard-h .material-icons-round {
+            font-size: 14px
+        }
+
+        .fcard-b {
+            padding: 8px 10px
+        }
+
+        .field {
+            margin-bottom: 6px
+        }
+
+        .field label {
+            font-size: 9px;
+            font-weight: 600;
+            color: #64748b;
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 2px
+        }
+
+        .field-input {
+            width: 100%;
+            padding: 5px 8px;
+            border: 1px solid #e2e8f0;
+            border-radius: 5px;
+            font-size: 11px;
+            color: #0f172a;
+            background: #fafafa
+        }
+
+        .chip {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 6px;
+            font-size: 10px;
+            font-weight: 500;
+            border: 1px solid #e2e8f0;
+            margin: 2px;
+            cursor: pointer;
+            background: #fff;
+            color: #475569
+        }
+
+        .chip.sel {
+            background: #fef2f2;
+            border-color: #fecaca;
+            color: #dc2626;
+            font-weight: 600
+        }
+
+        .chip.sel-g {
+            background: #dcfce7;
+            border-color: #86efac;
+            color: #16a34a;
+            font-weight: 600
+        }
+
+        .chip.sel-o {
+            background: #fef3c7;
+            border-color: #fde68a;
+            color: #d97706;
+            font-weight: 600
+        }
+
+        .chip.sel-r {
+            background: #fef2f2;
+            border-color: #fca5a5;
+            color: #dc2626;
+            font-weight: 600
+        }
+
+        .chip.sel-p {
+            background: #ede9fe;
+            border-color: #c4b5fd;
+            color: #7c3aed;
+            font-weight: 600
+        }
+
+        .sel-card {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 6px 14px;
+            border-radius: 8px;
+            border: 1.5px solid #e2e8f0;
+            font-size: 11px;
+            font-weight: 500;
+            cursor: pointer;
+            background: #fff
+        }
+
+        .sel-card.active {
+            border-color: #7c3aed;
+            background: #ede9fe;
+            color: #7c3aed;
+            font-weight: 600
+        }
+    </style>
+</head>
+
+<body>
+    <h1>🩺 BỆNH ÁN (Ca Khám) — Chi Tiết Tính Năng Hiện Tại</h1>
+    <p class="sub">Giữ nguyên tính năng · Chỉ thiết kế lại giao diện</p>
+
+    <!-- ═══ 1. DANH SÁCH CA KHÁM ═══ -->
+    <div class="section">📋 1. DANH SÁCH CA KHÁM (Case List)</div>
+    <div class="grid">
+        <div class="frame frame-d">
+            <div class="frame-label">Desktop — Danh Sách Ca Bệnh</div>
+            <div class="tbar">
+                <div class="sb"><span class="material-icons-round"
+                        style="font-size:14px;margin-right:4px">search</span>Tìm kiếm theo mã, tên khách, số điện
+                    thoại...</div>
+                <span class="btn-s btn-o" style="border-color:#7c3aed;color:#7c3aed;font-weight:600">Tất cả</span>
+                <span class="btn-s btn-o">Đang điều trị</span>
+                <span class="btn-s btn-o">Hoàn thành</span>
+                <span class="btn-s btn-p"><span class="material-icons-round" style="font-size:11px">add</span> Tạo Ca
+                    Mới</span>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mã Ca</th>
+                        <th></th>
+                        <th>Thú Cưng</th>
+                        <th>Khách Hàng</th>
+                        <th>Tiên Lượng</th>
+                        <th>Ngày Nhập</th>
+                        <th style="text-align:right">Tổng Tiền</th>
+                        <th>Trạng Thái</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="nm" style="color:#7c3aed">#0056</td>
+                        <td>🐕</td>
+                        <td><span class="nm">Bông</span></td>
+                        <td>Cô Dung<br><span class="sub-t">0385 748 754</span></td>
+                        <td style="color:#d97706;font-weight:500">Dè dặt</td>
+                        <td>17/02/2026</td>
+                        <td class="nm" style="text-align:right">1.200.000₫</td>
+                        <td><span class="badge b-amber">Đang điều trị</span></td>
+                        <td><span class="material-icons-round"
+                                style="font-size:16px;color:#94a3b8;cursor:pointer">more_vert</span></td>
+                    </tr>
+                    <tr>
+                        <td class="nm" style="color:#7c3aed">#0055</td>
+                        <td>🐕</td>
+                        <td><span class="nm">Max</span></td>
+                        <td>Cô Dung<br><span class="sub-t">0385 748 754</span></td>
+                        <td style="color:#16a34a;font-weight:500">Tốt</td>
+                        <td>14/02/2026</td>
+                        <td class="nm" style="text-align:right">3.850.000₫</td>
+                        <td><span class="badge b-green">Hoàn thành</span></td>
+                        <td><span class="material-icons-round" style="font-size:16px;color:#94a3b8">more_vert</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="nm" style="color:#7c3aed">#0054</td>
+                        <td>🐕</td>
+                        <td><span class="nm">Milo</span></td>
+                        <td>Nguyễn Văn A<br><span class="sub-t">0339 946 556</span></td>
+                        <td style="color:#16a34a;font-weight:500">Tốt</td>
+                        <td>12/02/2026</td>
+                        <td class="nm" style="text-align:right">980.000₫</td>
+                        <td><span class="badge b-green">Hoàn thành</span></td>
+                        <td><span class="material-icons-round" style="font-size:16px;color:#94a3b8">more_vert</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="nm" style="color:#7c3aed">#0053</td>
+                        <td>🐈</td>
+                        <td><span class="nm">Kitty</span></td>
+                        <td>Lê Văn C<br><span class="sub-t">0901 234 567</span></td>
+                        <td style="color:#dc2626;font-weight:500">Xấu</td>
+                        <td>11/02/2026</td>
+                        <td class="nm" style="text-align:right">2.500.000₫</td>
+                        <td><span class="badge b-amber">Đang điều trị</span></td>
+                        <td><span class="material-icons-round" style="font-size:16px;color:#94a3b8">more_vert</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="pg"><span>Hiển thị 4 ca</span><span>Menu: Xem chi tiết · Xóa hồ sơ</span></div>
+        </div>
+    </div>
+
+    <!-- ═══ 2. STEP 1: THÔNG TIN TIẾP NHẬN ═══ -->
+    <div class="section">📝 2. Step 1: Thông Tin Tiếp Nhận</div>
+    <div class="grid">
+        <div class="frame frame-d">
+            <div class="frame-label">Step 1 — Thông Tin Tiếp Nhận</div>
+            <div class="stepper">
+                <div class="step active"><span class="step-num">1</span>Tiếp Nhận</div>
+                <div class="step"><span class="step-num">2</span>Khám LS</div>
+                <div class="step"><span class="step-num">3</span>Chẩn Đoán & ĐT</div>
+                <div class="step"><span class="step-num">4</span>Thanh Toán</div>
+            </div>
+            <div style="padding:10px 12px">
+                <!-- Section: Tiếp Nhận -->
+                <div class="fcard" style="margin:0 0 10px">
+                    <div class="fcard-h"><span class="material-icons-round" style="color:#7c3aed">person_pin</span>TIẾP
+                        NHẬN — Nhân viên tiếp nhận và khách hàng</div>
+                    <div class="fcard-b">
+                        <div class="field"><label>Nhân viên / Bác sĩ</label>
+                            <div class="field-input">▾ BS. Minh</div>
+                        </div>
+                        <div style="height:1px;background:#e2e8f0;margin:8px 0"></div>
+                        <div style="display:flex;gap:12px">
+                            <div style="flex:1">
+                                <div class="field"><label>Số điện thoại</label>
+                                    <div class="field-input">🔍 0339 946 556</div>
+                                </div>
+                                <span class="btn-s"
+                                    style="background:#0d9488;color:#fff;margin-top:4px;width:100%;justify-content:center;padding:5px">Tìm
+                                    khách hàng</span>
+                            </div>
+                            <div style="flex:1">
+                                <div class="field"><label>Tên Khách Hàng</label>
+                                    <div class="field-input">Nguyễn Văn A</div>
+                                </div>
+                                <div class="field"><label>Địa chỉ</label>
+                                    <div class="field-input">Huế</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Section: Thú Cưng -->
+                <div class="fcard" style="margin:0">
+                    <div class="fcard-h"><span class="material-icons-round" style="color:#0d9488">pets</span>THÔNG TIN
+                        THÚ CƯNG — Chọn thú cưng đã có hoặc thêm mới</div>
+                    <div class="fcard-b">
+                        <!-- Pet selection chips -->
+                        <div style="display:flex;gap:6px;margin-bottom:8px;flex-wrap:wrap">
+                            <span class="sel-card active">🐕 Milo</span>
+                            <span class="sel-card">🐈 Luna</span>
+                            <span class="sel-card" style="border-style:dashed;color:#0d9488">+ Thú mới</span>
+                        </div>
+                        <!-- Species -->
+                        <div class="field"><label>Loài</label>
+                            <div style="display:flex;gap:6px;margin-top:2px">
+                                <span class="sel-card active" style="flex:1;justify-content:center">🐕 Chó</span>
+                                <span class="sel-card" style="flex:1;justify-content:center">🐈 Mèo</span>
+                                <span class="sel-card" style="flex:1;justify-content:center">🐾 Khác</span>
+                            </div>
+                        </div>
+                        <!-- Pet details -->
+                        <div style="display:flex;gap:8px;margin-top:6px">
+                            <div class="field" style="flex:2"><label>Tên Thú Cưng</label>
+                                <div class="field-input">Milo</div>
+                            </div>
+                            <div class="field" style="flex:1"><label>Giống (Breed)</label>
+                                <div class="field-input">Poodle</div>
+                            </div>
+                        </div>
+                        <div style="display:flex;gap:8px">
+                            <div class="field" style="flex:1"><label>Tuổi</label>
+                                <div class="field-input">2 tuổi</div>
+                            </div>
+                            <div class="field" style="flex:1"><label>Giới tính</label>
+                                <div class="field-input">▾ Đực ♂</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display:flex;gap:6px;justify-content:flex-end;margin-top:10px">
+                    <span class="btn-s btn-o" style="padding:6px 16px">Hủy bỏ</span>
+                    <span class="btn-s btn-p" style="padding:6px 16px">Tiếp tục →</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══ 3. STEP 2: KHÁM LÂM SÀNG ═══ -->
+    <div class="section">🩻 3. Step 2: Khám Lâm Sàng</div>
+    <div class="grid">
+        <div class="frame frame-d">
+            <div class="frame-label">Step 2 — Khám Lâm Sàng</div>
+            <div class="stepper">
+                <div class="step done"><span class="step-num">✓</span>Tiếp Nhận</div>
+                <div class="step active"><span class="step-num">2</span>Khám LS</div>
+                <div class="step"><span class="step-num">3</span>Chẩn Đoán & ĐT</div>
+                <div class="step"><span class="step-num">4</span>Thanh Toán</div>
+            </div>
+            <div style="padding:10px 12px">
+                <!-- Lý do khám & Triệu chứng -->
+                <div class="fcard" style="margin:0 0 8px">
+                    <div class="fcard-h"><span class="material-icons-round"
+                            style="color:#dc2626">report_problem</span>LÝ DO KHÁM & TRIỆU CHỨNG</div>
+                    <div class="fcard-b">
+                        <div style="display:flex;flex-wrap:wrap;gap:4px;margin-bottom:6px">
+                            <span class="chip">Nôn mửa</span><span class="chip">Yếu</span><span class="chip">Mệt
+                                mỏi</span><span class="chip">Tai nạn</span><span class="chip">Sốt</span><span
+                                class="chip">Tiêu chảy</span><span class="chip">Bỏ ăn</span><span class="chip">Khó
+                                thở</span><span class="chip sel">Ngứa / Viêm da</span><span class="chip">Khác</span>
+                        </div>
+                        <div class="field"><label>Chi tiết triệu chứng</label>
+                            <div class="field-input" style="height:36px">Ngứa nhiều vùng bụng, rụng lông 3 ngày</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Grid: Sinh hiệu + Thể trạng + Tinh thần + Tiêu hóa + Ghi chú -->
+                <div style="display:flex;flex-wrap:wrap;gap:8px">
+                    <!-- Sinh Hiệu -->
+                    <div class="fcard" style="flex:1;min-width:200px;margin:0">
+                        <div class="fcard-h"><span class="material-icons-round"
+                                style="color:#2563eb">monitor_heart</span>SINH HIỆU</div>
+                        <div class="fcard-b">
+                            <div style="display:flex;gap:6px">
+                                <div class="field" style="flex:1"><label>Cân nặng (kg)</label>
+                                    <div class="field-input">5.2</div>
+                                </div>
+                                <div class="field" style="flex:1"><label>Nhiệt độ (°C)</label>
+                                    <div class="field-input" style="border-color:#fecaca">38.5</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Thể Trạng -->
+                    <div class="fcard" style="flex:1;min-width:200px;margin:0">
+                        <div class="fcard-h"><span class="material-icons-round"
+                                style="color:#16a34a">fitness_center</span>THỂ TRẠNG</div>
+                        <div class="fcard-b">
+                            <div class="field"><label>Thể trạng</label>
+                                <div style="display:flex;gap:3px;margin-top:2px"><span
+                                        class="chip sel-o">Gầy</span><span class="chip sel-g">Bình thường</span><span
+                                        class="chip">Béo</span></div>
+                            </div>
+                            <div class="field"><label>Da / Niêm mạc</label>
+                                <div class="field-input">Da đỏ vùng bụng, có vẩy trắng</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tinh Thần -->
+                    <div class="fcard" style="flex:1;min-width:200px;margin:0">
+                        <div class="fcard-h"><span class="material-icons-round"
+                                style="color:#7c3aed">psychology</span>TINH THẦN</div>
+                        <div class="fcard-b">
+                            <div style="display:flex;gap:3px;flex-wrap:wrap"><span class="chip sel-g">Tỉnh
+                                    táo</span><span class="chip">Mệt mỏi</span><span class="chip">Ly bì</span><span
+                                    class="chip">Hôn mê</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:8px">
+                    <!-- Tiêu Hóa -->
+                    <div class="fcard" style="flex:1;min-width:200px;margin:0">
+                        <div class="fcard-h"><span class="material-icons-round" style="color:#92400e">science</span>TIÊU
+                            HÓA</div>
+                        <div class="fcard-b">
+                            <div style="display:flex;align-items:center;gap:6px;margin-bottom:6px;font-size:11px">
+                                <b>Nôn:</b>
+                                <span
+                                    style="width:28px;height:14px;background:#e2e8f0;border-radius:7px;display:inline-block;position:relative"><span
+                                        style="width:10px;height:10px;background:#94a3b8;border-radius:50%;position:absolute;left:2px;top:2px"></span></span>
+                                <span style="color:#94a3b8">Không</span>
+                            </div>
+                            <div class="field"><label>Phân</label>
+                                <div style="display:flex;gap:3px;margin-top:2px"><span class="chip sel-g">BT</span><span
+                                        class="chip">Lỏng</span><span class="chip">Táo</span><span
+                                        class="chip">Máu</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ghi chú khác -->
+                    <div class="fcard" style="flex:2;min-width:300px;margin:0">
+                        <div class="fcard-h"><span class="material-icons-round"
+                                style="color:#64748b">sticky_note_2</span>GHI CHÚ KHÁC</div>
+                        <div class="fcard-b">
+                            <div class="field-input" style="height:60px;font-size:10px">Rụng lông vùng bụng và nách.
+                                Nghi viêm da dị ứng hoặc nấm. Cần lấy mẫu soi.</div>
+                        </div>
+                    </div>
+                </div>
+                <div style="display:flex;gap:6px;justify-content:flex-end;margin-top:10px">
+                    <span class="btn-s btn-o" style="padding:6px 16px">← Quay lại</span>
+                    <span class="btn-s btn-o" style="padding:6px 16px">Hủy bỏ</span>
+                    <span class="btn-s btn-p" style="padding:6px 16px">Tiếp tục →</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══ 4. STEP 3: CHẨN ĐOÁN & ĐIỀU TRỊ ═══ -->
+    <div class="section">💊 4. Step 3: Chẩn Đoán & Điều Trị</div>
+    <div class="grid">
+        <div class="frame frame-d">
+            <div class="frame-label">Step 3 — Chẩn Đoán & Chỉ Định Dịch Vụ</div>
+            <div class="stepper">
+                <div class="step done"><span class="step-num">✓</span>Tiếp Nhận</div>
+                <div class="step done"><span class="step-num">✓</span>Khám LS</div>
+                <div class="step active"><span class="step-num">3</span>Chẩn Đoán & ĐT</div>
+                <div class="step"><span class="step-num">4</span>Thanh Toán</div>
+            </div>
+            <div style="padding:10px 12px">
+                <!-- Kết luận chẩn đoán + Tiên lượng -->
+                <div class="fcard" style="margin:0 0 8px">
+                    <div class="fcard-h"><span class="material-icons-round"
+                            style="color:#7c3aed">local_hospital</span>KẾT LUẬN CHẨN ĐOÁN</div>
+                    <div class="fcard-b">
+                        <div style="display:flex;gap:16px">
+                            <div style="flex:2">
+                                <div class="field"><label>Kết luận chẩn đoán</label>
+                                    <div class="field-input" style="height:80px">Viêm da dị ứng (Allergic Dermatitis).
+                                        Có vẩy trắng vùng bụng, nghi ngờ nhiễm nấm da kèm theo.</div>
+                                </div>
+                            </div>
+                            <div style="width:1px;background:#e2e8f0"></div>
+                            <div style="flex:1">
+                                <div class="field"><label>Tiên Lượng</label>
+                                    <div style="display:flex;flex-direction:column;gap:4px;margin-top:4px">
+                                        <span class="sel-card active"
+                                            style="justify-content:center;border-color:#16a34a;background:#dcfce7;color:#16a34a"><span
+                                                class="material-icons-round" style="font-size:14px">thumb_up</span>
+                                            Tốt</span>
+                                        <span class="sel-card" style="justify-content:center"><span
+                                                class="material-icons-round" style="font-size:14px">help_outline</span>
+                                            Nghi ngờ</span>
+                                        <span class="sel-card" style="justify-content:center"><span
+                                                class="material-icons-round" style="font-size:14px">thumb_down</span>
+                                            Xấu</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Nhập viện / Lưu chuồng -->
+                        <div
+                            style="margin-top:8px;padding:8px;background:#f8fafc;border-radius:6px;border:1px solid #e2e8f0">
+                            <div style="display:flex;align-items:center;gap:8px;font-size:11px">
+                                <span
+                                    style="width:28px;height:14px;background:#e2e8f0;border-radius:7px;display:inline-block;position:relative"><span
+                                        style="width:10px;height:10px;background:#94a3b8;border-radius:50%;position:absolute;left:2px;top:2px"></span></span>
+                                <span style="font-weight:600">Nhập viện / Lưu chuồng</span>
+                                <span style="color:#94a3b8;font-size:10px">— Kích hoạt chế độ nội trú và tính phí lưu
+                                    chuồng</span>
+                            </div>
+                            <div style="font-size:9px;color:#94a3b8;margin-top:4px;padding-left:36px">Khi bật → hiện
+                                dropdown chọn chuồng (lấy từ danh sách chuồng trống)</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Chỉ định dịch vụ -->
+                <div class="fcard" style="margin:0">
+                    <div class="fcard-h"><span class="material-icons-round" style="color:#d97706">receipt</span>CHỈ ĐỊNH
+                        DỊCH VỤ — Thêm dịch vụ, thuốc và vật tư
+                        <span
+                            style="margin-left:auto;font-size:9px;background:#eff6ff;color:#2563eb;padding:2px 8px;border-radius:4px;font-weight:500">📎
+                            Ảnh/tài liệu chỉ lưu trong bệnh án</span>
+                    </div>
+                    <div class="fcard-b">
+                        <div class="field"><label>Tìm dịch vụ / thuốc</label>
+                            <div class="field-input">🔍 Tìm dịch vụ, thuốc, vật tư...</div>
+                        </div>
+                        <!-- Table Header -->
+                        <div
+                            style="display:flex;padding:5px 8px;background:#f8fafc;border-bottom:2px solid #e2e8f0;margin-top:8px;font-size:10px;font-weight:600;color:#475569">
+                            <div style="flex:3">Tên DV / Thuốc</div>
+                            <div style="width:40px;text-align:center">SL</div>
+                            <div style="width:90px;text-align:right">Đơn giá</div>
+                            <div style="width:90px;text-align:right">Thành tiền</div>
+                            <div style="width:20px"></div>
+                        </div>
+
+                        <!-- ▸ Dịch vụ 1: Khám tổng quát (COLLAPSED) -->
+                        <div style="border-bottom:1px solid #f1f5f9">
+                            <div style="display:flex;align-items:center;padding:6px 8px;cursor:pointer">
+                                <div style="flex:3;display:flex;align-items:center;gap:6px">
+                                    <span class="material-icons-round"
+                                        style="font-size:14px;color:#94a3b8">chevron_right</span>
+                                    <span style="font-size:11px;font-weight:500;color:#0f172a">Khám tổng quát</span>
+                                    <span
+                                        style="font-size:8px;background:#f1f5f9;color:#64748b;padding:1px 5px;border-radius:3px">DV</span>
+                                </div>
+                                <div style="width:40px;text-align:center;font-size:11px">1</div>
+                                <div style="width:90px;text-align:right;font-size:11px">200.000</div>
+                                <div style="width:90px;text-align:right;font-size:11px;font-weight:500;color:#0f172a">
+                                    200.000</div>
+                                <div style="width:20px;text-align:center;color:#dc2626;cursor:pointer;font-size:11px">✕
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ▾ Dịch vụ 2: Soi mẫu da (EXPANDED - có thuốc + ảnh) -->
+                        <div style="border-bottom:1px solid #e2e8f0;background:#fefce8">
+                            <!-- Service Row -->
+                            <div
+                                style="display:flex;align-items:center;padding:6px 8px;cursor:pointer;background:#fef9c3">
+                                <div style="flex:3;display:flex;align-items:center;gap:6px">
+                                    <span class="material-icons-round"
+                                        style="font-size:14px;color:#d97706">expand_more</span>
+                                    <span style="font-size:11px;font-weight:600;color:#92400e">Soi mẫu da</span>
+                                    <span
+                                        style="font-size:8px;background:#fef3c7;color:#d97706;padding:1px 5px;border-radius:3px">DV</span>
+                                    <span
+                                        style="font-size:8px;background:#dbeafe;color:#2563eb;padding:1px 5px;border-radius:3px">📎
+                                        2 ảnh</span>
+                                </div>
+                                <div style="width:40px;text-align:center;font-size:11px">1</div>
+                                <div style="width:90px;text-align:right;font-size:11px">150.000</div>
+                                <div style="width:90px;text-align:right;font-size:11px;font-weight:500;color:#0f172a">
+                                    150.000</div>
+                                <div style="width:20px;text-align:center;color:#dc2626;cursor:pointer;font-size:11px">✕
+                                </div>
+                            </div>
+                            <!-- Expanded Content -->
+                            <div style="padding:6px 12px 10px 32px">
+                                <!-- Thuốc sử dụng cho dịch vụ này -->
+                                <div
+                                    style="font-size:9px;font-weight:600;color:#64748b;text-transform:uppercase;margin-bottom:4px">
+                                    Thuốc / Vật tư sử dụng cho dịch vụ này</div>
+                                <div
+                                    style="display:flex;align-items:center;padding:4px 8px;background:#fff;border:1px solid #e2e8f0;border-radius:5px;margin-bottom:3px;font-size:10px">
+                                    <span style="flex:1;font-weight:500">KOH Solution 10%</span>
+                                    <span style="width:40px;text-align:center">1</span>
+                                    <span style="width:70px;text-align:right;color:#64748b">20.000</span>
+                                    <span style="width:70px;text-align:right;font-weight:500">20.000</span>
+                                    <span
+                                        style="width:16px;text-align:center;color:#dc2626;cursor:pointer;font-size:9px">✕</span>
+                                </div>
+                                <div
+                                    style="display:flex;align-items:center;padding:4px 8px;background:#fff;border:1px dashed #c4b5fd;border-radius:5px;margin-bottom:6px;font-size:10px;color:#7c3aed;cursor:pointer;gap:4px">
+                                    <span class="material-icons-round" style="font-size:12px">add</span>Thêm thuốc/vật
+                                    tư cho dịch vụ này
+                                </div>
+                                <!-- Upload ảnh / tài liệu -->
+                                <div
+                                    style="font-size:9px;font-weight:600;color:#64748b;text-transform:uppercase;margin-bottom:4px;display:flex;align-items:center;gap:4px">
+                                    <span class="material-icons-round" style="font-size:11px">photo_library</span>Ảnh /
+                                    Tài liệu
+                                    <span
+                                        style="font-weight:400;text-transform:none;color:#94a3b8;font-style:italic">(chỉ
+                                        hiện trong bệnh án, không hiện trong hóa đơn)</span>
+                                </div>
+                                <div style="display:flex;gap:6px;flex-wrap:wrap">
+                                    <div
+                                        style="width:60px;height:60px;background:#e0f2fe;border:1px solid #bae6fd;border-radius:6px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;position:relative">
+                                        <div
+                                            style="width:58px;height:58px;background:linear-gradient(135deg,#f0abfc,#e879f9);border-radius:5px;display:flex;align-items:center;justify-content:center;font-size:18px">
+                                            🔬</div>
+                                        <div
+                                            style="position:absolute;bottom:2px;left:2px;right:2px;background:rgba(0,0,0,.6);color:#fff;font-size:7px;text-align:center;border-radius:0 0 4px 4px;padding:1px">
+                                            mau_da_01.jpg</div>
+                                    </div>
+                                    <div
+                                        style="width:60px;height:60px;background:#dcfce7;border:1px solid #bbf7d0;border-radius:6px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;position:relative">
+                                        <div
+                                            style="width:58px;height:58px;background:linear-gradient(135deg,#86efac,#4ade80);border-radius:5px;display:flex;align-items:center;justify-content:center;font-size:18px">
+                                            🔬</div>
+                                        <div
+                                            style="position:absolute;bottom:2px;left:2px;right:2px;background:rgba(0,0,0,.6);color:#fff;font-size:7px;text-align:center;border-radius:0 0 4px 4px;padding:1px">
+                                            mau_da_02.jpg</div>
+                                    </div>
+                                    <div
+                                        style="width:60px;height:60px;border:1.5px dashed #cbd5e1;border-radius:6px;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer">
+                                        <span class="material-icons-round"
+                                            style="font-size:16px;color:#94a3b8">add_a_photo</span>
+                                        <span style="font-size:7px;color:#94a3b8">Chụp/Tải</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ▸ Dịch vụ 3: Siêu âm ổ bụng (COLLAPSED - có icon ảnh) -->
+                        <div style="border-bottom:1px solid #f1f5f9">
+                            <div style="display:flex;align-items:center;padding:6px 8px;cursor:pointer">
+                                <div style="flex:3;display:flex;align-items:center;gap:6px">
+                                    <span class="material-icons-round"
+                                        style="font-size:14px;color:#94a3b8">chevron_right</span>
+                                    <span style="font-size:11px;font-weight:500;color:#0f172a">Siêu âm ổ bụng</span>
+                                    <span
+                                        style="font-size:8px;background:#fef3c7;color:#d97706;padding:1px 5px;border-radius:3px">DV</span>
+                                    <span
+                                        style="font-size:8px;background:#f1f5f9;color:#64748b;padding:1px 5px;border-radius:3px">📎
+                                        0 ảnh</span>
+                                </div>
+                                <div style="width:40px;text-align:center;font-size:11px">1</div>
+                                <div style="width:90px;text-align:right;font-size:11px">300.000</div>
+                                <div style="width:90px;text-align:right;font-size:11px;font-weight:500;color:#0f172a">
+                                    300.000</div>
+                                <div style="width:20px;text-align:center;color:#dc2626;cursor:pointer;font-size:11px">✕
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Thuốc chung (không gắn DV) -->
+                        <div style="border-bottom:1px solid #f1f5f9">
+                            <div style="display:flex;align-items:center;padding:6px 8px">
+                                <div style="flex:3;display:flex;align-items:center;gap:6px">
+                                    <span style="width:14px"></span>
+                                    <span style="font-size:11px;font-weight:500;color:#0f172a">Apoquel 16mg</span>
+                                    <span
+                                        style="font-size:8px;background:#dcfce7;color:#16a34a;padding:1px 5px;border-radius:3px">Thuốc</span>
+                                </div>
+                                <div style="width:40px;text-align:center;font-size:11px">14</div>
+                                <div style="width:90px;text-align:right;font-size:11px">25.000</div>
+                                <div style="width:90px;text-align:right;font-size:11px;font-weight:500;color:#0f172a">
+                                    350.000</div>
+                                <div style="width:20px;text-align:center;color:#dc2626;cursor:pointer;font-size:11px">✕
+                                </div>
+                            </div>
+                        </div>
+                        <div style="border-bottom:1px solid #f1f5f9">
+                            <div style="display:flex;align-items:center;padding:6px 8px">
+                                <div style="flex:3;display:flex;align-items:center;gap:6px">
+                                    <span style="width:14px"></span>
+                                    <span style="font-size:11px;font-weight:500;color:#0f172a">Dầu tắm Malaseb</span>
+                                    <span
+                                        style="font-size:8px;background:#e0f2fe;color:#0284c7;padding:1px 5px;border-radius:3px">Vật
+                                        tư</span>
+                                </div>
+                                <div style="width:40px;text-align:center;font-size:11px">1</div>
+                                <div style="width:90px;text-align:right;font-size:11px">280.000</div>
+                                <div style="width:90px;text-align:right;font-size:11px;font-weight:500;color:#0f172a">
+                                    280.000</div>
+                                <div style="width:20px;text-align:center;color:#dc2626;cursor:pointer;font-size:11px">✕
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tổng -->
+                        <div
+                            style="display:flex;justify-content:flex-end;padding:8px 12px;font-size:14px;font-weight:700;border-top:2px solid #e2e8f0;margin-top:4px;background:#ede9fe;border-radius:0 0 6px 6px">
+                            Tổng Dự Kiến: <span style="color:#7c3aed;margin-left:8px">1.300.000₫</span>
+                        </div>
+                        <!-- Note -->
+                        <div
+                            style="margin-top:6px;padding:6px 10px;background:#eff6ff;border:1px solid #bfdbfe;border-radius:6px;display:flex;align-items:center;gap:6px;font-size:9px;color:#1d4ed8">
+                            <span class="material-icons-round" style="font-size:14px">info</span>
+                            <span><b>Lưu ý:</b> Ảnh chụp, kết quả siêu âm, X-quang... chỉ lưu trong <b>Bệnh Án</b>.
+                                <b>Hóa đơn</b> chỉ hiển thị tên dịch vụ, số lượng và giá.</span>
+                        </div>
+                    </div>
+                </div>
+                <div style="display:flex;gap:6px;justify-content:flex-end;margin-top:10px">
+                    <span class="btn-s btn-o" style="padding:6px 16px">← Quay lại</span>
+                    <span class="btn-s btn-o" style="padding:6px 16px">Hủy bỏ</span>
+                    <span class="btn-s btn-p" style="padding:6px 16px">Tiếp tục →</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══ 5. STEP 4: THANH TOÁN ═══ -->
+    <div class="section">💳 5. Step 4: Thanh Toán & Cam Kết</div>
+    <div class="grid">
+        <div class="frame frame-d">
+            <div class="frame-label">Step 4 — Tổng Kết · Thanh Toán · Tái Khám · Cam Kết</div>
+            <div class="stepper">
+                <div class="step done"><span class="step-num">✓</span>Tiếp Nhận</div>
+                <div class="step done"><span class="step-num">✓</span>Khám LS</div>
+                <div class="step done"><span class="step-num">✓</span>Chẩn Đoán</div>
+                <div class="step active"><span class="step-num">4</span>Thanh Toán</div>
+            </div>
+            <div style="padding:10px 12px">
+                <!-- Tổng kết chi phí -->
+                <div class="fcard" style="margin:0 0 8px">
+                    <div class="fcard-h"><span class="material-icons-round" style="color:#7c3aed">summarize</span>TỔNG
+                        KẾT CHI PHÍ — Xem lại các dịch vụ và thuốc đã sử dụng</div>
+                    <div class="fcard-b" style="font-size:11px">
+                        <div
+                            style="display:flex;justify-content:space-between;padding:3px 0;border-bottom:1px solid #f1f5f9">
+                            <span>Khám tổng quát × 1</span><span class="nm">200.000₫</span>
+                        </div>
+                        <div
+                            style="display:flex;justify-content:space-between;padding:3px 0;border-bottom:1px solid #f1f5f9">
+                            <span>Soi mẫu da × 1</span><span class="nm">150.000₫</span>
+                        </div>
+                        <div
+                            style="display:flex;justify-content:space-between;padding:3px 0;border-bottom:1px solid #f1f5f9">
+                            <span>Apoquel 16mg × 14</span><span class="nm">350.000₫</span>
+                        </div>
+                        <div
+                            style="display:flex;justify-content:space-between;padding:3px 0;border-bottom:1px solid #f1f5f9">
+                            <span>Dầu tắm Malaseb × 1</span><span class="nm">280.000₫</span>
+                        </div>
+                        <div
+                            style="display:flex;justify-content:space-between;padding:6px 0;font-weight:700;font-size:14px;border-top:2px solid #e2e8f0;margin-top:4px">
+                            <span>TỔNG</span><span style="color:#7c3aed">980.000₫</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Thanh toán -->
+                <div class="fcard" style="margin:0 0 8px">
+                    <div class="fcard-h"><span class="material-icons-round" style="color:#16a34a">payments</span>THANH
+                        TOÁN — Thông tin thanh toán và ứng trước</div>
+                    <div class="fcard-b">
+                        <div class="field"><label>Số tiền ứng trước</label>
+                            <div class="field-input">💲 500.000</div>
+                        </div>
+                        <div class="field"><label>Phương thức ứng trước</label>
+                            <div style="display:flex;gap:6px;margin-top:4px">
+                                <span class="sel-card active"
+                                    style="flex:1;justify-content:center;border-color:#16a34a;background:#dcfce7;color:#16a34a">💵
+                                    Tiền mặt</span>
+                                <span class="sel-card" style="flex:1;justify-content:center">🏦 Chuyển khoản</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Lịch hẹn tái khám -->
+                <div class="fcard" style="margin:0 0 8px">
+                    <div class="fcard-h"><span class="material-icons-round" style="color:#2563eb">event</span>LỊCH HẸN
+                        TÁI KHÁM — Đặt lịch hẹn tái khám cho thú cưng</div>
+                    <div class="fcard-b">
+                        <div
+                            style="padding:6px 10px;border:1px solid #e2e8f0;border-radius:6px;display:flex;align-items:center;gap:8px;font-size:11px;cursor:pointer">
+                            <span class="material-icons-round"
+                                style="font-size:16px;color:#7c3aed">calendar_today</span>
+                            <span style="flex:1;color:#7c3aed;font-weight:500">24/02/2026 — 09:00</span>
+                            <span class="material-icons-round" style="font-size:14px;color:#94a3b8">close</span>
+                        </div>
+                        <div class="field" style="margin-top:6px"><label>Nội dung tái khám</label>
+                            <div class="field-input">Kiểm tra lại vùng da bụng, đánh giá hiệu quả Apoquel</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cam kết -->
+                <div class="fcard" style="margin:0 0 8px">
+                    <div class="fcard-h"><span class="material-icons-round" style="color:#d97706">verified</span>CAM KẾT
+                        & XÁC NHẬN</div>
+                    <div class="fcard-b" style="font-size:11px">
+                        <label
+                            style="display:flex;align-items:start;gap:6px;padding:4px 0;border-bottom:1px solid #f1f5f9"><span
+                                style="font-size:16px">☑️</span><span>Tôi đồng ý với nhận định, liệu trình điều trị trên
+                                và sẽ hợp tác với Bác sỹ trong quá trình điều trị.</span></label>
+                        <label
+                            style="display:flex;align-items:start;gap:6px;padding:4px 0;border-bottom:1px solid #f1f5f9"><span
+                                style="font-size:16px">☑️</span><span>Cam kết không khiếu nại và không yêu cầu bồi
+                                thường về sau.</span></label>
+                        <div class="field" style="margin-top:6px"><label>Ghi chú nội bộ</label>
+                            <div class="field-input" style="height:40px">Dặn dò: tắm dầu Malaseb 2 lần/tuần, uống
+                                Apoquel mỗi ngày 1 viên</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Action buttons -->
+                <div style="display:flex;gap:6px;justify-content:flex-end;margin-top:8px;flex-wrap:wrap">
+                    <span class="btn-s btn-o" style="padding:6px 16px">← Quay lại</span>
+                    <span class="btn-s btn-o" style="padding:6px 16px">Hủy bỏ</span>
+                    <span class="btn-s" style="padding:6px 16px;background:#2563eb;color:#fff"><span
+                            class="material-icons-round" style="font-size:12px">print</span> In hoá đơn</span>
+                    <span class="btn-s btn-g" style="padding:6px 16px"><span class="material-icons-round"
+                            style="font-size:12px">check</span> Lưu & Hoàn thành</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p style="text-align:center;color:#475569;font-size:12px;margin-top:24px">
+        ✅ Bệnh Án — Giữ nguyên tính năng, chỉ redesign giao diện<br>
+        <a href="hospitalization_redesign.html" style="color:#38bdf8">Nội Trú</a> · <a
+            href="dashboard_reports_redesign.html" style="color:#38bdf8">Dashboard & Báo Cáo</a> · <a
+            href="petshop_redesign.html" style="color:#38bdf8">Petshop</a> · <a href="pharmacy_redesign.html"
+            style="color:#38bdf8">Pharmacy</a>
+    </p>
+</body>
+
+</html>

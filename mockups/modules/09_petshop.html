@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Petshop Redesign Mockup</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Inter', sans-serif; background: #f1f5f9; padding: 20px; color: #1e293b; }
+h1 { text-align: center; margin-bottom: 8px; font-size: 22px; color: #0f172a; }
+.subtitle { text-align: center; color: #64748b; margin-bottom: 24px; font-size: 13px; }
+.container { display: flex; gap: 24px; align-items: flex-start; justify-content: center; flex-wrap: wrap; }
+
+/* ── DESKTOP ────────────────────────────────── */
+.desktop { width: 820px; background: #fff; border-radius: 8px; border: 1px solid #e2e8f0; overflow: hidden; }
+.desktop .header { background: #f8fafc; border-bottom: 1px solid #e2e8f0; padding: 10px 16px; display: flex; align-items: center; gap: 12px; }
+.desktop .header h2 { font-size: 15px; font-weight: 600; color: #0f172a; flex: 1; }
+.stats-bar { display: flex; border-bottom: 1px solid #e2e8f0; background: #fafbfc; }
+.stat-item { flex: 1; padding: 10px 14px; display: flex; align-items: center; gap: 10px; border-right: 1px solid #e2e8f0; }
+.stat-item:last-child { border-right: none; }
+.stat-icon { width: 32px; height: 32px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 16px; }
+.stat-value { font-size: 16px; font-weight: 700; color: #0f172a; line-height: 1.2; }
+.stat-label { font-size: 10px; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; }
+.toolbar { display: flex; align-items: center; gap: 8px; padding: 8px 12px; border-bottom: 1px solid #e2e8f0; }
+.tab-group { display: flex; background: #f1f5f9; border-radius: 6px; padding: 2px; }
+.tab { padding: 5px 14px; font-size: 12px; font-weight: 500; border-radius: 4px; cursor: pointer; color: #64748b; }
+.tab.active { background: #fff; color: #0f172a; box-shadow: 0 1px 2px rgba(0,0,0,0.06); }
+.search-box { flex: 1; display: flex; align-items: center; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 0 10px; height: 30px; }
+.search-box input { border: none; background: none; font-size: 12px; width: 100%; outline: none; }
+.search-box .material-icons-round { font-size: 16px; color: #94a3b8; margin-right: 6px; }
+.filter-btn { padding: 5px 12px; font-size: 11px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; cursor: pointer; display: flex; align-items: center; gap: 4px; color: #475569; }
+.add-btn { padding: 5px 12px; font-size: 11px; background: #0d9488; color: #fff; border: none; border-radius: 6px; cursor: pointer; display: flex; align-items: center; gap: 4px; font-weight: 500; }
+table { width: 100%; border-collapse: collapse; font-size: 12px; }
+thead th { background: #f8fafc; padding: 8px 10px; text-align: left; font-weight: 600; font-size: 11px; color: #475569; text-transform: uppercase; letter-spacing: 0.3px; border-bottom: 2px solid #e2e8f0; white-space: nowrap; }
+tbody tr { border-bottom: 1px solid #f1f5f9; }
+tbody tr:hover { background: #f8fafc; }
+tbody td { padding: 7px 10px; vertical-align: middle; }
+.prod-name { font-weight: 500; color: #0f172a; }
+.prod-brand { font-size: 11px; color: #94a3b8; }
+.badge { padding: 2px 8px; border-radius: 10px; font-size: 10px; font-weight: 500; display: inline-block; }
+.badge-teal { background: #ccfbf1; color: #0d9488; }
+.badge-blue { background: #dbeafe; color: #2563eb; }
+.badge-amber { background: #fef3c7; color: #d97706; }
+.badge-pink { background: #fce7f3; color: #db2777; }
+.stock-ok { color: #16a34a; font-weight: 600; }
+.stock-low { color: #dc2626; font-weight: 600; background: #fef2f2; padding: 1px 6px; border-radius: 4px; }
+.price { font-variant-numeric: tabular-nums; }
+.profit { color: #16a34a; font-weight: 500; }
+.actions-cell { display: flex; gap: 4px; }
+.act-btn { width: 24px; height: 24px; border-radius: 4px; border: 1px solid #e2e8f0; background: #fff; display: flex; align-items: center; justify-content: center; cursor: pointer; }
+.act-btn:hover { background: #f1f5f9; }
+.act-btn .material-icons-round { font-size: 14px; color: #64748b; }
+.pagination { display: flex; align-items: center; justify-content: space-between; padding: 8px 12px; border-top: 1px solid #e2e8f0; font-size: 11px; color: #64748b; }
+.page-btns { display: flex; gap: 4px; }
+.page-btn { width: 26px; height: 26px; border-radius: 4px; border: 1px solid #e2e8f0; background: #fff; font-size: 11px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+.page-btn.active { background: #0d9488; color: #fff; border-color: #0d9488; }
+
+/* ── MOBILE ─────────────────────────────────── */
+.mobile-frame { width: 360px; background: #f8fafc; border-radius: 24px; border: 3px solid #1e293b; overflow: hidden; box-shadow: 0 8px 32px rgba(0,0,0,0.12); }
+.mobile-status { background: #1e293b; color: #fff; padding: 6px 16px; font-size: 11px; display: flex; justify-content: space-between; }
+.mobile-header { background: #fff; padding: 10px 12px; display: flex; align-items: center; border-bottom: 1px solid #e2e8f0; }
+.mobile-header h3 { font-size: 15px; font-weight: 600; flex: 1; }
+.mobile-header .material-icons-round { color: #64748b; font-size: 22px; cursor: pointer; }
+.m-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; padding: 8px 10px; }
+.m-stat { background: #fff; border-radius: 8px; padding: 8px 10px; border: 1px solid #e2e8f0; display: flex; align-items: center; gap: 8px; }
+.m-stat-icon { width: 28px; height: 28px; border-radius: 6px; display: flex; align-items: center; justify-content: center; }
+.m-stat-icon .material-icons-round { font-size: 15px; }
+.m-stat-val { font-size: 14px; font-weight: 700; line-height: 1; }
+.m-stat-lbl { font-size: 9px; color: #64748b; text-transform: uppercase; }
+.m-toolbar { padding: 0 10px 8px; display: flex; flex-direction: column; gap: 6px; }
+.m-tabs { display: flex; background: #e2e8f0; border-radius: 8px; padding: 2px; }
+.m-tab { flex: 1; text-align: center; padding: 6px; font-size: 11px; font-weight: 500; border-radius: 6px; color: #64748b; }
+.m-tab.active { background: #fff; color: #0f172a; font-weight: 600; box-shadow: 0 1px 2px rgba(0,0,0,0.08); }
+.m-search { display: flex; align-items: center; background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 6px 10px; font-size: 12px; color: #94a3b8; gap: 6px; }
+.m-product-list { padding: 0 10px 10px; }
+.m-product { background: #fff; border-radius: 8px; border: 1px solid #e2e8f0; padding: 10px; margin-bottom: 6px; display: flex; gap: 10px; align-items: flex-start; }
+.m-prod-img { width: 44px; height: 44px; border-radius: 6px; background: #f1f5f9; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.m-prod-img .material-icons-round { font-size: 20px; color: #94a3b8; }
+.m-prod-info { flex: 1; min-width: 0; }
+.m-prod-name { font-size: 13px; font-weight: 600; color: #0f172a; }
+.m-prod-brand { font-size: 10px; color: #94a3b8; }
+.m-prod-meta { display: flex; gap: 8px; margin-top: 4px; align-items: center; }
+.m-prod-price { font-size: 12px; font-weight: 600; color: #0d9488; }
+.m-prod-stock { font-size: 10px; padding: 1px 6px; border-radius: 4px; font-weight: 500; }
+.m-prod-stock.ok { background: #dcfce7; color: #16a34a; }
+.m-prod-stock.low { background: #fef2f2; color: #dc2626; }
+.m-fab { position: relative; float: right; margin: -20px 10px 0 0; width: 44px; height: 44px; border-radius: 12px; background: #0d9488; color: #fff; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(13,148,136,0.3); }
+.label-tag { font-size: 10px; display: inline-block; }
+</style>
+</head>
+<body>
+<h1>🐾 Petshop Redesign — Compact Professional</h1>
+<p class="subtitle">Desktop (trái) + Mobile (phải)</p>
+<div class="container">
+
+<!-- DESKTOP -->
+<div class="desktop">
+  <div class="header">
+    <span class="material-icons-round" style="color:#0d9488">storefront</span>
+    <h2>Pet Shop</h2>
+    <div class="add-btn"><span class="material-icons-round" style="font-size:14px">add</span> Thêm SP</div>
+  </div>
+  <div class="stats-bar">
+    <div class="stat-item"><div class="stat-icon" style="background:#ccfbf1;color:#0d9488"><span class="material-icons-round">inventory_2</span></div><div><div class="stat-value">128</div><div class="stat-label">Tổng SP</div></div></div>
+    <div class="stat-item"><div class="stat-icon" style="background:#dcfce7;color:#16a34a"><span class="material-icons-round">trending_up</span></div><div><div class="stat-value">2.450K</div><div class="stat-label">Doanh thu hôm nay</div></div></div>
+    <div class="stat-item"><div class="stat-icon" style="background:#dbeafe;color:#2563eb"><span class="material-icons-round">account_balance_wallet</span></div><div><div class="stat-value">45.8M</div><div class="stat-label">Giá trị kho</div></div></div>
+    <div class="stat-item"><div class="stat-icon" style="background:#fef3c7;color:#d97706"><span class="material-icons-round">warning_amber</span></div><div><div class="stat-value" style="color:#d97706">7</div><div class="stat-label">Sắp hết hàng</div></div></div>
+  </div>
+  <div class="toolbar">
+    <div class="tab-group"><div class="tab active">Sản Phẩm</div><div class="tab">Lịch Sử Bán</div><div class="tab">Bán Hàng</div></div>
+    <div class="search-box"><span class="material-icons-round">search</span><input placeholder="Tìm sản phẩm..."></div>
+    <div class="filter-btn"><span class="material-icons-round" style="font-size:14px">filter_list</span> Danh mục</div>
+  </div>
+  <table>
+    <thead><tr><th>#</th><th>Sản phẩm</th><th>Danh mục</th><th style="text-align:right">Tồn kho</th><th style="text-align:right">Giá nhập</th><th style="text-align:right">Giá bán</th><th style="text-align:right">Lời</th><th style="text-align:center">Thao tác</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td><span class="prod-name">Royal Canin Maxi Adult</span><br><span class="prod-brand">Royal Canin</span></td><td><span class="badge badge-teal">Thức ăn</span></td><td style="text-align:right"><span class="stock-ok">45</span></td><td class="price" style="text-align:right">580.000</td><td class="price" style="text-align:right">720.000</td><td class="profit" style="text-align:right">+24%</td><td><div class="actions-cell"><div class="act-btn"><span class="material-icons-round">edit</span></div><div class="act-btn"><span class="material-icons-round">delete</span></div></div></td></tr>
+      <tr><td>2</td><td><span class="prod-name">Pate Whiskas Cá Ngừ</span><br><span class="prod-brand">Whiskas</span></td><td><span class="badge badge-teal">Thức ăn</span></td><td style="text-align:right"><span class="stock-low">3 ⚠</span></td><td class="price" style="text-align:right">18.000</td><td class="price" style="text-align:right">25.000</td><td class="profit" style="text-align:right">+39%</td><td><div class="actions-cell"><div class="act-btn"><span class="material-icons-round">edit</span></div><div class="act-btn"><span class="material-icons-round">delete</span></div></div></td></tr>
+      <tr><td>3</td><td><span class="prod-name">Vòng cổ chống ve</span><br><span class="prod-brand">Bayticol</span></td><td><span class="badge badge-blue">Phụ kiện</span></td><td style="text-align:right"><span class="stock-ok">28</span></td><td class="price" style="text-align:right">85.000</td><td class="price" style="text-align:right">150.000</td><td class="profit" style="text-align:right">+76%</td><td><div class="actions-cell"><div class="act-btn"><span class="material-icons-round">edit</span></div><div class="act-btn"><span class="material-icons-round">delete</span></div></div></td></tr>
+      <tr><td>4</td><td><span class="prod-name">Sữa tắm Olive</span><br><span class="prod-brand">Bio-Shine</span></td><td><span class="badge badge-pink">Chăm sóc</span></td><td style="text-align:right"><span class="stock-ok">15</span></td><td class="price" style="text-align:right">65.000</td><td class="price" style="text-align:right">95.000</td><td class="profit" style="text-align:right">+46%</td><td><div class="actions-cell"><div class="act-btn"><span class="material-icons-round">edit</span></div><div class="act-btn"><span class="material-icons-round">delete</span></div></div></td></tr>
+      <tr><td>5</td><td><span class="prod-name">Bánh thưởng Beef</span><br><span class="prod-brand">Jerhigh</span></td><td><span class="badge badge-amber">Snack</span></td><td style="text-align:right"><span class="stock-low">2 ⚠</span></td><td class="price" style="text-align:right">35.000</td><td class="price" style="text-align:right">55.000</td><td class="profit" style="text-align:right">+57%</td><td><div class="actions-cell"><div class="act-btn"><span class="material-icons-round">edit</span></div><div class="act-btn"><span class="material-icons-round">delete</span></div></div></td></tr>
+      <tr><td>6</td><td><span class="prod-name">Dây dắt tự động 5m</span><br><span class="prod-brand">Flexi</span></td><td><span class="badge badge-blue">Phụ kiện</span></td><td style="text-align:right"><span class="stock-ok">12</span></td><td class="price" style="text-align:right">180.000</td><td class="price" style="text-align:right">280.000</td><td class="profit" style="text-align:right">+56%</td><td><div class="actions-cell"><div class="act-btn"><span class="material-icons-round">edit</span></div><div class="act-btn"><span class="material-icons-round">delete</span></div></div></td></tr>
+    </tbody>
+  </table>
+  <div class="pagination"><span>Hiển thị 1-6 / 128 sản phẩm</span><div class="page-btns"><div class="page-btn">‹</div><div class="page-btn active">1</div><div class="page-btn">2</div><div class="page-btn">3</div><div class="page-btn">›</div></div></div>
+</div>
+
+<!-- MOBILE -->
+<div class="mobile-frame">
+  <div class="mobile-status"><span>12:37</span><span>📶 🔋</span></div>
+  <div class="mobile-header"><span class="material-icons-round" style="margin-right:8px">menu</span><h3>Pet Shop</h3><span class="material-icons-round">more_vert</span></div>
+  <div class="m-stats">
+    <div class="m-stat"><div class="m-stat-icon" style="background:#ccfbf1;color:#0d9488"><span class="material-icons-round">inventory_2</span></div><div><div class="m-stat-val">128</div><div class="m-stat-lbl">Tổng SP</div></div></div>
+    <div class="m-stat"><div class="m-stat-icon" style="background:#dcfce7;color:#16a34a"><span class="material-icons-round">trending_up</span></div><div><div class="m-stat-val">2.450K</div><div class="m-stat-lbl">Doanh thu</div></div></div>
+    <div class="m-stat"><div class="m-stat-icon" style="background:#dbeafe;color:#2563eb"><span class="material-icons-round">account_balance_wallet</span></div><div><div class="m-stat-val">45.8M</div><div class="m-stat-lbl">Giá trị kho</div></div></div>
+    <div class="m-stat"><div class="m-stat-icon" style="background:#fef3c7;color:#d97706"><span class="material-icons-round">warning_amber</span></div><div><div class="m-stat-val" style="color:#d97706">7</div><div class="m-stat-lbl">Sắp hết</div></div></div>
+  </div>
+  <div class="m-toolbar">
+    <div class="m-tabs"><div class="m-tab active">Sản Phẩm</div><div class="m-tab">Lịch Sử</div><div class="m-tab">Bán Hàng</div></div>
+    <div class="m-search"><span class="material-icons-round" style="font-size:16px">search</span>Tìm sản phẩm...</div>
+  </div>
+  <div class="m-product-list">
+    <div class="m-product"><div class="m-prod-img"><span class="material-icons-round">pets</span></div><div class="m-prod-info"><div class="m-prod-name">Royal Canin Maxi Adult</div><div class="m-prod-brand">Royal Canin · <span class="label-tag badge badge-teal">Thức ăn</span></div><div class="m-prod-meta"><span class="m-prod-price">720.000₫</span><span class="m-prod-stock ok">Kho: 45</span></div></div></div>
+    <div class="m-product"><div class="m-prod-img"><span class="material-icons-round">pets</span></div><div class="m-prod-info"><div class="m-prod-name">Pate Whiskas Cá Ngừ</div><div class="m-prod-brand">Whiskas · <span class="label-tag badge badge-teal">Thức ăn</span></div><div class="m-prod-meta"><span class="m-prod-price">25.000₫</span><span class="m-prod-stock low">Kho: 3 ⚠</span></div></div></div>
+    <div class="m-product"><div class="m-prod-img"><span class="material-icons-round">pets</span></div><div class="m-prod-info"><div class="m-prod-name">Vòng cổ chống ve</div><div class="m-prod-brand">Bayticol · <span class="label-tag badge badge-blue">Phụ kiện</span></div><div class="m-prod-meta"><span class="m-prod-price">150.000₫</span><span class="m-prod-stock ok">Kho: 28</span></div></div></div>
+    <div class="m-product"><div class="m-prod-img"><span class="material-icons-round">pets</span></div><div class="m-prod-info"><div class="m-prod-name">Sữa tắm Olive</div><div class="m-prod-brand">Bio-Shine · <span class="label-tag badge badge-pink">Chăm sóc</span></div><div class="m-prod-meta"><span class="m-prod-price">95.000₫</span><span class="m-prod-stock ok">Kho: 15</span></div></div></div>
+    <div class="m-product"><div class="m-prod-img"><span class="material-icons-round">pets</span></div><div class="m-prod-info"><div class="m-prod-name">Bánh thưởng Beef</div><div class="m-prod-brand">Jerhigh · <span class="label-tag badge badge-amber">Snack</span></div><div class="m-prod-meta"><span class="m-prod-price">55.000₫</span><span class="m-prod-stock low">Kho: 2 ⚠</span></div></div></div>
+  </div>
+  <div class="m-fab"><span class="material-icons-round">add</span></div>
+</div>
+</div>
+</body>
+</html>

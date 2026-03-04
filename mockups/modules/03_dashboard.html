@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Clinic — 03. Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            padding: 20px
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 22px;
+            color: #fff;
+            margin-bottom: 4px
+        }
+
+        .sub {
+            text-align: center;
+            color: #64748b;
+            font-size: 12px;
+            margin-bottom: 24px
+        }
+
+        .section {
+            font-size: 15px;
+            font-weight: 700;
+            margin: 28px 0 12px;
+            padding-left: 8px;
+            border-left: 3px solid
+        }
+
+        .grid {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 32px
+        }
+
+        .frame {
+            background: #fff;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            overflow: hidden;
+            color: #1e293b
+        }
+
+        .frame-d {
+            width: 820px
+        }
+
+        .frame-m {
+            width: 360px;
+            border-radius: 20px;
+            border: 3px solid #334155;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, .3)
+        }
+
+        .frame-label {
+            background: #1e293b;
+            color: #94a3b8;
+            font-size: 10px;
+            padding: 3px 12px;
+            text-align: center;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-transform: uppercase
+        }
+
+        .hdr {
+            background: #f8fafc;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 8px 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px
+        }
+
+        .hdr h2 {
+            font-size: 13px;
+            font-weight: 600;
+            flex: 1
+        }
+
+        .btn-s {
+            padding: 3px 10px;
+            font-size: 10px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 3px;
+            font-weight: 500
+        }
+
+        .btn-p {
+            background: #2563eb;
+            color: #fff
+        }
+
+        .badge {
+            padding: 1px 7px;
+            border-radius: 10px;
+            font-size: 9px;
+            font-weight: 500;
+            display: inline-block
+        }
+
+        .b-green {
+            background: #dcfce7;
+            color: #16a34a
+        }
+
+        .b-amber {
+            background: #fef3c7;
+            color: #d97706
+        }
+
+        .b-red {
+            background: #fef2f2;
+            color: #dc2626
+        }
+
+        .b-blue {
+            background: #dbeafe;
+            color: #2563eb
+        }
+
+        .gcard {
+            border-radius: 10px;
+            padding: 12px 14px;
+            color: #fff;
+            position: relative;
+            overflow: hidden
+        }
+
+        .gcard::after {
+            content: '';
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            width: 70px;
+            height: 70px;
+            background: rgba(255, 255, 255, .1);
+            border-radius: 50%
+        }
+
+        .status-bar {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 16px;
+            font-size: 10px;
+            font-weight: 600;
+            background: #fff
+        }
+    </style>
+</head>
+
+<body>
+    <h1>📊 Pet Clinic — Dashboard</h1>
+    <p class="sub">Module 03: Tổng quan phòng khám • Desktop & Mobile</p>
+
+    <!-- ═══════ DESKTOP ═══════ -->
+    <div class="section" style="color:#2563eb;border-color:#2563eb">💻 Desktop — Dashboard</div>
+    <div class="grid">
+        <div class="frame frame-d">
+            <div class="frame-label">Desktop — Dashboard Tổng Quan</div>
+            <div class="hdr"><span class="material-icons-round" style="font-size:16px;color:#2563eb">dashboard</span>
+                <h2>Dashboard</h2><span style="font-size:10px;color:#64748b">Thứ 3, 18/02/2026</span>
+            </div>
+            <div style="padding:12px;background:#f8fafc">
+                <!-- Gradient Stat Cards -->
+                <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:10px;margin-bottom:12px">
+                    <div class="gcard" style="background:linear-gradient(135deg,#7c3aed,#a78bfa)">
+                        <div style="font-size:9px;opacity:.8;text-transform:uppercase;letter-spacing:.3px">Ca khám hôm
+                            nay</div>
+                        <div style="font-size:22px;font-weight:700;line-height:1.2">12</div>
+                        <div style="font-size:9px;opacity:.7;margin-top:2px">↑ 3 so với hôm qua</div>
+                    </div>
+                    <div class="gcard" style="background:linear-gradient(135deg,#2563eb,#60a5fa)">
+                        <div style="font-size:9px;opacity:.8;text-transform:uppercase;letter-spacing:.3px">Đang nội trú
+                        </div>
+                        <div style="font-size:22px;font-weight:700;line-height:1.2">5</div>
+                        <div style="font-size:9px;opacity:.7;margin-top:2px">3 chuồng trống</div>
+                    </div>
+                    <div class="gcard" style="background:linear-gradient(135deg,#0891b2,#22d3ee)">
+                        <div style="font-size:9px;opacity:.8;text-transform:uppercase;letter-spacing:.3px">Doanh thu hôm
+                            nay</div>
+                        <div style="font-size:22px;font-weight:700;line-height:1.2">4.2tr</div>
+                        <div style="font-size:9px;opacity:.7;margin-top:2px">Thu từ 8 ca khám</div>
+                    </div>
+                    <div class="gcard" style="background:linear-gradient(135deg,#d97706,#fbbf24)">
+                        <div style="font-size:9px;opacity:.8;text-transform:uppercase;letter-spacing:.3px">Lịch hẹn chờ
+                        </div>
+                        <div style="font-size:22px;font-weight:700;line-height:1.2">3</div>
+                        <div style="font-size:9px;opacity:.7;margin-top:2px">Kế tiếp: 14:30</div>
+                    </div>
+                </div>
+                <!-- Cage Status Bar -->
+                <div
+                    style="background:#fff;border-radius:8px;border:1px solid #e2e8f0;padding:8px 12px;margin-bottom:10px;display:flex;align-items:center;gap:12px">
+                    <div style="display:flex;align-items:center;gap:5px"><span class="material-icons-round"
+                            style="font-size:16px;color:#2563eb">pets</span><span
+                            style="font-size:11px;font-weight:600;color:#475569">Lưu Chuồng</span></div>
+                    <div style="display:flex;gap:6px;flex:1">
+                        <div
+                            style="display:flex;align-items:center;gap:3px;padding:3px 8px;background:#dbeafe;border-radius:5px">
+                            <div style="width:8px;height:8px;background:#2563eb;border-radius:2px"></div><span
+                                style="font-size:9px;font-weight:600;color:#2563eb">5 đang nội trú</span>
+                        </div>
+                        <div
+                            style="display:flex;align-items:center;gap:3px;padding:3px 8px;background:#dcfce7;border-radius:5px">
+                            <div style="width:8px;height:8px;background:#16a34a;border-radius:2px"></div><span
+                                style="font-size:9px;font-weight:600;color:#16a34a">3 trống</span>
+                        </div>
+                        <div
+                            style="display:flex;align-items:center;gap:3px;padding:3px 8px;background:#f1f5f9;border-radius:5px">
+                            <div style="width:8px;height:8px;background:#94a3b8;border-radius:2px"></div><span
+                                style="font-size:9px;font-weight:600;color:#64748b">2 bảo trì</span>
+                        </div>
+                    </div>
+                    <div style="display:flex;gap:3px">
+                        <div style="width:18px;height:18px;background:#2563eb;border-radius:3px;display:flex;align-items:center;justify-content:center;font-size:7px;color:#fff;font-weight:700"
+                            title="C01 — Max">C1</div>
+                        <div style="width:18px;height:18px;background:#2563eb;border-radius:3px;display:flex;align-items:center;justify-content:center;font-size:7px;color:#fff;font-weight:700"
+                            title="C02 — Bông">C2</div>
+                        <div style="width:18px;height:18px;background:#ef4444;border-radius:3px;display:flex;align-items:center;justify-content:center;font-size:7px;color:#fff;font-weight:700"
+                            title="C03 — Miu">C3</div>
+                        <div style="width:18px;height:18px;background:#2563eb;border-radius:3px;display:flex;align-items:center;justify-content:center;font-size:7px;color:#fff;font-weight:700"
+                            title="C04 — Lucky">C4</div>
+                        <div style="width:18px;height:18px;background:#2563eb;border-radius:3px;display:flex;align-items:center;justify-content:center;font-size:7px;color:#fff;font-weight:700"
+                            title="C05 — Cún">C5</div>
+                        <div
+                            style="width:18px;height:18px;background:#dcfce7;border:1px solid #bbf7d0;border-radius:3px;display:flex;align-items:center;justify-content:center;font-size:7px;color:#16a34a;font-weight:700">
+                            C6</div>
+                        <div
+                            style="width:18px;height:18px;background:#dcfce7;border:1px solid #bbf7d0;border-radius:3px;display:flex;align-items:center;justify-content:center;font-size:7px;color:#16a34a;font-weight:700">
+                            C7</div>
+                        <div
+                            style="width:18px;height:18px;background:#dcfce7;border:1px solid #bbf7d0;border-radius:3px;display:flex;align-items:center;justify-content:center;font-size:7px;color:#16a34a;font-weight:700">
+                            C8</div>
+                        <div
+                            style="width:18px;height:18px;background:#f1f5f9;border:1px solid #cbd5e1;border-radius:3px;display:flex;align-items:center;justify-content:center;font-size:7px;color:#94a3b8;font-weight:700">
+                            C9</div>
+                        <div
+                            style="width:18px;height:18px;background:#f1f5f9;border:1px solid #cbd5e1;border-radius:3px;display:flex;align-items:center;justify-content:center;font-size:7px;color:#94a3b8;font-weight:700">
+                            10</div>
+                    </div>
+                </div>
+                <!-- 2-Column Layout -->
+                <div style="display:grid;grid-template-columns:1fr 320px;gap:10px">
+                    <!-- Left: Activity Feed -->
+                    <div style="background:#fff;border-radius:8px;border:1px solid #e2e8f0;overflow:hidden">
+                        <div
+                            style="padding:8px 10px;border-bottom:1px solid #e2e8f0;font-size:11px;font-weight:600;color:#475569;display:flex;align-items:center;gap:5px">
+                            <span class="material-icons-round" style="font-size:14px;color:#2563eb">timeline</span>Hoạt
+                            Động Gần Đây
+                        </div>
+                        <div style="padding:8px 10px">
+                            <div
+                                style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid #f1f5f9">
+                                <div
+                                    style="width:28px;height:28px;background:#eff6ff;border-radius:6px;display:flex;align-items:center;justify-content:center">
+                                    <span class="material-icons-round"
+                                        style="font-size:14px;color:#2563eb">medical_services</span>
+                                </div>
+                                <div style="flex:1">
+                                    <div style="font-size:11px;font-weight:500">Ca khám mới — <b>Max (Corgi)</b></div>
+                                    <div style="font-size:9px;color:#94a3b8">BS. Trần • Viêm da dị ứng</div>
+                                </div>
+                                <div style="font-size:9px;color:#94a3b8">5 phút trước</div>
+                            </div>
+                            <div
+                                style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid #f1f5f9">
+                                <div
+                                    style="width:28px;height:28px;background:#dcfce7;border-radius:6px;display:flex;align-items:center;justify-content:center">
+                                    <span class="material-icons-round"
+                                        style="font-size:14px;color:#16a34a">payments</span>
+                                </div>
+                                <div style="flex:1">
+                                    <div style="font-size:11px;font-weight:500">Thanh toán — <b>850,000đ</b></div>
+                                    <div style="font-size:9px;color:#94a3b8">Nguyễn An • Max</div>
+                                </div>
+                                <div style="font-size:9px;color:#94a3b8">12 phút trước</div>
+                            </div>
+                            <div
+                                style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid #f1f5f9">
+                                <div
+                                    style="width:28px;height:28px;background:#fef3c7;border-radius:6px;display:flex;align-items:center;justify-content:center">
+                                    <span class="material-icons-round"
+                                        style="font-size:14px;color:#d97706">local_hospital</span>
+                                </div>
+                                <div style="flex:1">
+                                    <div style="font-size:11px;font-weight:500">Nhập chuồng C03 — <b>Miu (Ba Tư)</b>
+                                    </div>
+                                    <div style="font-size:9px;color:#94a3b8">Rối loạn tiêu hóa • BS. An</div>
+                                </div>
+                                <div style="font-size:9px;color:#94a3b8">30 phút trước</div>
+                            </div>
+                            <div
+                                style="display:flex;align-items:center;gap:8px;padding:6px 0;border-bottom:1px solid #f1f5f9">
+                                <div
+                                    style="width:28px;height:28px;background:#dcfce7;border-radius:6px;display:flex;align-items:center;justify-content:center">
+                                    <span class="material-icons-round"
+                                        style="font-size:14px;color:#16a34a">shopping_cart</span>
+                                </div>
+                                <div style="flex:1">
+                                    <div style="font-size:11px;font-weight:500">Bán hàng Petshop — <b>320,000đ</b></div>
+                                    <div style="font-size:9px;color:#94a3b8">Thức ăn Royal Canin x2</div>
+                                </div>
+                                <div style="font-size:9px;color:#94a3b8">1 giờ trước</div>
+                            </div>
+                            <div style="display:flex;align-items:center;gap:8px;padding:6px 0">
+                                <div
+                                    style="width:28px;height:28px;background:#fef2f2;border-radius:6px;display:flex;align-items:center;justify-content:center">
+                                    <span class="material-icons-round"
+                                        style="font-size:14px;color:#dc2626">medication</span>
+                                </div>
+                                <div style="flex:1">
+                                    <div style="font-size:11px;font-weight:500">Xuất thuốc — <b>Amoxicillin 250mg x2</b>
+                                    </div>
+                                    <div style="font-size:9px;color:#94a3b8">Ca CK-0215 • Max</div>
+                                </div>
+                                <div style="font-size:9px;color:#94a3b8">1 giờ trước</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right Column -->
+                    <div style="display:flex;flex-direction:column;gap:10px">
+                        <!-- Appointments Today -->
+                        <div style="background:#fff;border-radius:8px;border:1px solid #e2e8f0;overflow:hidden">
+                            <div
+                                style="padding:8px 10px;border-bottom:1px solid #e2e8f0;font-size:11px;font-weight:600;color:#475569;display:flex;align-items:center;gap:5px">
+                                <span class="material-icons-round" style="font-size:14px;color:#f59e0b">event</span>Lịch
+                                Hẹn Hôm Nay<span style="margin-left:auto" class="badge b-amber">3</span>
+                            </div>
+                            <div style="padding:6px 10px">
+                                <div
+                                    style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #f1f5f9">
+                                    <div style="width:4px;height:28px;background:#2563eb;border-radius:2px"></div>
+                                    <div style="flex:1">
+                                        <div style="font-size:11px;font-weight:500">Max — Tái khám</div>
+                                        <div style="font-size:9px;color:#94a3b8">Nguyễn An</div>
+                                    </div>
+                                    <div style="font-size:10px;font-weight:600;color:#2563eb">14:30</div>
+                                </div>
+                                <div
+                                    style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #f1f5f9">
+                                    <div style="width:4px;height:28px;background:#f59e0b;border-radius:2px"></div>
+                                    <div style="flex:1">
+                                        <div style="font-size:11px;font-weight:500">Miu — Tiêm phòng</div>
+                                        <div style="font-size:9px;color:#94a3b8">Trần Bình</div>
+                                    </div>
+                                    <div style="font-size:10px;font-weight:600;color:#f59e0b">15:00</div>
+                                </div>
+                                <div style="display:flex;align-items:center;gap:6px;padding:5px 0">
+                                    <div style="width:4px;height:28px;background:#10b981;border-radius:2px"></div>
+                                    <div style="flex:1">
+                                        <div style="font-size:11px;font-weight:500">Lucky — Khám tổng quát</div>
+                                        <div style="font-size:9px;color:#94a3b8">Lê Cường</div>
+                                    </div>
+                                    <div style="font-size:10px;font-weight:600;color:#10b981">16:00</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Nhắc nhở Lưu Chuồng -->
+                        <div style="background:#fff;border-radius:8px;border:1px solid #e2e8f0;overflow:hidden">
+                            <div
+                                style="padding:8px 10px;border-bottom:1px solid #e2e8f0;font-size:11px;font-weight:600;color:#475569;display:flex;align-items:center;gap:5px">
+                                <span class="material-icons-round"
+                                    style="font-size:14px;color:#f59e0b">notification_important</span>Nhắc Nhở Lưu
+                                Chuồng<span style="margin-left:auto" class="badge b-red">4</span>
+                            </div>
+                            <div style="padding:6px 10px">
+                                <div
+                                    style="display:flex;align-items:center;gap:6px;padding:5px 8px;background:#fef2f2;border-radius:6px;margin-bottom:4px">
+                                    <span class="material-icons-round"
+                                        style="font-size:14px;color:#ef4444">restaurant</span><span
+                                        style="font-size:10px;color:#dc2626;font-weight:500">C03 Miu — Cho ăn
+                                        12:00</span><span
+                                        style="margin-left:auto;font-size:9px;color:#ef4444;font-weight:600">Quá
+                                        giờ!</span>
+                                </div>
+                                <div
+                                    style="display:flex;align-items:center;gap:6px;padding:5px 8px;background:#fffbeb;border-radius:6px;margin-bottom:4px">
+                                    <span class="material-icons-round"
+                                        style="font-size:14px;color:#d97706">vaccines</span><span
+                                        style="font-size:10px;color:#d97706;font-weight:500">C01 Max — Tiêm thuốc
+                                        14:00</span><span style="margin-left:auto;font-size:9px;color:#d97706">30 phút
+                                        nữa</span>
+                                </div>
+                                <div
+                                    style="display:flex;align-items:center;gap:6px;padding:5px 8px;background:#eff6ff;border-radius:6px;margin-bottom:4px">
+                                    <span class="material-icons-round"
+                                        style="font-size:14px;color:#2563eb">output</span><span
+                                        style="font-size:10px;color:#2563eb;font-weight:500">C05 Cún — Xuất viện hôm
+                                        nay</span><span style="margin-left:auto;font-size:9px;color:#2563eb">Dự kiến
+                                        16:00</span>
+                                </div>
+                                <div
+                                    style="display:flex;align-items:center;gap:6px;padding:5px 8px;background:#f0fdf4;border-radius:6px">
+                                    <span class="material-icons-round"
+                                        style="font-size:14px;color:#16a34a">monitor_heart</span><span
+                                        style="font-size:10px;color:#16a34a;font-weight:500">C04 Lucky — Kiểm tra sức
+                                        khỏe</span><span
+                                        style="margin-left:auto;font-size:9px;color:#16a34a">15:00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Cảnh Báo Chung -->
+                        <div style="background:#fff;border-radius:8px;border:1px solid #e2e8f0;overflow:hidden">
+                            <div
+                                style="padding:8px 10px;border-bottom:1px solid #e2e8f0;font-size:11px;font-weight:600;color:#475569;display:flex;align-items:center;gap:5px">
+                                <span class="material-icons-round"
+                                    style="font-size:14px;color:#ef4444">warning</span>Cảnh Báo
+                            </div>
+                            <div style="padding:6px 10px">
+                                <div
+                                    style="display:flex;align-items:center;gap:6px;padding:5px 8px;background:#fef2f2;border-radius:6px;margin-bottom:4px">
+                                    <span class="material-icons-round"
+                                        style="font-size:14px;color:#ef4444">medication</span><span
+                                        style="font-size:10px;color:#dc2626;font-weight:500">3 thuốc sắp hết
+                                        hạn</span><span style="margin-left:auto;font-size:9px;color:#ef4444">Xem
+                                        →</span>
+                                </div>
+                                <div
+                                    style="display:flex;align-items:center;gap:6px;padding:5px 8px;background:#fffbeb;border-radius:6px">
+                                    <span class="material-icons-round"
+                                        style="font-size:14px;color:#f59e0b">inventory_2</span><span
+                                        style="font-size:10px;color:#d97706;font-weight:500">2 SP sắp hết
+                                        hàng</span><span style="margin-left:auto;font-size:9px;color:#f59e0b">Xem
+                                        →</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════ MOBILE ═══════ -->
+    <div class="section" style="color:#2563eb;border-color:#2563eb">📱 Mobile — Dashboard</div>
+    <div class="grid">
+        <div class="frame frame-m">
+            <div class="frame-label">Mobile — Dashboard</div>
+            <div class="status-bar"><span>9:41</span>
+                <div style="display:flex;gap:4px"><span class="material-icons-round"
+                        style="font-size:14px">signal_cellular_alt</span><span class="material-icons-round"
+                        style="font-size:14px">wifi</span><span class="material-icons-round"
+                        style="font-size:14px">battery_full</span></div>
+            </div>
+            <div
+                style="background:#fff;padding:10px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid #f1f5f9">
+                <span class="material-icons-round" style="font-size:22px;color:#475569">menu</span>
+                <div style="flex:1;font-size:15px;font-weight:700;color:#1e293b">Dashboard</div>
+                <div style="position:relative"><span class="material-icons-round"
+                        style="font-size:20px;color:#64748b">notifications</span>
+                    <div
+                        style="position:absolute;top:-4px;right:-4px;width:12px;height:12px;background:#ef4444;border-radius:99px;font-size:7px;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;border:2px solid #fff">
+                        2</div>
+                </div>
+                <span class="material-icons-round" style="font-size:20px;color:#10b981">cloud_done</span>
+            </div>
+            <div style="background:#f1f5f9;padding:12px">
+                <!-- Stats -->
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px">
+                    <div class="gcard" style="background:linear-gradient(135deg,#7c3aed,#a78bfa)">
+                        <div style="font-size:8px;opacity:.8">Ca khám</div>
+                        <div style="font-size:20px;font-weight:800">12</div>
+                    </div>
+                    <div class="gcard" style="background:linear-gradient(135deg,#2563eb,#60a5fa)">
+                        <div style="font-size:8px;opacity:.8">Nội trú</div>
+                        <div style="font-size:20px;font-weight:800">5</div>
+                    </div>
+                    <div class="gcard" style="background:linear-gradient(135deg,#0891b2,#22d3ee)">
+                        <div style="font-size:8px;opacity:.8">Doanh thu</div>
+                        <div style="font-size:20px;font-weight:800">4.2tr</div>
+                    </div>
+                    <div class="gcard" style="background:linear-gradient(135deg,#d97706,#fbbf24)">
+                        <div style="font-size:8px;opacity:.8">Lịch hẹn</div>
+                        <div style="font-size:20px;font-weight:800">3</div>
+                    </div>
+                </div>
+                <!-- Appointments -->
+                <div
+                    style="background:#fff;border-radius:10px;padding:10px;border:1px solid #e2e8f0;margin-bottom:10px">
+                    <div
+                        style="font-size:11px;font-weight:600;color:#1e293b;margin-bottom:6px;display:flex;align-items:center;gap:4px">
+                        <span class="material-icons-round" style="font-size:14px;color:#f59e0b">event</span>Lịch hẹn hôm
+                        nay
+                    </div>
+                    <div
+                        style="display:flex;align-items:center;gap:6px;padding:6px;background:#f8fafc;border-radius:6px;margin-bottom:4px">
+                        <div style="width:4px;height:28px;background:#2563eb;border-radius:2px"></div>
+                        <div style="flex:1">
+                            <div style="font-size:11px;font-weight:600">Max — Tái khám</div>
+                            <div style="font-size:9px;color:#64748b">Nguyễn An</div>
+                        </div>
+                        <div style="font-size:10px;font-weight:600;color:#2563eb">14:30</div>
+                    </div>
+                    <div
+                        style="display:flex;align-items:center;gap:6px;padding:6px;background:#f8fafc;border-radius:6px;margin-bottom:4px">
+                        <div style="width:4px;height:28px;background:#f59e0b;border-radius:2px"></div>
+                        <div style="flex:1">
+                            <div style="font-size:11px;font-weight:600">Miu — Tiêm phòng</div>
+                            <div style="font-size:9px;color:#64748b">Trần Bình</div>
+                        </div>
+                        <div style="font-size:10px;font-weight:600;color:#f59e0b">15:00</div>
+                    </div>
+                </div>
+                <!-- Alerts -->
+                <div style="background:#fff;border-radius:10px;padding:10px;border:1px solid #e2e8f0">
+                    <div
+                        style="font-size:11px;font-weight:600;color:#1e293b;margin-bottom:6px;display:flex;align-items:center;gap:4px">
+                        <span class="material-icons-round" style="font-size:14px;color:#ef4444">warning</span>Cảnh báo
+                    </div>
+                    <div
+                        style="display:flex;align-items:center;gap:6px;padding:5px 8px;background:#fef2f2;border-radius:6px;margin-bottom:4px">
+                        <span class="material-icons-round" style="font-size:14px;color:#ef4444">medication</span><span
+                            style="font-size:10px;color:#dc2626;font-weight:500">3 thuốc sắp hết hạn</span>
+                    </div>
+                    <div
+                        style="display:flex;align-items:center;gap:6px;padding:5px 8px;background:#fffbeb;border-radius:6px">
+                        <span class="material-icons-round" style="font-size:14px;color:#f59e0b">inventory_2</span><span
+                            style="font-size:10px;color:#d97706;font-weight:500">2 SP sắp hết hàng</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Bottom Nav -->
+            <div style="background:#fff;border-top:1px solid #e2e8f0;display:flex;padding:6px 0 10px">
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#2563eb"><span
+                        class="material-icons-round" style="font-size:22px">dashboard</span><span
+                        style="font-size:8px;font-weight:600">Tổng Quan</span></div>
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#94a3b8"><span
+                        class="material-icons-round" style="font-size:22px">medical_services</span><span
+                        style="font-size:8px">Ca Khám</span></div>
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#94a3b8"><span
+                        class="material-icons-round" style="font-size:22px">local_hospital</span><span
+                        style="font-size:8px">Nội Trú</span></div>
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#94a3b8"><span
+                        class="material-icons-round" style="font-size:22px">medication</span><span
+                        style="font-size:8px">Kho Thuốc</span></div>
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#94a3b8"><span
+                        class="material-icons-round" style="font-size:22px">more_horiz</span><span
+                        style="font-size:8px">Thêm</span></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

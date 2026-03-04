@@ -1,0 +1,2332 @@
+[2026-02-12T21:11:00.371038] Starting _initDatabase
+[2026-02-12T21:11:00.878001] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-12T21:11:01.285526] openDatabase success
+[2026-02-12T21:15:18.660847] Starting _initDatabase
+[2026-02-12T21:15:19.277992] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-12T21:15:19.631611] openDatabase success
+[2026-02-13T11:34:46.734139] Starting _initDatabase
+[2026-02-13T11:34:47.422895] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T11:34:47.867709] openDatabase success
+[2026-02-13T11:38:13.231091] Starting _initDatabase
+[2026-02-13T11:38:13.753892] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T11:38:14.034777] openDatabase success
+[2026-02-13T11:49:24.646435] Starting _initDatabase
+[2026-02-13T11:49:24.958396] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T11:49:25.164613] openDatabase success
+[2026-02-13T11:54:27.331436] Starting _initDatabase
+[2026-02-13T11:54:27.724837] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T11:54:27.969848] openDatabase success
+[2026-02-13T11:54:28.003307] Safety: Adding is_active to customers
+[2026-02-13T11:54:28.141830] Safety: Adding is_active to pets
+[2026-02-13T11:54:28.174795] Safety: Adding is_active to medical_cases
+[2026-02-13T11:54:28.191226] Safety: Adding is_active to case_services
+[2026-02-13T11:54:28.220112] Safety: Adding is_active to appointments
+[2026-02-13T11:54:28.230393] Safety: Adding is_active to medicine_transactions
+[2026-02-13T11:54:28.256588] Safety: Adding is_active to hospitalizations
+[2026-02-13T11:54:28.269795] Safety: Adding is_active to cages
+[2026-02-13T11:54:28.285606] Safety: Adding is_active to hospitalization_treatments
+[2026-02-13T11:54:28.304437] Safety: Adding is_active to vital_sign_logs
+[2026-02-13T11:54:28.336241] Safety: Adding is_active to product_sales
+[2026-02-13T11:54:28.366188] Safety: Adding is_active to expenses
+[2026-02-13T11:54:28.388506] Safety: Adding is_active to hospitalization_dailies
+[2026-02-13T12:01:21.715553] Starting _initDatabase
+[2026-02-13T12:01:22.233940] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T12:01:22.510491] openDatabase success
+[2026-02-13T14:14:46.755660] Starting _initDatabase
+[2026-02-13T14:14:47.098779] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T14:14:47.380195] openDatabase success
+[2026-02-13T14:48:59.706508] Starting _initDatabase
+[2026-02-13T14:49:00.023158] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T14:49:00.218499] openDatabase success
+[2026-02-13T15:02:24.903761] Starting _initDatabase
+[2026-02-13T15:02:25.447347] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T15:02:25.711286] openDatabase success
+[2026-02-13T15:02:25.881757] Safety: Adding created_at to case_services
+[2026-02-13T15:02:25.960170] Safety: Adding created_at to cages
+[2026-02-13T15:08:38.338520] Starting _initDatabase
+[2026-02-13T15:08:38.647900] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T15:08:38.858412] openDatabase success
+[2026-02-13T15:14:31.182249] Starting _initDatabase
+[2026-02-13T15:14:31.495937] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T15:14:31.695318] openDatabase success
+[2026-02-13T15:19:02.268278] Starting _initDatabase
+[2026-02-13T15:19:02.895786] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T15:19:03.106944] openDatabase success
+[2026-02-13T15:32:16.245760] Starting _initDatabase
+[2026-02-13T15:32:16.556856] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T15:32:16.773094] openDatabase success
+[2026-02-13T15:38:48.502315] Starting _initDatabase
+[2026-02-13T15:38:48.818020] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T15:38:49.023307] openDatabase success
+[2026-02-13T15:40:37.952323] Starting _initDatabase
+[2026-02-13T15:40:38.261386] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T15:40:38.467290] openDatabase success
+[2026-02-13T16:17:44.994361] Starting _initDatabase
+[2026-02-13T16:17:46.065249] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T16:17:46.633804] openDatabase success
+[2026-02-13T16:23:47.920233] Starting _initDatabase
+[2026-02-13T16:23:48.430164] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T16:23:48.792313] openDatabase success
+[2026-02-13T16:35:00.040188] Starting _initDatabase
+[2026-02-13T16:35:00.738528] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T16:35:01.202105] openDatabase success
+[2026-02-13T16:41:25.609935] Starting _initDatabase
+[2026-02-13T16:41:26.073059] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T16:41:26.366831] openDatabase success
+[2026-02-13T16:48:10.727963] Starting _initDatabase
+[2026-02-13T16:48:11.191814] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T16:48:11.466937] openDatabase success
+[2026-02-13T16:56:19.911801] Starting _initDatabase
+[2026-02-13T16:56:20.980070] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T16:56:21.410878] openDatabase success
+[2026-02-13T17:02:07.604439] Starting _initDatabase
+[2026-02-13T17:02:08.075860] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T17:02:08.354304] openDatabase success
+[2026-02-13T17:05:02.002751] Starting _initDatabase
+[2026-02-13T17:05:02.513906] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T17:05:02.860689] openDatabase success
+[2026-02-13T17:10:18.846303] Starting _initDatabase
+[2026-02-13T17:10:19.218536] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T17:10:19.564980] openDatabase success
+[2026-02-13T17:35:58.565861] Starting _initDatabase
+[2026-02-13T17:35:58.911801] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T17:35:59.133980] openDatabase success
+[2026-02-13T17:40:43.432985] Starting _initDatabase
+[2026-02-13T17:40:43.829083] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T17:40:44.129802] openDatabase success
+[2026-02-13T17:47:47.710602] Starting _initDatabase
+[2026-02-13T17:47:48.505563] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T17:47:48.851827] openDatabase success
+[2026-02-13T17:53:24.043209] Starting _initDatabase
+[2026-02-13T17:53:24.817055] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T17:53:25.238661] openDatabase success
+[2026-02-13T17:53:25.585747] UUID-FIX: Found 3 non-UUID IDs in staff
+[2026-02-13T17:53:25.626122] UUID-FIX: staff/staff_anh → 82b547d4-6519-4aed-98f4-049f1f04072c
+[2026-02-13T17:53:25.786551] UUID-FIX: staff/staff_tra → 2afa54e4-90fa-49d0-bae4-04e82e06fa8d
+[2026-02-13T17:53:25.803557] UUID-FIX: staff/staff_tuan → 03edce9a-9eb7-462f-a0f9-6e3f68fb0de9
+[2026-02-13T17:53:25.833384] UUID-FIX: Found 5 non-UUID IDs in cages
+[2026-02-13T17:53:25.950859] UUID-FIX: cages/cage_c1 → d40d48dc-2bb0-41e5-a285-f91c154c829d
+[2026-02-13T17:53:25.960104] UUID-FIX: cages/cage_c2 → be8355c0-96aa-4eea-a604-0bec60ec673a
+[2026-02-13T17:53:25.987804] UUID-FIX: cages/cage_d1 → ce48d07b-0fb4-4427-95f5-9e3b9bf860c6
+[2026-02-13T17:53:26.102951] UUID-FIX: cages/cage_d2 → 7012703e-527f-47ef-aca6-785628e958d1
+[2026-02-13T17:53:26.120360] UUID-FIX: cages/cage_iso → f1739f29-d8fe-4c4c-9666-192afe026c11
+[2026-02-13T17:53:26.137398] UUID-FIX: Found 1 non-UUID IDs in expenses
+[2026-02-13T17:53:26.177052] UUID-FIX: expenses/1769082573870 → ac584e5b-6e00-40f6-827d-65aa190a3ecf
+[2026-02-13T17:56:52.961082] Starting _initDatabase
+[2026-02-13T17:56:53.719024] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T17:56:54.092949] openDatabase success
+[2026-02-13T18:35:29.605345] Starting _initDatabase
+[2026-02-13T18:35:30.897462] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T18:35:31.556960] openDatabase success
+[2026-02-13T19:03:31.414803] Starting _initDatabase
+[2026-02-13T19:03:32.244544] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T19:03:32.725736] openDatabase success
+[2026-02-13T19:11:51.474141] Starting _initDatabase
+[2026-02-13T19:11:52.220147] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-13T19:11:52.666181] openDatabase success
+[2026-02-14T08:13:47.192541] Starting _initDatabase
+[2026-02-14T08:13:47.865252] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-14T08:13:48.328271] openDatabase success
+[2026-02-14T08:17:12.979691] Starting _initDatabase
+[2026-02-14T08:17:13.481523] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-14T08:17:13.779591] openDatabase success
+[2026-02-14T08:21:25.353165] Starting _initDatabase
+[2026-02-14T08:21:25.799801] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-14T08:21:26.237998] openDatabase success
+[2026-02-14T08:21:26.350385] Safety: Adding is_active to case_services
+[2026-02-14T08:24:16.309020] Starting _initDatabase
+[2026-02-14T08:24:16.846270] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-14T08:24:17.142169] openDatabase success
+[2026-02-14T08:28:22.929504] Starting _initDatabase
+[2026-02-14T08:28:23.501530] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-14T08:28:23.889449] openDatabase success
+[2026-02-14T08:31:53.454858] Starting _initDatabase
+[2026-02-14T08:31:54.251317] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-14T08:31:54.646929] openDatabase success
+[2026-02-14T08:35:00.080374] Starting _initDatabase
+[2026-02-14T08:35:00.746153] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-14T08:35:01.077115] openDatabase success
+[2026-02-14T10:37:16.756124] Starting _initDatabase
+[2026-02-14T10:37:17.263049] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-14T10:37:17.651465] openDatabase success
+[2026-02-14T10:43:57.646584] Starting _initDatabase
+[2026-02-14T10:43:58.119372] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-14T10:43:58.417883] openDatabase success
+[2026-02-14T10:43:58.667159] UUID-FIX: Found 1 non-UUID IDs in expenses
+[2026-02-14T10:43:58.732504] UUID-FIX: expenses/1771040398139 → 638a2097-eb58-4d32-9be7-0a0bc85bfc3e
+[2026-02-14T10:47:48.291131] Starting _initDatabase
+[2026-02-14T10:47:48.807782] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-14T10:47:49.093324] openDatabase success
+[2026-02-14T10:50:36.609054] Starting _initDatabase
+[2026-02-14T10:50:37.054919] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-14T10:50:37.316935] openDatabase success
+[2026-02-14T10:54:12.639040] Starting _initDatabase
+[2026-02-14T10:54:13.182821] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-14T10:54:13.499547] openDatabase success
+[2026-02-14T16:12:56.103978] Starting _initDatabase
+[2026-02-14T16:12:56.700315] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-14T16:12:57.035430] openDatabase success
+[2026-02-14T16:19:04.117258] Starting _initDatabase
+[2026-02-14T16:19:04.696447] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-14T16:19:05.016053] openDatabase success
+[2026-02-14T16:22:29.850220] Starting _initDatabase
+[2026-02-14T16:22:30.436260] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-14T16:22:30.833566] openDatabase success
+[2026-02-14T23:11:40.119932] Starting _initDatabase
+[2026-02-14T23:11:41.050715] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-14T23:11:41.722101] openDatabase success
+[2026-02-14T23:35:24.012273] Starting _initDatabase
+[2026-02-14T23:35:24.683359] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-14T23:35:25.033505] openDatabase success
+[2026-02-14T23:40:24.971286] Starting _initDatabase
+[2026-02-14T23:40:25.616065] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-14T23:40:26.033417] openDatabase success
+[2026-02-14T23:43:31.961852] Starting _initDatabase
+[2026-02-14T23:43:32.483289] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-14T23:43:32.763982] openDatabase success
+[2026-02-15T20:10:47.265636] Starting _initDatabase
+[2026-02-15T20:10:47.892327] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-15T20:10:48.322921] openDatabase success
+[2026-02-15T20:15:53.263737] Starting _initDatabase
+[2026-02-15T20:15:53.585352] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-15T20:15:53.798656] openDatabase success
+[2026-02-15T20:24:39.705353] Starting _initDatabase
+[2026-02-15T20:24:40.288395] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-15T20:24:40.624605] openDatabase success
+[2026-02-15T20:30:43.493954] Starting _initDatabase
+[2026-02-15T20:30:43.929521] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-15T20:30:44.153105] openDatabase success
+[2026-02-15T20:40:06.538455] Starting _initDatabase
+[2026-02-15T20:40:10.068289] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-15T20:40:11.495725] openDatabase success
+[2026-02-15T20:59:13.799455] Starting _initDatabase
+[2026-02-15T20:59:14.349247] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-15T20:59:16.684649] openDatabase success
+[2026-02-15T20:59:16.870281] UUID-FIX: Found 1 non-UUID IDs in expenses
+[2026-02-15T20:59:21.017169] UUID-FIX: expenses/1771163712677 → 3a1ce923-de14-4182-88f4-8c6dc02bf589
+[2026-02-15T21:01:25.801929] Starting _initDatabase
+[2026-02-15T21:01:26.148014] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-15T21:01:26.355336] openDatabase success
+[2026-02-15T21:05:29.452332] Starting _initDatabase
+[2026-02-15T21:05:29.861473] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-15T21:05:30.170285] openDatabase success
+[2026-02-15T21:08:34.881363] Starting _initDatabase
+[2026-02-15T21:08:35.217245] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-15T21:08:35.465021] openDatabase success
+[2026-02-15T21:26:04.156789] Starting _initDatabase
+[2026-02-15T21:26:04.575438] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-15T21:26:04.780483] openDatabase success
+[2026-02-15T21:26:05.022409] UUID-FIX: Found 1 non-UUID IDs in expenses
+[2026-02-15T21:26:05.063302] UUID-FIX: expenses/1771164542570 → 54026792-5a8e-4a42-8235-d3e0dcd1533e
+[2026-02-15T21:48:22.734892] Starting _initDatabase
+[2026-02-15T21:48:23.090689] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-15T21:48:23.432095] openDatabase success
+[2026-02-15T22:10:04.827111] Starting _initDatabase
+[2026-02-15T22:10:06.318182] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-15T22:10:07.241472] openDatabase success
+[2026-02-16T17:36:53.462540] Starting _initDatabase
+[2026-02-16T17:36:54.063186] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-16T17:36:54.567081] openDatabase success
+[2026-02-16T18:03:01.642341] Starting _initDatabase
+[2026-02-16T18:03:01.995032] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-16T18:03:02.305115] openDatabase success
+[2026-02-16T21:37:12.701062] Starting _initDatabase
+[2026-02-16T21:37:13.012560] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-16T21:37:13.277676] openDatabase success
+[2026-02-16T21:47:56.352458] Starting _initDatabase
+[2026-02-16T21:47:56.747427] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-16T21:47:57.031523] openDatabase success
+[2026-02-16T22:36:30.599795] Starting _initDatabase
+[2026-02-16T22:36:31.192350] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-16T22:36:31.474654] openDatabase success
+[2026-02-16T22:38:00.567554] Starting _initDatabase
+[2026-02-16T22:38:00.884579] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-16T22:38:01.095821] openDatabase success
+[2026-02-16T22:44:11.331421] Starting _initDatabase
+[2026-02-16T22:44:12.079058] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-16T22:44:12.934478] openDatabase success
+[2026-02-16T22:48:30.221573] Starting _initDatabase
+[2026-02-16T22:48:30.611925] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-16T22:48:30.845589] openDatabase success
+[2026-02-16T22:52:09.717856] Starting _initDatabase
+[2026-02-16T22:52:10.031368] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-16T22:52:10.228524] openDatabase success
+[2026-02-16T23:03:44.479930] Starting _initDatabase
+[2026-02-16T23:03:44.806573] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-16T23:03:45.028698] openDatabase success
+[2026-02-16T23:13:31.063109] Starting _initDatabase
+[2026-02-16T23:13:31.679807] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-16T23:13:31.960030] openDatabase success
+[2026-02-16T23:18:21.106292] Starting _initDatabase
+[2026-02-16T23:18:21.427553] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-16T23:18:21.664373] openDatabase success
+[2026-02-16T23:23:43.561493] Starting _initDatabase
+[2026-02-16T23:23:44.151112] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-16T23:23:44.376315] openDatabase success
+[2026-02-16T23:42:10.145912] Starting _initDatabase
+[2026-02-16T23:42:10.472732] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-16T23:42:10.683857] openDatabase success
+[2026-02-16T23:46:05.443931] Starting _initDatabase
+[2026-02-16T23:46:05.800512] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-16T23:46:06.082520] openDatabase success
+[2026-02-16T23:51:57.301376] Starting _initDatabase
+[2026-02-16T23:51:57.610888] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-16T23:51:57.926928] openDatabase success
+[2026-02-17T00:25:56.309565] Starting _initDatabase
+[2026-02-17T00:25:56.638074] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-17T00:25:56.858440] openDatabase success
+[2026-02-17T00:30:39.884759] Starting _initDatabase
+[2026-02-17T00:30:40.252610] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-17T00:30:40.499766] openDatabase success
+[2026-02-17T00:34:21.856130] Starting _initDatabase
+[2026-02-17T00:34:22.227478] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-17T00:34:22.449034] openDatabase success
+[2026-02-17T00:38:20.121337] Starting _initDatabase
+[2026-02-17T00:38:20.489918] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-17T00:38:20.733880] openDatabase success
+[2026-02-17T11:53:32.268359] Starting _initDatabase
+[2026-02-17T11:53:33.053508] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-17T11:53:33.436001] openDatabase success
+[2026-02-17T12:04:43.985175] Starting _initDatabase
+[2026-02-17T12:04:44.544122] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-17T12:04:44.881341] openDatabase success
+[2026-02-17T12:09:15.700086] Starting _initDatabase
+[2026-02-17T12:09:16.297309] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-17T12:09:16.693977] openDatabase success
+[2026-02-17T12:23:26.913212] Starting _initDatabase
+[2026-02-17T12:23:27.566408] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-17T12:23:27.938058] openDatabase success
+[2026-02-17T12:30:34.962157] Starting _initDatabase
+[2026-02-17T12:30:36.953640] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-17T12:30:37.861677] openDatabase success
+[2026-02-17T12:36:18.709407] Starting _initDatabase
+[2026-02-17T12:36:19.785629] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-17T12:36:20.388869] openDatabase success
+[2026-02-17T20:45:15.419351] Starting _initDatabase
+[2026-02-17T20:45:15.844146] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-17T20:45:16.171731] openDatabase success
+[2026-02-17T21:34:55.510985] Starting _initDatabase
+[2026-02-17T21:34:55.822590] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-17T21:34:56.038609] openDatabase success
+[2026-02-17T21:37:10.437403] Starting _initDatabase
+[2026-02-17T21:37:10.953472] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-17T21:37:11.294205] openDatabase success
+[2026-02-17T22:20:31.275576] Starting _initDatabase
+[2026-02-17T22:20:31.724556] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-17T22:20:32.054416] openDatabase success
+[2026-02-17T22:44:56.423875] Starting _initDatabase
+[2026-02-17T22:44:57.092844] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-17T22:44:57.476397] openDatabase success
+[2026-02-18T17:07:15.423322] Starting _initDatabase
+[2026-02-18T17:07:16.006300] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-18T17:07:16.549660] openDatabase success
+[2026-02-18T17:33:12.645551] Starting _initDatabase
+[2026-02-18T17:33:13.073290] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-18T17:33:14.150024] openDatabase success
+[2026-02-18T18:24:08.150076] Starting _initDatabase
+[2026-02-18T18:24:08.621884] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-18T18:24:13.232628] openDatabase success
+[2026-02-18T18:24:13.361929] Safety: Adding is_active to customers
+[2026-02-18T18:24:14.725060] Safety: Adding is_active to pets
+[2026-02-18T18:24:15.172891] Safety: Adding is_active to medical_cases
+[2026-02-18T18:24:15.893771] Safety: Adding is_active to case_services
+[2026-02-18T18:24:15.983931] Safety: Adding is_active to appointments
+[2026-02-18T18:24:16.046758] Safety: Adding is_active to medicine_transactions
+[2026-02-18T18:24:16.086170] Safety: Adding is_active to hospitalizations
+[2026-02-18T18:24:16.164218] Safety: Adding is_active to cages
+[2026-02-18T18:24:16.232305] Safety: Adding is_active to hospitalization_treatments
+[2026-02-18T18:24:16.318903] Safety: Adding is_active to vital_sign_logs
+[2026-02-18T18:24:16.429674] Safety: Adding is_active to product_sales
+[2026-02-18T18:24:16.498653] Safety: Adding is_active to expenses
+[2026-02-18T18:24:16.545990] Safety: Adding _version to case_attachments
+[2026-02-18T18:24:16.691775] Safety: Adding is_active to hospitalization_dailies
+[2026-02-18T18:24:16.715796] UUID-FIX: Found 7 non-UUID IDs in staff
+[2026-02-18T18:24:20.368970] UUID-FIX: staff/staff_anh → ed0efbbc-cbfd-45a1-ab30-e0fcc8ccd5d5
+[2026-02-18T18:24:22.443481] UUID-FIX: staff/staff_duc → 5628bdbb-7b8d-4c66-84a8-75027e5370a8
+[2026-02-18T18:24:24.871659] UUID-FIX: staff/staff_linh → 2618c129-ad34-48e5-99e6-b6cf36e124db
+[2026-02-18T18:24:27.529775] UUID-FIX: staff/staff_nhung → bc462039-48c5-490f-8bfb-f98d504fd2a7
+[2026-02-18T18:24:29.734826] UUID-FIX: staff/staff_thay → a57410f6-6eab-4ebe-b055-a325a1962aa5
+[2026-02-18T18:24:30.274838] UUID-FIX: staff/staff_tra → fe420769-5d58-4c56-b35b-d578634e3631
+[2026-02-18T18:24:30.371596] UUID-FIX: staff/staff_tuan → 2d736393-4517-4604-9806-9e963ac82e17
+[2026-02-18T18:36:56.097712] Starting _initDatabase
+[2026-02-18T18:36:56.807531] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-18T18:36:57.464748] openDatabase success
+[2026-02-18T18:36:57.493261] Safety: Adding is_active to customers
+[2026-02-18T18:36:57.514785] Safety: Adding is_active to pets
+[2026-02-18T18:36:57.570557] Safety: Adding is_active to medical_cases
+[2026-02-18T18:36:57.670860] Safety: Adding is_active to case_services
+[2026-02-18T18:36:57.722928] Safety: Adding is_active to appointments
+[2026-02-18T18:36:57.792261] Safety: Adding is_active to medicine_transactions
+[2026-02-18T18:36:57.814638] Safety: Adding is_active to hospitalizations
+[2026-02-18T18:36:57.929131] Safety: Adding is_active to cages
+[2026-02-18T18:36:57.976205] Safety: Adding is_active to hospitalization_treatments
+[2026-02-18T18:36:58.010559] Safety: Adding is_active to vital_sign_logs
+[2026-02-18T18:36:58.064966] Safety: Adding is_active to product_sales
+[2026-02-18T18:36:58.156266] Safety: Adding is_active to expenses
+[2026-02-18T18:36:58.173196] Safety: Adding _version to case_attachments
+[2026-02-18T18:36:58.232210] Safety: Adding is_active to hospitalization_dailies
+[2026-02-18T18:36:58.266942] UUID-FIX: Found 7 non-UUID IDs in staff
+[2026-02-18T18:36:58.290583] UUID-FIX: staff/staff_anh → 83314fcf-11f9-4edc-b29a-f9514e17fc1e
+[2026-02-18T18:36:58.302151] UUID-FIX: staff/staff_duc → ac5bde39-5f3e-45f0-ac8a-6770e5cd807d
+[2026-02-18T18:36:58.542200] UUID-FIX: staff/staff_linh → ade96ae0-0862-4842-a2a4-d88e0c964c7d
+[2026-02-18T18:36:58.622937] UUID-FIX: staff/staff_nhung → 76ee668c-aee2-4a46-bc60-259568a2e655
+[2026-02-18T18:36:58.632145] UUID-FIX: staff/staff_thay → a1ae6a02-22d0-4fb6-81cf-576afaea53a2
+[2026-02-18T18:36:58.655942] UUID-FIX: staff/staff_tra → a0081259-306c-497c-b10f-e498d5c61537
+[2026-02-18T18:36:58.727353] UUID-FIX: staff/staff_tuan → f9c86efe-64f8-4fa7-a205-9cc026bae255
+[2026-02-18T18:50:13.055767] Starting _initDatabase
+[2026-02-18T18:50:13.507444] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-18T18:50:13.784755] openDatabase success
+[2026-02-18T18:53:20.293305] Starting _initDatabase
+[2026-02-18T18:53:20.732052] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-18T18:53:21.073059] openDatabase success
+[2026-02-18T18:56:42.850582] Starting _initDatabase
+[2026-02-18T18:56:43.211439] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-18T18:56:43.439351] openDatabase success
+[2026-02-18T19:03:03.663758] Starting _initDatabase
+[2026-02-18T19:03:04.007734] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-18T19:03:04.217124] openDatabase success
+[2026-02-18T19:05:15.282320] Starting _initDatabase
+[2026-02-18T19:05:15.685790] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-18T19:05:15.935697] openDatabase success
+[2026-02-18T19:06:38.854877] Starting _initDatabase
+[2026-02-18T19:06:39.297090] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-18T19:06:39.579113] openDatabase success
+[2026-02-18T19:09:56.465852] Starting _initDatabase
+[2026-02-18T19:09:56.930395] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-18T19:09:57.142016] openDatabase success
+[2026-02-18T19:12:28.912378] Starting _initDatabase
+[2026-02-18T19:12:29.383394] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-18T19:12:29.700697] openDatabase success
+[2026-02-18T19:14:34.503189] Starting _initDatabase
+[2026-02-18T19:14:34.887140] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-18T19:14:35.151433] openDatabase success
+[2026-02-18T19:16:18.717491] Starting _initDatabase
+[2026-02-18T19:16:19.086998] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-18T19:16:19.334090] openDatabase success
+[2026-02-18T19:17:33.284727] Starting _initDatabase
+[2026-02-18T19:17:34.002348] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-18T19:17:34.350572] openDatabase success
+[2026-02-18T19:25:53.593675] Starting _initDatabase
+[2026-02-18T19:25:54.021710] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-18T19:25:54.454856] openDatabase success
+[2026-02-18T19:37:47.784732] Starting _initDatabase
+[2026-02-18T19:37:48.500510] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-18T19:37:48.890103] openDatabase success
+[2026-02-18T19:53:57.105984] Starting _initDatabase
+[2026-02-18T19:53:57.593774] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-18T19:53:57.835605] openDatabase success
+[2026-02-19T13:39:33.013044] Starting _initDatabase
+[2026-02-19T13:39:33.907856] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T13:39:37.713053] openDatabase success
+[2026-02-19T14:04:24.248108] Starting _initDatabase
+[2026-02-19T14:04:24.875988] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T14:04:25.437362] openDatabase success
+[2026-02-19T16:23:03.966417] Starting _initDatabase
+[2026-02-19T16:23:04.297667] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T16:23:04.585707] openDatabase success
+[2026-02-19T16:31:03.626573] Starting _initDatabase
+[2026-02-19T16:31:03.933864] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T16:31:04.139820] openDatabase success
+[2026-02-19T16:34:15.997735] Starting _initDatabase
+[2026-02-19T16:34:16.364864] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T16:34:16.598823] openDatabase success
+[2026-02-19T16:43:02.086027] Starting _initDatabase
+[2026-02-19T16:43:02.405695] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T16:43:02.585731] openDatabase success
+[2026-02-19T17:00:10.897520] Starting _initDatabase
+[2026-02-19T17:00:11.446711] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T17:00:11.651059] openDatabase success
+[2026-02-19T17:52:42.296579] Starting _initDatabase
+[2026-02-19T17:52:42.761263] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T17:52:43.212217] openDatabase success
+[2026-02-19T18:04:52.761170] Starting _initDatabase
+[2026-02-19T18:04:53.354186] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T18:04:53.671036] openDatabase success
+[2026-02-19T19:14:55.055366] Starting _initDatabase
+[2026-02-19T19:14:55.610309] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T19:14:55.854974] openDatabase success
+[2026-02-19T19:35:55.140843] Starting _initDatabase
+[2026-02-19T19:35:56.086509] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T19:35:56.653791] openDatabase success
+[2026-02-19T20:32:30.045079] Starting _initDatabase
+[2026-02-19T20:32:30.597779] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T20:32:31.058506] openDatabase success
+[2026-02-19T20:32:31.612631] UUID-FIX: Found 10 non-UUID IDs in services
+[2026-02-19T20:32:31.719064] UUID-FIX: services/svc_anesthesia → 30121995-d1fe-444b-b056-c6205e9cd496
+[2026-02-19T20:32:31.726173] UUID-FIX: services/svc_checkup → 8ed971e9-3541-434f-a2d8-05d64d4c965d
+[2026-02-19T20:32:31.785875] UUID-FIX: services/svc_emergency → 1ccc2c29-09c2-4d2e-96e5-945dac140c1d
+[2026-02-19T20:32:31.882149] UUID-FIX: services/svc_hospital → 497bae94-a69c-438e-b508-fd527c96f380
+[2026-02-19T20:32:31.891046] UUID-FIX: services/svc_medication → efe98470-7413-4205-aef9-c8a2772ce7a2
+[2026-02-19T20:32:31.918957] UUID-FIX: services/svc_microchip → 3c788b88-b412-4972-b158-0e0c526d8702
+[2026-02-19T20:32:31.956149] UUID-FIX: services/svc_surgery → 949746cc-b743-4df7-89d8-f0f1ed58afa9
+[2026-02-19T20:32:32.021812] UUID-FIX: services/svc_ultrasound → 21390448-849c-476a-8d9f-134ba9708d4e
+[2026-02-19T20:32:32.058815] UUID-FIX: services/svc_vaccine → cb73f9db-8ac0-4ad3-a98d-30553e1a90df
+[2026-02-19T20:32:32.094662] UUID-FIX: services/svc_xray → eede4091-7aa7-4f26-891d-dbc81d336462
+[2026-02-19T21:59:47.408849] Starting _initDatabase
+[2026-02-19T21:59:47.961308] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T21:59:48.392355] openDatabase success
+[2026-02-19T22:04:02.846974] Starting _initDatabase
+[2026-02-19T22:04:03.590136] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T22:04:03.976684] openDatabase success
+[2026-02-19T22:12:23.510319] Starting _initDatabase
+[2026-02-19T22:12:24.051715] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T22:12:24.406420] openDatabase success
+[2026-02-19T22:14:56.407311] Starting _initDatabase
+[2026-02-19T22:14:57.265915] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T22:14:58.341202] openDatabase success
+[2026-02-19T22:19:40.089135] Starting _initDatabase
+[2026-02-19T22:19:40.994125] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T22:19:41.461580] openDatabase success
+[2026-02-19T22:22:58.818357] Starting _initDatabase
+[2026-02-19T22:22:59.393995] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T22:23:00.162679] openDatabase success
+[2026-02-19T22:25:22.098910] Starting _initDatabase
+[2026-02-19T22:25:22.715417] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T22:25:23.061668] openDatabase success
+[2026-02-19T22:26:32.078920] Starting _initDatabase
+[2026-02-19T22:26:32.757690] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T22:26:33.337904] openDatabase success
+[2026-02-19T22:37:28.965580] Starting _initDatabase
+[2026-02-19T22:37:29.748330] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T22:37:30.466331] openDatabase success
+[2026-02-19T22:37:30.511632] Safety: Adding is_active to customers
+[2026-02-19T22:37:30.633758] Safety: Adding is_active to pets
+[2026-02-19T22:37:30.760531] Safety: Adding is_active to medical_cases
+[2026-02-19T22:37:30.924389] Safety: Adding is_active to case_services
+[2026-02-19T22:37:31.044050] Safety: Adding is_active to appointments
+[2026-02-19T22:37:31.101512] Safety: Adding is_active to medicine_transactions
+[2026-02-19T22:37:31.134923] Safety: Adding is_active to hospitalizations
+[2026-02-19T22:37:31.181874] Safety: Adding is_active to cages
+[2026-02-19T22:37:31.235381] Safety: Adding is_active to hospitalization_treatments
+[2026-02-19T22:37:31.275556] Safety: Adding is_active to vital_sign_logs
+[2026-02-19T22:37:31.347945] Safety: Adding is_active to product_sales
+[2026-02-19T22:37:31.481494] Safety: Adding is_active to expenses
+[2026-02-19T22:37:31.535810] Safety: Adding _version to case_attachments
+[2026-02-19T22:37:31.619586] Safety: Adding is_active to hospitalization_dailies
+[2026-02-19T22:37:31.654370] UUID-FIX: Found 7 non-UUID IDs in staff
+[2026-02-19T22:37:31.687202] UUID-FIX: staff/staff_anh → 3793e24e-23c5-40b8-9d90-91a7d45fc3ed
+[2026-02-19T22:37:31.713962] UUID-FIX: staff/staff_duc → b14dd336-d24b-4fd3-89b8-1b88e7ea5ca4
+[2026-02-19T22:37:31.972415] UUID-FIX: staff/staff_linh → 5c894a45-a980-4d10-9099-7033bc450d15
+[2026-02-19T22:37:32.089974] UUID-FIX: staff/staff_nhung → b3246911-92e2-4cd4-b05b-d8de6d84556f
+[2026-02-19T22:37:32.155928] UUID-FIX: staff/staff_thay → 7da48be0-a11c-472b-9498-9838a4e34f35
+[2026-02-19T22:37:32.199800] UUID-FIX: staff/staff_tra → 8457ec5c-1609-4a57-8ebb-023383c29840
+[2026-02-19T22:37:32.224723] UUID-FIX: staff/staff_tuan → a0d59a68-312c-4b90-a30c-26fd98f93f98
+[2026-02-19T22:37:32.257563] UUID-FIX: Found 10 non-UUID IDs in services
+[2026-02-19T22:37:32.304151] UUID-FIX: services/svc_anesthesia → 7ba630ed-16f7-46ad-9c57-56231fed072e
+[2026-02-19T22:37:32.452333] UUID-FIX: services/svc_checkup → 7ab4849e-88f3-42a6-9599-c662d9c72816
+[2026-02-19T22:37:32.509195] UUID-FIX: services/svc_emergency → 57c33c14-9d0f-4a30-be4d-0609001266c1
+[2026-02-19T22:37:32.535992] UUID-FIX: services/svc_hospital → c0a78fee-d84c-4095-8a3c-570260d46f5b
+[2026-02-19T22:37:32.595857] UUID-FIX: services/svc_medication → 0bc1d26d-3b72-40e2-984d-e52fea7875e1
+[2026-02-19T22:37:32.648527] UUID-FIX: services/svc_microchip → 7f06cac5-bf55-4f97-9987-f4073c642680
+[2026-02-19T22:37:32.707062] UUID-FIX: services/svc_surgery → b3ff8b90-600a-436c-8d6a-f70499167646
+[2026-02-19T22:37:33.857546] UUID-FIX: services/svc_ultrasound → 6ba819bd-fdbb-4ffd-bf2e-04606628c778
+[2026-02-19T22:37:33.934573] UUID-FIX: services/svc_vaccine → ffef0f65-8363-426c-b651-8e83df48ddda
+[2026-02-19T22:37:33.941063] UUID-FIX: services/svc_xray → eab303c3-5ee3-44d4-b0ca-90f4525fe9fc
+[2026-02-19T22:48:19.690152] Starting _initDatabase
+[2026-02-19T22:48:20.654275] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T22:48:21.464960] openDatabase success
+[2026-02-19T22:48:21.490959] Safety: Adding is_active to customers
+[2026-02-19T22:48:21.507548] Safety: Adding is_active to pets
+[2026-02-19T22:48:21.538724] Safety: Adding is_active to medical_cases
+[2026-02-19T22:48:21.567359] Safety: Adding is_active to case_services
+[2026-02-19T22:48:21.593950] Safety: Adding is_active to appointments
+[2026-02-19T22:48:21.616259] Safety: Adding is_active to medicine_transactions
+[2026-02-19T22:48:21.669854] Safety: Adding is_active to hospitalizations
+[2026-02-19T22:48:21.712028] Safety: Adding is_active to cages
+[2026-02-19T22:48:21.825743] Safety: Adding is_active to hospitalization_treatments
+[2026-02-19T22:48:21.848984] Safety: Adding is_active to vital_sign_logs
+[2026-02-19T22:48:21.938657] Safety: Adding is_active to product_sales
+[2026-02-19T22:48:21.974128] Safety: Adding is_active to expenses
+[2026-02-19T22:48:22.027343] Safety: Adding _version to case_attachments
+[2026-02-19T22:48:22.071949] Safety: Adding is_active to hospitalization_dailies
+[2026-02-19T22:48:22.085654] UUID-FIX: Found 7 non-UUID IDs in staff
+[2026-02-19T22:48:22.114248] UUID-FIX: staff/staff_anh → 4192b12a-68cc-415b-9320-677fcbae70f7
+[2026-02-19T22:48:22.131635] UUID-FIX: staff/staff_duc → 9fa59e4b-d5c1-4c6b-aab8-5843f56e7e3c
+[2026-02-19T22:48:22.156768] UUID-FIX: staff/staff_linh → 545d60d5-5d2b-401b-af32-56910d1f0b66
+[2026-02-19T22:48:22.178788] UUID-FIX: staff/staff_nhung → e301a9b8-bdfe-40da-950d-96c81703f9b5
+[2026-02-19T22:48:22.200466] UUID-FIX: staff/staff_thay → f9f7b915-e664-4f89-a954-cc9eeae9d7f5
+[2026-02-19T22:48:22.222610] UUID-FIX: staff/staff_tra → 43079bcc-c63f-49c9-abea-c716622110ed
+[2026-02-19T22:48:22.244626] UUID-FIX: staff/staff_tuan → 26a15f6a-8c38-43b8-9fb0-ca55e071ed1f
+[2026-02-19T22:48:22.264284] UUID-FIX: Found 10 non-UUID IDs in services
+[2026-02-19T22:48:22.307708] UUID-FIX: services/svc_anesthesia → 6267468b-7b57-4b7c-9bea-797724b9cc7b
+[2026-02-19T22:48:22.326517] UUID-FIX: services/svc_checkup → 497f3728-8f32-4764-bb2f-454cfbaf1c95
+[2026-02-19T22:48:22.348135] UUID-FIX: services/svc_emergency → 935498c2-77a8-4f52-b14b-7e20ec9f2f73
+[2026-02-19T22:48:22.372888] UUID-FIX: services/svc_hospital → 61713fac-3201-4299-af63-56b02c66407a
+[2026-02-19T22:48:22.391984] UUID-FIX: services/svc_medication → 3f763ed1-94f8-4217-beb3-f8f9588777dc
+[2026-02-19T22:48:22.415345] UUID-FIX: services/svc_microchip → 3dd5d2f2-64c5-4bbc-938d-6f12cbb23371
+[2026-02-19T22:48:22.436860] UUID-FIX: services/svc_surgery → 11d18f1c-a621-4079-8c80-b4c70550799f
+[2026-02-19T22:48:22.460589] UUID-FIX: services/svc_ultrasound → b8fb7286-a957-4890-bc01-db6c853bf134
+[2026-02-19T22:48:22.644596] UUID-FIX: services/svc_vaccine → f06ff739-9091-46a5-aab6-cb8fae418ac2
+[2026-02-19T22:48:22.655480] UUID-FIX: services/svc_xray → 002eebda-c11b-486c-9766-331e2d19f910
+[2026-02-19T22:49:11.859853] Starting _initDatabase
+[2026-02-19T22:49:12.429119] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T22:49:12.791527] openDatabase success
+[2026-02-19T22:55:29.530081] Starting _initDatabase
+[2026-02-19T22:55:30.091336] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T22:55:30.749246] openDatabase success
+[2026-02-19T22:55:30.789506] Safety: Adding is_active to customers
+[2026-02-19T22:55:30.819546] Safety: Adding is_active to pets
+[2026-02-19T22:55:30.990725] Safety: Adding is_active to medical_cases
+[2026-02-19T22:55:31.084525] Safety: Adding is_active to case_services
+[2026-02-19T22:55:31.131421] Safety: Adding is_active to appointments
+[2026-02-19T22:55:31.215029] Safety: Adding is_active to medicine_transactions
+[2026-02-19T22:55:31.251627] Safety: Adding is_active to hospitalizations
+[2026-02-19T22:55:31.300220] Safety: Adding is_active to cages
+[2026-02-19T22:55:31.335789] Safety: Adding is_active to hospitalization_treatments
+[2026-02-19T22:55:31.368710] Safety: Adding is_active to vital_sign_logs
+[2026-02-19T22:55:31.451285] Safety: Adding is_active to product_sales
+[2026-02-19T22:55:31.499760] Safety: Adding is_active to expenses
+[2026-02-19T22:55:31.515987] Safety: Adding _version to case_attachments
+[2026-02-19T22:55:31.568731] Safety: Adding is_active to hospitalization_dailies
+[2026-02-19T23:08:26.564661] Starting _initDatabase
+[2026-02-19T23:08:26.938297] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T23:08:27.399181] openDatabase success
+[2026-02-19T23:36:08.908942] Starting _initDatabase
+[2026-02-19T23:36:09.258542] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T23:36:09.481431] openDatabase success
+[2026-02-19T23:39:00.269132] Starting _initDatabase
+[2026-02-19T23:39:01.461712] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-19T23:39:02.196295] openDatabase success
+[2026-02-20T11:53:37.887164] Starting _initDatabase
+[2026-02-20T11:53:38.688289] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T11:53:39.079438] openDatabase success
+[2026-02-20T12:54:51.689607] Starting _initDatabase
+[2026-02-20T12:54:52.572992] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T12:54:53.047034] openDatabase success
+[2026-02-20T12:56:09.943728] Starting _initDatabase
+[2026-02-20T12:56:10.392883] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T12:56:10.825646] openDatabase success
+[2026-02-20T12:56:49.389928] Starting _initDatabase
+[2026-02-20T12:56:49.710454] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T12:56:49.927436] openDatabase success
+[2026-02-20T12:58:21.983970] Starting _initDatabase
+[2026-02-20T12:58:22.601755] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T12:58:22.905544] openDatabase success
+[2026-02-20T12:59:30.659823] Starting _initDatabase
+[2026-02-20T12:59:30.982805] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T12:59:31.211042] openDatabase success
+[2026-02-20T13:03:45.856447] Starting _initDatabase
+[2026-02-20T13:03:46.878979] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T13:03:47.448229] openDatabase success
+[2026-02-20T13:05:53.361384] Starting _initDatabase
+[2026-02-20T13:05:53.755304] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T13:05:53.993881] openDatabase success
+[2026-02-20T13:15:25.074099] Starting _initDatabase
+[2026-02-20T13:15:25.696490] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T13:15:26.046722] openDatabase success
+[2026-02-20T17:04:29.374962] Starting _initDatabase
+[2026-02-20T17:04:29.778706] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T17:04:30.214209] openDatabase success
+[2026-02-20T17:20:35.403639] Starting _initDatabase
+[2026-02-20T17:20:36.126972] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T17:20:36.538623] openDatabase success
+[2026-02-20T19:16:51.855614] Starting _initDatabase
+[2026-02-20T19:16:52.285216] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T19:16:52.567131] openDatabase success
+[2026-02-20T19:55:57.348366] Starting _initDatabase
+[2026-02-20T19:55:58.123559] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T19:55:58.721148] openDatabase success
+[2026-02-20T19:57:47.636037] Starting _initDatabase
+[2026-02-20T19:57:47.947196] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T19:57:48.138309] openDatabase success
+[2026-02-20T20:04:32.781646] Starting _initDatabase
+[2026-02-20T20:04:33.549928] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T20:04:34.189348] openDatabase success
+[2026-02-20T20:21:45.781631] Starting _initDatabase
+[2026-02-20T20:21:46.301298] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T20:21:46.552575] openDatabase success
+[2026-02-20T20:27:31.670932] Starting _initDatabase
+[2026-02-20T20:27:32.032511] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T20:27:32.277809] openDatabase success
+[2026-02-20T20:43:45.624213] Starting _initDatabase
+[2026-02-20T20:43:46.404712] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T20:43:47.252744] openDatabase success
+[2026-02-20T20:51:52.566045] Starting _initDatabase
+[2026-02-20T20:51:53.127298] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T20:51:53.442526] openDatabase success
+[2026-02-20T21:11:45.071516] Starting _initDatabase
+[2026-02-20T21:11:45.437196] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T21:11:45.763378] openDatabase success
+[2026-02-20T21:22:23.948116] Starting _initDatabase
+[2026-02-20T21:22:25.441609] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T21:22:25.972051] openDatabase success
+[2026-02-20T21:36:18.880926] Starting _initDatabase
+[2026-02-20T21:36:20.032374] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T21:36:21.224589] openDatabase success
+[2026-02-20T22:07:51.094938] Starting _initDatabase
+[2026-02-20T22:07:52.313174] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T22:07:52.938562] openDatabase success
+[2026-02-20T22:13:42.834067] Starting _initDatabase
+[2026-02-20T22:13:43.321308] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T22:13:43.578236] openDatabase success
+[2026-02-20T22:21:41.214985] Starting _initDatabase
+[2026-02-20T22:21:41.732464] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T22:21:42.076750] openDatabase success
+[2026-02-20T22:22:00.978435] Starting _initDatabase
+[2026-02-20T22:22:01.308490] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T22:22:01.526881] openDatabase success
+[2026-02-20T22:34:15.016919] Starting _initDatabase
+[2026-02-20T22:34:15.704214] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T22:34:16.842551] openDatabase success
+[2026-02-20T22:52:46.051284] Starting _initDatabase
+[2026-02-20T22:52:46.658211] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T22:52:47.025439] openDatabase success
+[2026-02-20T23:00:34.986228] Starting _initDatabase
+[2026-02-20T23:00:35.316470] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T23:00:35.523501] openDatabase success
+[2026-02-20T23:20:32.940282] Starting _initDatabase
+[2026-02-20T23:20:33.292592] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T23:20:33.791233] openDatabase success
+[2026-02-20T23:53:11.452032] Starting _initDatabase
+[2026-02-20T23:53:11.986150] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-20T23:53:12.480861] openDatabase success
+[2026-02-21T00:08:46.511204] Starting _initDatabase
+[2026-02-21T00:08:47.101251] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T00:08:47.448865] openDatabase success
+[2026-02-21T00:26:04.801132] Starting _initDatabase
+[2026-02-21T00:26:05.317410] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T00:26:05.755004] openDatabase success
+[2026-02-21T00:36:34.337847] Starting _initDatabase
+[2026-02-21T00:36:35.584342] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T00:36:36.212101] openDatabase success
+[2026-02-21T00:45:16.126840] Starting _initDatabase
+[2026-02-21T00:45:16.617158] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T00:45:16.897738] openDatabase success
+[2026-02-21T11:52:18.215037] Starting _initDatabase
+[2026-02-21T11:52:19.160290] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T11:52:19.735644] openDatabase success
+[2026-02-21T11:57:48.829444] Starting _initDatabase
+[2026-02-21T11:57:49.501184] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T11:57:49.935113] openDatabase success
+[2026-02-21T11:58:19.842903] Starting _initDatabase
+[2026-02-21T11:58:20.552839] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T11:58:20.965884] openDatabase success
+[2026-02-21T11:58:35.039879] Starting _initDatabase
+[2026-02-21T11:58:35.685066] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T11:58:36.146051] openDatabase success
+[2026-02-21T11:59:46.979006] Starting _initDatabase
+[2026-02-21T11:59:47.680614] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T11:59:49.672060] openDatabase success
+[2026-02-21T12:05:58.867450] Starting _initDatabase
+[2026-02-21T12:05:59.344916] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T12:05:59.667054] openDatabase success
+[2026-02-21T12:17:26.317006] Starting _initDatabase
+[2026-02-21T12:17:27.407566] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T12:17:27.911073] openDatabase success
+[2026-02-21T12:23:20.165573] Starting _initDatabase
+[2026-02-21T12:23:20.770805] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T12:23:21.195617] openDatabase success
+[2026-02-21T12:28:11.719471] Starting _initDatabase
+[2026-02-21T12:28:12.037970] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T12:28:12.236019] openDatabase success
+[2026-02-21T12:38:18.401628] Starting _initDatabase
+[2026-02-21T12:38:18.772420] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T12:38:19.040406] openDatabase success
+[2026-02-21T12:45:19.021972] Starting _initDatabase
+[2026-02-21T12:45:19.386589] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T12:45:19.603264] openDatabase success
+[2026-02-21T12:53:57.425077] Starting _initDatabase
+[2026-02-21T12:53:57.772408] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T12:53:58.019659] openDatabase success
+[2026-02-21T13:35:01.203176] Starting _initDatabase
+[2026-02-21T13:35:03.628604] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T13:35:04.963721] openDatabase success with FK enabled
+[2026-02-21T13:36:44.156256] Starting _initDatabase
+[2026-02-21T13:36:45.087361] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T13:36:45.443917] openDatabase success with FK enabled
+[2026-02-21T07:14:49.552425Z] Starting _initDatabase
+[2026-02-21T07:14:50.332825Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T07:14:50.783515Z] openDatabase success with FK enabled
+[2026-02-21T07:31:26.284889Z] Starting _initDatabase
+[2026-02-21T07:31:31.428557Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T07:31:34.510862Z] openDatabase success with FK enabled
+[2026-02-21T10:54:43.327273Z] Starting _initDatabase
+[2026-02-21T10:54:43.956780Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T10:54:44.411535Z] openDatabase success with FK enabled
+[2026-02-21T11:06:32.308047Z] Starting _initDatabase
+[2026-02-21T11:06:33.788380Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T11:06:35.918683Z] openDatabase success with FK enabled
+[2026-02-21T11:11:49.803312Z] Starting _initDatabase
+[2026-02-21T11:11:51.233777Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T11:11:52.717712Z] openDatabase success with FK enabled
+[2026-02-21T11:15:12.758113Z] Starting _initDatabase
+[2026-02-21T11:15:13.593086Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T11:15:14.412730Z] openDatabase success with FK enabled
+[2026-02-21T11:28:23.434892Z] Starting _initDatabase
+[2026-02-21T11:28:25.718214Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T11:28:28.570536Z] openDatabase success with FK enabled
+[2026-02-21T12:36:59.839741Z] Starting _initDatabase
+[2026-02-21T12:37:01.021166Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T12:37:02.574416Z] openDatabase success with FK enabled
+[2026-02-21T13:06:32.732131Z] Starting _initDatabase
+[2026-02-21T13:06:33.721918Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T13:06:35.634257Z] openDatabase success with FK enabled
+[2026-02-21T14:34:05.838368Z] Starting _initDatabase
+[2026-02-21T14:34:07.388546Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T14:34:09.109511Z] openDatabase success with FK enabled
+[2026-02-21T14:38:32.493908Z] Starting _initDatabase
+[2026-02-21T14:38:35.015312Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T14:38:36.229425Z] openDatabase success with FK enabled
+[2026-02-21T14:53:43.201677Z] Starting _initDatabase
+[2026-02-21T14:53:43.904703Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T14:53:44.539137Z] openDatabase success with FK enabled
+[2026-02-21T15:02:47.385296Z] Starting _initDatabase
+[2026-02-21T15:02:48.440741Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T15:02:49.428239Z] openDatabase success with FK enabled
+[2026-02-21T15:11:46.146364Z] Starting _initDatabase
+[2026-02-21T15:11:47.710660Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T15:11:48.719543Z] openDatabase success with FK enabled
+[2026-02-21T15:29:51.066389Z] Starting _initDatabase
+[2026-02-21T15:29:51.964398Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T15:29:52.483663Z] openDatabase success with FK enabled
+[2026-02-21T15:56:54.264351Z] Starting _initDatabase
+[2026-02-21T15:56:55.420475Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T15:56:56.649982Z] openDatabase success with FK enabled
+[2026-02-21T16:23:27.239425Z] Starting _initDatabase
+[2026-02-21T16:23:30.017737Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T16:23:31.628560Z] openDatabase success with FK enabled
+[2026-02-21T16:31:14.254734Z] Starting _initDatabase
+[2026-02-21T16:31:15.401036Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T16:31:25.464120Z] openDatabase success with FK enabled
+[2026-02-21T16:41:23.372131Z] Starting _initDatabase
+[2026-02-21T16:41:31.974169Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T16:41:33.695617Z] openDatabase success with FK enabled
+[2026-02-21T17:02:49.585198Z] Starting _initDatabase
+[2026-02-21T17:02:51.113952Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:02:51.863187Z] Generated new DB encryption key
+[2026-02-21T17:02:51.914536Z] openDatabase error: MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:03:07.708353Z] Starting _initDatabase
+[2026-02-21T17:03:08.574056Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:03:08.590628Z] openDatabase error: MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:21:28.843262Z] Starting _initDatabase
+[2026-02-21T17:21:30.292505Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:21:31.563879Z] openDatabase error: MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:21:35.308762Z] Starting _initDatabase
+[2026-02-21T17:21:37.138679Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:21:37.409532Z] openDatabase error: MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:21:44.976144Z] Starting _initDatabase
+[2026-02-21T17:21:45.816295Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:21:46.184144Z] openDatabase error: MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:22:20.687763Z] Starting _initDatabase
+[2026-02-21T17:22:20.692776Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:22:25.546785Z] openDatabase error: MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:30:28.381240Z] Starting _initDatabase
+[2026-02-21T17:30:28.905980Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:30:29.792739Z] openDatabase error: MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:30:32.400007Z] Starting _initDatabase
+[2026-02-21T17:30:33.022332Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:30:33.128730Z] openDatabase error: MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:33:02.771321Z] Starting _initDatabase
+[2026-02-21T17:33:03.623713Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:33:04.057390Z] openDatabase error: MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:42:26.361868Z] Starting _initDatabase
+[2026-02-21T17:42:27.513306Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:42:28.547548Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:42:28.547548Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-21T17:42:28.559028Z] openDatabase error: MissingPluginException(No implementation found for method deleteDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:42:31.515129Z] Starting _initDatabase
+[2026-02-21T17:42:32.977259Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:42:33.087427Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:42:33.087940Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-21T17:42:33.090251Z] openDatabase error: MissingPluginException(No implementation found for method deleteDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:42:50.970886Z] Starting _initDatabase
+[2026-02-21T17:42:51.504742Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:42:51.761492Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:42:51.762512Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-21T17:42:51.765097Z] openDatabase error: MissingPluginException(No implementation found for method deleteDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:42:54.173907Z] Starting _initDatabase
+[2026-02-21T17:42:54.863737Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:42:54.901202Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:42:54.901202Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-21T17:42:54.974463Z] openDatabase error: MissingPluginException(No implementation found for method deleteDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:44:18.174538Z] Starting _initDatabase
+[2026-02-21T17:44:18.660558Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:44:18.880959Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:44:18.884295Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-21T17:44:18.886954Z] openDatabase error: MissingPluginException(No implementation found for method deleteDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:44:20.899453Z] Starting _initDatabase
+[2026-02-21T17:44:21.478629Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:44:21.493908Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:44:21.495010Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-21T17:44:21.495962Z] openDatabase error: MissingPluginException(No implementation found for method deleteDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:50:25.931097Z] Starting _initDatabase
+[2026-02-21T17:50:26.666013Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:50:26.997471Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:50:26.997471Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-21T17:50:27.024697Z] openDatabase error: MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:50:29.976340Z] Starting _initDatabase
+[2026-02-21T17:50:30.827810Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:50:30.925252Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:50:30.925252Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-21T17:50:30.931979Z] openDatabase error: MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:50:52.568895Z] Starting _initDatabase
+[2026-02-21T17:50:53.257166Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:50:53.545383Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:50:53.547776Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-21T17:50:53.551011Z] openDatabase error: MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:50:55.572887Z] Starting _initDatabase
+[2026-02-21T17:50:56.197948Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:50:56.263393Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:50:56.263393Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-21T17:50:56.278067Z] openDatabase error: MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:53:53.995496Z] Starting _initDatabase
+[2026-02-21T17:53:54.689588Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:53:54.992648Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:53:54.993660Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-21T17:53:54.994916Z] openDatabase error: MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:53:57.695907Z] Starting _initDatabase
+[2026-02-21T17:53:58.555429Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:53:58.654288Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:53:58.654796Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-21T17:53:58.656094Z] openDatabase error: MissingPluginException(No implementation found for method openDatabase on channel com.davidmartos96.sqflite_sqlcipher)
+[2026-02-21T17:58:45.961396Z] Starting _initDatabase
+[2026-02-21T17:58:46.713283Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-21T17:58:47.642468Z] openDatabase success with FK enabled
+[2026-02-21T17:58:47.694592Z] Safety: Adding is_active to customers
+[2026-02-21T17:58:47.813442Z] Safety: Adding is_active to pets
+[2026-02-21T17:58:47.922634Z] Safety: Adding is_active to medical_cases
+[2026-02-21T17:58:47.973904Z] Safety: Adding is_active to case_services
+[2026-02-21T17:58:48.029225Z] Safety: Adding is_active to appointments
+[2026-02-21T17:58:48.062046Z] Safety: Adding is_active to medicine_transactions
+[2026-02-21T17:58:48.095549Z] Safety: Adding is_active to hospitalizations
+[2026-02-21T17:58:48.147546Z] Safety: Adding is_active to cages
+[2026-02-21T17:58:48.178872Z] Safety: Adding is_active to hospitalization_treatments
+[2026-02-21T17:58:48.474364Z] Safety: Adding is_active to vital_sign_logs
+[2026-02-21T17:58:49.321011Z] Safety: Adding is_active to product_sales
+[2026-02-21T17:58:50.248917Z] Safety: Adding is_active to expenses
+[2026-02-21T17:58:50.272883Z] Safety: Adding _version to case_attachments
+[2026-02-21T17:58:50.367930Z] Safety: Adding is_active to hospitalization_dailies
+[2026-02-22T00:24:09.814002Z] Starting _initDatabase
+[2026-02-22T00:24:11.446068Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-22T00:24:14.433209Z] openDatabase success with FK enabled
+[2026-02-22T00:24:38.370746Z] Starting _initDatabase
+[2026-02-22T00:24:38.744410Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-22T00:24:39.071044Z] openDatabase success with FK enabled
+[2026-02-22T02:45:27.736077Z] Starting _initDatabase
+[2026-02-22T02:45:28.485031Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-22T02:45:29.350213Z] openDatabase success with FK enabled
+[2026-02-22T03:42:45.499535Z] Starting _initDatabase
+[2026-02-22T03:42:45.963553Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-22T03:42:46.344652Z] openDatabase success with FK enabled
+[2026-02-22T03:54:21.181351Z] Starting _initDatabase
+[2026-02-22T03:54:21.772077Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-22T03:54:22.784479Z] openDatabase success with FK enabled
+[2026-02-22T04:02:57.132821Z] Starting _initDatabase
+[2026-02-22T04:02:57.659999Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-22T04:02:58.064019Z] openDatabase success with FK enabled
+[2026-02-22T04:31:36.620895Z] Starting _initDatabase
+[2026-02-22T04:31:37.277448Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-22T04:31:37.831347Z] openDatabase success with FK enabled
+[2026-02-22T05:41:31.562316Z] Starting _initDatabase
+[2026-02-22T05:41:31.581536Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-22T05:41:31.605057Z] openDatabase success with FK enabled
+[2026-02-22T05:55:07.578942Z] Starting _initDatabase
+[2026-02-22T05:55:09.335063Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-22T05:55:10.362058Z] openDatabase success with FK enabled
+[2026-02-22T05:58:59.873432Z] Starting _initDatabase
+[2026-02-22T05:59:01.196629Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-22T05:59:01.926145Z] openDatabase success with FK enabled
+[2026-02-22T06:04:40.213687Z] Starting _initDatabase
+[2026-02-22T06:04:41.217514Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-22T06:04:41.832443Z] openDatabase success with FK enabled
+[2026-02-22T06:34:38.962458Z] Starting _initDatabase
+[2026-02-22T06:34:39.938808Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-22T06:34:40.719946Z] openDatabase success with FK enabled
+[2026-02-22T06:42:05.106279Z] Starting _initDatabase
+[2026-02-22T06:42:06.132860Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-22T06:42:06.830870Z] openDatabase success with FK enabled
+[2026-02-22T07:05:25.626693Z] Starting _initDatabase
+[2026-02-22T07:05:26.254631Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-22T07:05:28.803387Z] openDatabase success with FK enabled
+[2026-02-22T15:19:14.122493Z] Starting _initDatabase
+[2026-02-22T15:19:14.594521Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-22T15:19:15.036427Z] openDatabase success with FK enabled
+[2026-02-22T15:19:15.281868Z] Safety: Adding _sync_status to case_notes
+[2026-02-22T15:19:15.285836Z] Safety: Adding _is_deleted to case_notes
+[2026-02-22T15:19:15.298743Z] Safety: Adding _version to case_notes
+[2026-02-22T15:19:15.349530Z] Safety: Adding created_at to case_notes
+[2026-02-22T15:19:15.352093Z] Safety: Adding updated_at to case_notes
+[2026-02-22T15:19:15.353221Z] Safety: Adding is_active to case_notes
+[2026-02-22T15:19:15.355436Z] Safety: Adding _sync_status to case_payments
+[2026-02-22T15:19:15.364435Z] Safety: Adding _is_deleted to case_payments
+[2026-02-22T15:19:15.367688Z] Safety: Adding _version to case_payments
+[2026-02-22T15:19:15.381224Z] Safety: Adding created_at to case_payments
+[2026-02-22T15:19:15.384838Z] Safety: Adding updated_at to case_payments
+[2026-02-22T15:19:15.386972Z] Safety: Adding is_active to case_payments
+[2026-02-22T15:29:27.257373Z] Starting _initDatabase
+[2026-02-22T15:29:27.605709Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-22T15:29:27.861317Z] openDatabase success with FK enabled
+[2026-02-22T15:29:27.982760Z] Safety: Adding _sync_status to case_notes
+[2026-02-22T15:29:27.987008Z] Safety: Adding _is_deleted to case_notes
+[2026-02-22T15:29:27.996744Z] Safety: Adding _version to case_notes
+[2026-02-22T15:29:28.009563Z] Safety: Adding created_at to case_notes
+[2026-02-22T15:29:28.011188Z] Safety: Adding updated_at to case_notes
+[2026-02-22T15:29:28.013929Z] Safety: Adding is_active to case_notes
+[2026-02-22T15:29:28.016690Z] Safety: Adding _sync_status to case_payments
+[2026-02-22T15:29:28.019168Z] Safety: Adding _is_deleted to case_payments
+[2026-02-22T15:29:28.020263Z] Safety: Adding _version to case_payments
+[2026-02-22T15:29:28.025075Z] Safety: Adding created_at to case_payments
+[2026-02-22T15:29:28.026649Z] Safety: Adding updated_at to case_payments
+[2026-02-22T15:29:28.028235Z] Safety: Adding is_active to case_payments
+[2026-02-22T15:32:25.080228Z] Starting _initDatabase
+[2026-02-22T15:32:25.505806Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-22T15:32:25.815845Z] openDatabase success with FK enabled
+[2026-02-22T15:32:26.008812Z] Safety: Adding _sync_status to case_notes
+[2026-02-22T15:32:26.011420Z] Safety: Adding _is_deleted to case_notes
+[2026-02-22T15:32:26.015204Z] Safety: Adding _version to case_notes
+[2026-02-22T15:32:26.023479Z] Safety: Adding created_at to case_notes
+[2026-02-22T15:32:26.025763Z] Safety: Adding updated_at to case_notes
+[2026-02-22T15:32:26.027413Z] Safety: Adding is_active to case_notes
+[2026-02-22T15:32:26.030146Z] Safety: Adding _sync_status to case_payments
+[2026-02-22T15:32:26.035128Z] Safety: Adding _is_deleted to case_payments
+[2026-02-22T15:32:26.037256Z] Safety: Adding _version to case_payments
+[2026-02-22T15:32:26.042179Z] Safety: Adding created_at to case_payments
+[2026-02-22T15:32:26.043784Z] Safety: Adding updated_at to case_payments
+[2026-02-22T15:32:26.047639Z] Safety: Adding is_active to case_payments
+[2026-02-22T15:36:03.539960Z] Starting _initDatabase
+[2026-02-22T15:36:04.329848Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-22T15:36:06.188159Z] openDatabase success with FK enabled
+[2026-02-22T15:36:06.569326Z] Safety: Adding _sync_status to case_notes
+[2026-02-22T15:36:06.571941Z] Safety: Adding _is_deleted to case_notes
+[2026-02-22T15:36:06.572456Z] Safety: Adding _version to case_notes
+[2026-02-22T15:36:06.577534Z] Safety: Adding created_at to case_notes
+[2026-02-22T15:36:06.579102Z] Safety: Adding updated_at to case_notes
+[2026-02-22T15:36:06.581320Z] Safety: Adding is_active to case_notes
+[2026-02-22T15:36:06.583490Z] Safety: Adding _sync_status to case_payments
+[2026-02-22T15:36:06.585062Z] Safety: Adding _is_deleted to case_payments
+[2026-02-22T15:36:06.587183Z] Safety: Adding _version to case_payments
+[2026-02-22T15:36:06.591927Z] Safety: Adding created_at to case_payments
+[2026-02-22T15:36:06.593969Z] Safety: Adding updated_at to case_payments
+[2026-02-22T15:36:06.595780Z] Safety: Adding is_active to case_payments
+[2026-02-23T03:15:54.968776Z] Starting _initDatabase
+[2026-02-23T03:15:55.897509Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-23T03:15:58.573545Z] openDatabase success with FK enabled
+[2026-02-23T03:15:58.703691Z] Safety: Adding _sync_status to case_notes
+[2026-02-23T03:15:58.705789Z] Safety: Adding _is_deleted to case_notes
+[2026-02-23T03:15:58.707836Z] Safety: Adding _version to case_notes
+[2026-02-23T03:15:58.714465Z] Safety: Adding created_at to case_notes
+[2026-02-23T03:15:58.715969Z] Safety: Adding updated_at to case_notes
+[2026-02-23T03:15:58.719686Z] Safety: Adding is_active to case_notes
+[2026-02-23T03:15:58.721889Z] Safety: Adding _sync_status to case_payments
+[2026-02-23T03:15:58.723406Z] Safety: Adding _is_deleted to case_payments
+[2026-02-23T03:15:58.725495Z] Safety: Adding _version to case_payments
+[2026-02-23T03:15:58.731313Z] Safety: Adding created_at to case_payments
+[2026-02-23T03:15:58.731930Z] Safety: Adding updated_at to case_payments
+[2026-02-23T03:15:58.735289Z] Safety: Adding is_active to case_payments
+[2026-02-23T03:18:07.052098Z] Starting _initDatabase
+[2026-02-23T03:18:07.558855Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-23T03:18:08.374982Z] openDatabase success with FK enabled
+[2026-02-23T03:18:08.924008Z] Safety: Adding _sync_status to case_notes
+[2026-02-23T03:18:08.930431Z] Safety: Adding _is_deleted to case_notes
+[2026-02-23T03:18:08.932080Z] Safety: Adding _version to case_notes
+[2026-02-23T03:18:08.946271Z] Safety: Adding created_at to case_notes
+[2026-02-23T03:18:08.950452Z] Safety: Adding updated_at to case_notes
+[2026-02-23T03:18:08.960920Z] Safety: Adding is_active to case_notes
+[2026-02-23T03:18:08.966649Z] Safety: Adding _sync_status to case_payments
+[2026-02-23T03:18:08.970683Z] Safety: Adding _is_deleted to case_payments
+[2026-02-23T03:18:08.981426Z] Safety: Adding _version to case_payments
+[2026-02-23T03:18:08.993397Z] Safety: Adding created_at to case_payments
+[2026-02-23T03:18:08.995481Z] Safety: Adding updated_at to case_payments
+[2026-02-23T03:18:08.997113Z] Safety: Adding is_active to case_payments
+[2026-02-23T03:24:50.532650Z] Starting _initDatabase
+[2026-02-23T03:24:51.067485Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-23T03:24:51.518442Z] openDatabase success with FK enabled
+[2026-02-23T03:24:51.758009Z] Safety: Adding _sync_status to case_notes
+[2026-02-23T03:24:51.845196Z] Safety: Adding _is_deleted to case_notes
+[2026-02-23T03:24:51.846869Z] Safety: Adding _version to case_notes
+[2026-02-23T03:24:51.853506Z] Safety: Adding created_at to case_notes
+[2026-02-23T03:24:51.856302Z] Safety: Adding updated_at to case_notes
+[2026-02-23T03:24:51.857809Z] Safety: Adding is_active to case_notes
+[2026-02-23T03:24:51.858432Z] Safety: Adding _sync_status to case_payments
+[2026-02-23T03:24:51.859792Z] Safety: Adding _is_deleted to case_payments
+[2026-02-23T03:24:51.861766Z] Safety: Adding _version to case_payments
+[2026-02-23T03:24:51.949689Z] Safety: Adding created_at to case_payments
+[2026-02-23T03:24:51.955485Z] Safety: Adding updated_at to case_payments
+[2026-02-23T03:24:51.956596Z] Safety: Adding is_active to case_payments
+[2026-02-23T09:19:47.448851Z] Starting _initDatabase
+[2026-02-23T09:19:47.766715Z] Database path: C:\Users\Administrator\Documents\okada_vet_c497eedc7cc14c89be81149abbe3bad1.db
+[2026-02-23T09:19:48.217765Z] openDatabase success with FK enabled
+[2026-02-23T09:19:48.241089Z] Safety: Adding is_active to customers
+[2026-02-23T09:19:48.258836Z] Safety: Adding is_active to pets
+[2026-02-23T09:19:48.281895Z] Safety: Adding is_active to medical_cases
+[2026-02-23T09:19:48.317424Z] Safety: Adding is_active to case_services
+[2026-02-23T09:19:48.372106Z] Safety: Adding is_active to appointments
+[2026-02-23T09:19:48.391057Z] Safety: Adding is_active to medicine_transactions
+[2026-02-23T09:19:48.396777Z] Safety: Adding is_active to hospitalizations
+[2026-02-23T09:19:48.411370Z] Safety: Adding is_active to cages
+[2026-02-23T09:19:48.429Z] Safety: Adding is_active to hospitalization_treatments
+[2026-02-23T09:19:48.474161Z] Safety: Adding is_active to vital_sign_logs
+[2026-02-23T09:19:48.505299Z] Safety: Adding is_active to product_sales
+[2026-02-23T09:19:48.589083Z] Safety: Adding is_active to expenses
+[2026-02-23T09:19:48.597936Z] Safety: Adding _version to case_attachments
+[2026-02-23T09:19:48.617347Z] Safety: Adding is_active to hospitalization_dailies
+[2026-02-23T09:19:48.625852Z] Safety: Adding _sync_status to case_notes
+[2026-02-23T09:19:48.626851Z] Safety: Adding _is_deleted to case_notes
+[2026-02-23T09:19:48.629467Z] Safety: Adding _version to case_notes
+[2026-02-23T09:19:48.641742Z] Safety: Adding created_at to case_notes
+[2026-02-23T09:19:48.642792Z] Safety: Adding updated_at to case_notes
+[2026-02-23T09:19:48.644317Z] Safety: Adding is_active to case_notes
+[2026-02-23T09:19:48.645396Z] Safety: Adding _sync_status to case_payments
+[2026-02-23T09:19:48.646998Z] Safety: Adding _is_deleted to case_payments
+[2026-02-23T09:19:48.651317Z] Safety: Adding _version to case_payments
+[2026-02-23T09:19:48.703534Z] Safety: Adding created_at to case_payments
+[2026-02-23T09:19:48.705049Z] Safety: Adding updated_at to case_payments
+[2026-02-23T09:19:48.713363Z] Safety: Adding is_active to case_payments
+[2026-02-23T09:27:02.651964Z] Starting _initDatabase
+[2026-02-23T09:27:03.032552Z] Database path: C:\Users\Administrator\Documents\okada_vet_c497eedc7cc14c89be81149abbe3bad1.db
+[2026-02-23T09:27:03.452181Z] openDatabase success with FK enabled
+[2026-02-23T09:27:03.670648Z] Safety: Adding is_active to case_notes
+[2026-02-23T09:27:03.687748Z] Safety: Adding is_active to case_payments
+[2026-02-23T11:55:22.867298Z] Starting _initDatabase
+[2026-02-23T11:55:23.503732Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-23T11:55:31.865678Z] openDatabase success with FK enabled
+[2026-02-23T12:10:36.264260Z] Starting _initDatabase
+[2026-02-23T12:10:36.768137Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-23T12:10:37.070132Z] openDatabase success with FK enabled
+[2026-02-23T12:10:37.085792Z] Safety: Adding is_active to customers
+[2026-02-23T12:10:37.117260Z] Safety: Adding is_active to pets
+[2026-02-23T12:10:37.134413Z] Safety: Adding is_active to medical_cases
+[2026-02-23T12:10:37.145754Z] Safety: Adding is_active to case_services
+[2026-02-23T12:10:37.171233Z] Safety: Adding is_active to appointments
+[2026-02-23T12:10:37.185178Z] Safety: Adding is_active to medicine_transactions
+[2026-02-23T12:10:37.202935Z] Safety: Adding is_active to hospitalizations
+[2026-02-23T12:10:37.218549Z] Safety: Adding is_active to cages
+[2026-02-23T12:10:37.229924Z] Safety: Adding is_active to hospitalization_treatments
+[2026-02-23T12:10:37.239554Z] Safety: Adding is_active to vital_sign_logs
+[2026-02-23T12:10:37.256316Z] Safety: Adding is_active to product_sales
+[2026-02-23T12:10:37.270205Z] Safety: Adding is_active to expenses
+[2026-02-23T12:10:37.274472Z] Safety: Adding _version to case_attachments
+[2026-02-23T12:10:37.289237Z] Safety: Adding is_active to hospitalization_dailies
+[2026-02-23T13:45:16.257059Z] Starting _initDatabase
+[2026-02-23T13:45:17.219270Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-23T13:45:17.557823Z] openDatabase success with FK enabled
+[2026-02-23T13:51:20.428559Z] Starting _initDatabase
+[2026-02-23T13:51:20.768435Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-23T13:51:21.008661Z] openDatabase success with FK enabled
+[2026-02-23T14:34:42.215071Z] Starting _initDatabase
+[2026-02-23T14:34:43.025256Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-23T14:34:45.441888Z] openDatabase success with FK enabled
+[2026-02-23T14:45:13.927570Z] Starting _initDatabase
+[2026-02-23T14:45:15.296108Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-23T14:45:15.811633Z] openDatabase success with FK enabled
+[2026-02-23T14:52:23.384825Z] Starting _initDatabase
+[2026-02-23T14:52:24.418329Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-23T14:52:24.778209Z] openDatabase success with FK enabled
+[2026-02-23T14:53:15.644240Z] Starting _initDatabase
+[2026-02-23T14:53:16.450161Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-23T14:53:16.732608Z] openDatabase success with FK enabled
+[2026-02-23T14:56:39.658486Z] Starting _initDatabase
+[2026-02-23T14:56:40.200257Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-23T14:56:40.829932Z] openDatabase success with FK enabled
+[2026-02-23T15:02:01.153195Z] Starting _initDatabase
+[2026-02-23T15:02:02.046330Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-23T15:02:02.637902Z] openDatabase success with FK enabled
+[2026-02-24T03:37:06.164421Z] Starting _initDatabase
+[2026-02-24T03:37:07.021881Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-24T03:37:07.499058Z] openDatabase success with FK enabled
+[2026-02-24T03:37:08.093946Z] Safety: Adding is_active to case_logs
+[2026-02-24T03:47:08.968187Z] Starting _initDatabase
+[2026-02-24T03:47:10.307660Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-24T03:47:11.171416Z] openDatabase success with FK enabled
+[2026-02-24T03:57:41.510191Z] Starting _initDatabase
+[2026-02-24T03:57:41.833758Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-24T03:57:42.090886Z] openDatabase success with FK enabled
+[2026-02-24T04:01:15.155424Z] Starting _initDatabase
+[2026-02-24T04:01:15.752940Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-24T04:01:16.273416Z] openDatabase success with FK enabled
+[2026-02-24T07:17:28.352121Z] Starting _initDatabase
+[2026-02-24T07:17:29.112634Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-24T07:17:29.805020Z] openDatabase success with FK enabled
+[2026-02-24T07:29:28.763035Z] Starting _initDatabase
+[2026-02-24T07:29:29.131344Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-24T07:29:29.422284Z] openDatabase success with FK enabled
+[2026-02-24T08:45:36.244326Z] Starting _initDatabase
+[2026-02-24T08:45:36.855133Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-24T08:45:37.252385Z] openDatabase success with FK enabled
+[2026-02-24T08:53:48.785280Z] Starting _initDatabase
+[2026-02-24T08:53:49.108012Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-24T08:53:49.355931Z] openDatabase success with FK enabled
+[2026-02-24T09:30:36.645968Z] Starting _initDatabase
+[2026-02-24T09:30:36.959030Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-24T09:30:37.183820Z] openDatabase success with FK enabled
+[2301-01-13T17:16:30.182081Z] Starting _initDatabase
+[2301-01-13T17:16:31.075618Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2301-01-13T17:16:32.992120Z] openDatabase success with FK enabled
+[2026-02-24T13:39:06.193883Z] Starting _initDatabase
+[2026-02-24T13:39:06.841025Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-24T13:39:09.396529Z] openDatabase success with FK enabled
+[2026-02-24T13:49:03.479459Z] Starting _initDatabase
+[2026-02-24T13:49:03.885728Z] Database path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db
+[2026-02-24T13:49:04.394293Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): SqfliteFfiException(sqlite_error: 1, , SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: }) DatabaseException(SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: ) sql '      CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    ' {details: {database: {path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db, id: 1, readOnly: false, singleInstance: true}}}
+[2026-02-24T13:49:04.451115Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-24T13:49:04.488024Z] openDatabase error: SqfliteFfiException(sqlite_error: 1, , SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: }) DatabaseException(SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: ) sql '      CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    ' {details: {database: {path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db, id: 2, readOnly: false, singleInstance: true}}}
+[2026-02-24T13:49:05.896406Z] Starting closeDatabase...
+[2026-02-24T13:49:05.896406Z] Database closed successfully.
+[2026-02-24T13:49:35.359726Z] Starting closeDatabase...
+[2026-02-24T13:49:35.360293Z] Database closed successfully.
+[2026-02-24T13:49:38.163162Z] Starting _initDatabase
+[2026-02-24T13:49:38.828479Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-24T13:49:38.838470Z] openDatabase success with FK enabled
+[2026-02-24T14:02:47.185533Z] Starting _initDatabase
+[2026-02-24T14:02:47.489209Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-24T14:02:47.723332Z] openDatabase success with FK enabled
+[2026-02-24T23:40:46.748470Z] Starting _initDatabase
+[2026-02-24T23:40:47.257191Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-24T23:40:47.717743Z] openDatabase success with FK enabled
+[2026-02-24T23:53:28.465853Z] Starting _initDatabase
+[2026-02-24T23:53:28.773439Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-24T23:53:29.023435Z] openDatabase success with FK enabled
+[2026-02-25T00:19:59.331141Z] Starting _initDatabase
+[2026-02-25T00:19:59.991975Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-25T00:20:00.552602Z] openDatabase success with FK enabled
+[2026-02-25T00:29:03.012859Z] Starting _initDatabase
+[2026-02-25T00:29:03.518300Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-25T00:29:03.962981Z] openDatabase success with FK enabled
+[2026-02-25T01:42:15.429859Z] Starting _initDatabase
+[2026-02-25T01:42:15.810594Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-25T01:42:16.182117Z] openDatabase success with FK enabled
+[2026-02-25T01:49:20.407418Z] Starting closeDatabase...
+[2026-02-25T01:49:20.424822Z] Database closed successfully.
+[2026-02-25T01:49:25.441267Z] Starting _initDatabase
+[2026-02-25T01:49:25.667269Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-25T01:49:25.679197Z] openDatabase success with FK enabled
+[2026-02-25T04:11:10.290924Z] Starting _initDatabase
+[2026-02-25T04:11:10.762431Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-25T04:11:11.800375Z] openDatabase success with FK enabled
+[2026-02-25T04:34:21.978969Z] Starting _initDatabase
+[2026-02-25T04:34:22.453797Z] Database path: C:\Users\Administrator\Documents\okada_vet_9de969af40204a1c944fbd8a73fe31a1.db
+[2026-02-25T04:34:22.797422Z] openDatabase success with FK enabled
+[2026-02-25T04:34:25.129721Z] Starting closeDatabase...
+[2026-02-25T04:34:25.142906Z] Database closed successfully.
+[2026-02-25T04:34:33.047003Z] Starting closeDatabase...
+[2026-02-25T04:34:33.048074Z] Database closed successfully.
+[2026-02-25T04:34:35.130137Z] Starting _initDatabase
+[2026-02-25T04:34:35.411391Z] Database path: C:\Users\Administrator\Documents\okada_vet_9fee6264315f41ef908c0a60bb1d7fcf.db
+[2026-02-25T04:34:35.536966Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): SqfliteFfiException(sqlite_error: 1, , SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: }) DatabaseException(SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: ) sql '      CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    ' {details: {database: {path: C:\Users\Administrator\Documents\okada_vet_9fee6264315f41ef908c0a60bb1d7fcf.db, id: 2, readOnly: false, singleInstance: true}}}
+[2026-02-25T04:34:35.538142Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-25T04:34:35.653930Z] openDatabase error: SqfliteFfiException(sqlite_error: 1, , SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: }) DatabaseException(SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: ) sql '      CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    ' {details: {database: {path: C:\Users\Administrator\Documents\okada_vet_9fee6264315f41ef908c0a60bb1d7fcf.db, id: 3, readOnly: false, singleInstance: true}}}
+[2026-02-25T04:34:54.525738Z] Starting _initDatabase
+[2026-02-25T04:34:54.685410Z] Database path: C:\Users\Administrator\Documents\okada_vet_9fee6264315f41ef908c0a60bb1d7fcf.db
+[2026-02-25T04:34:54.876392Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): SqfliteFfiException(sqlite_error: 1, , SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: }) DatabaseException(SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: ) sql '      CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    ' {details: {database: {path: C:\Users\Administrator\Documents\okada_vet_9fee6264315f41ef908c0a60bb1d7fcf.db, id: 4, readOnly: false, singleInstance: true}}}
+[2026-02-25T04:34:54.876392Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-25T04:34:54.953389Z] openDatabase error: SqfliteFfiException(sqlite_error: 1, , SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: }) DatabaseException(SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: ) sql '      CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    ' {details: {database: {path: C:\Users\Administrator\Documents\okada_vet_9fee6264315f41ef908c0a60bb1d7fcf.db, id: 5, readOnly: false, singleInstance: true}}}
+[2026-02-25T04:35:05.079633Z] Starting closeDatabase...
+[2026-02-25T04:35:05.080322Z] Database closed successfully.
+[2026-02-25T04:38:06.150279Z] Starting closeDatabase...
+[2026-02-25T04:38:06.176080Z] Database closed successfully.
+[2026-02-25T04:38:10.486649Z] Starting _initDatabase
+[2026-02-25T04:38:10.661072Z] Database path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db
+[2026-02-25T04:38:11.832975Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): SqfliteFfiException(sqlite_error: 1, , SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: }) DatabaseException(SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: ) sql '      CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    ' {details: {database: {path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db, id: 6, readOnly: false, singleInstance: true}}}
+[2026-02-25T04:38:11.927433Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-25T04:38:12.054160Z] openDatabase error: SqfliteFfiException(sqlite_error: 1, , SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: }) DatabaseException(SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: ) sql '      CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    ' {details: {database: {path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db, id: 7, readOnly: false, singleInstance: true}}}
+[2026-02-25T04:38:49.774448Z] Starting _initDatabase
+[2026-02-25T04:38:50.152635Z] Database path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db
+[2026-02-25T04:38:50.612083Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): SqfliteFfiException(sqlite_error: 1, , SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: }) DatabaseException(SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: ) sql '      CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    ' {details: {database: {path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db, id: 8, readOnly: false, singleInstance: true}}}
+[2026-02-25T04:38:50.613034Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-25T04:38:50.774819Z] openDatabase error: SqfliteFfiException(sqlite_error: 1, , SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: }) DatabaseException(SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: ) sql '      CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    ' {details: {database: {path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db, id: 9, readOnly: false, singleInstance: true}}}
+[2026-02-25T04:38:56.465349Z] Starting _initDatabase
+[2026-02-25T04:38:56.468340Z] Database path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db
+[2026-02-25T04:38:57.859339Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): SqfliteFfiException(sqlite_error: 1, , SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: }) DatabaseException(SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: ) sql '      CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    ' {details: {database: {path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db, id: 10, readOnly: false, singleInstance: true}}}
+[2026-02-25T04:38:57.860345Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-25T04:38:58.067123Z] openDatabase error: SqfliteFfiException(sqlite_error: 1, , SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: }) DatabaseException(SqliteException(1): while executing, table case_logs already exists, SQL logic error (code 1)
+  Causing statement (at position 19):       CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    , parameters: ) sql '      CREATE TABLE case_logs (
+        id TEXT PRIMARY KEY,
+        clinic_id TEXT NOT NULL,
+        case_id TEXT NOT NULL,
+        staff_id TEXT,
+        action TEXT NOT NULL,
+        notes TEXT,
+        metadata TEXT,
+        created_at TEXT NOT NULL,
+        updated_at TEXT NOT NULL,
+        synced INTEGER DEFAULT 0,
+        _sync_status TEXT DEFAULT 'synced',
+        _is_deleted INTEGER DEFAULT 0,
+        _version INTEGER DEFAULT 1,
+        FOREIGN KEY (case_id) REFERENCES medical_cases(id)
+      )
+    ' {details: {database: {path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db, id: 11, readOnly: false, singleInstance: true}}}
+[2026-02-25T04:47:38.865580Z] Starting _initDatabase
+[2026-02-25T04:47:39.672672Z] Database path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db
+[2026-02-25T04:47:40.846900Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): SqfliteFfiException(sqlite_error: 1, , SqliteException(1): while executing, index idx_case_logs_case already exists, SQL logic error (code 1)
+  Causing statement: CREATE INDEX idx_case_logs_case ON case_logs(case_id), parameters: }) DatabaseException(SqliteException(1): while executing, index idx_case_logs_case already exists, SQL logic error (code 1)
+  Causing statement: CREATE INDEX idx_case_logs_case ON case_logs(case_id), parameters: ) sql 'CREATE INDEX idx_case_logs_case ON case_logs(case_id)' {details: {database: {path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db, id: 1, readOnly: false, singleInstance: true}}}
+[2026-02-25T04:47:40.847952Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-25T04:47:41.674045Z] openDatabase error: SqfliteFfiException(sqlite_error: 1, , SqliteException(1): while executing, index idx_case_logs_case already exists, SQL logic error (code 1)
+  Causing statement: CREATE INDEX idx_case_logs_case ON case_logs(case_id), parameters: }) DatabaseException(SqliteException(1): while executing, index idx_case_logs_case already exists, SQL logic error (code 1)
+  Causing statement: CREATE INDEX idx_case_logs_case ON case_logs(case_id), parameters: ) sql 'CREATE INDEX idx_case_logs_case ON case_logs(case_id)' {details: {database: {path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db, id: 2, readOnly: false, singleInstance: true}}}
+[2026-02-25T04:47:50.419579Z] Starting _initDatabase
+[2026-02-25T04:47:51.332295Z] Database path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db
+[2026-02-25T04:47:51.503565Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): SqfliteFfiException(sqlite_error: 1, , SqliteException(1): while executing, index idx_case_logs_case already exists, SQL logic error (code 1)
+  Causing statement: CREATE INDEX idx_case_logs_case ON case_logs(case_id), parameters: }) DatabaseException(SqliteException(1): while executing, index idx_case_logs_case already exists, SQL logic error (code 1)
+  Causing statement: CREATE INDEX idx_case_logs_case ON case_logs(case_id), parameters: ) sql 'CREATE INDEX idx_case_logs_case ON case_logs(case_id)' {details: {database: {path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db, id: 3, readOnly: false, singleInstance: true}}}
+[2026-02-25T04:47:51.504954Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-25T04:47:51.544588Z] openDatabase error: SqfliteFfiException(sqlite_error: 1, , SqliteException(1): while executing, index idx_case_logs_case already exists, SQL logic error (code 1)
+  Causing statement: CREATE INDEX idx_case_logs_case ON case_logs(case_id), parameters: }) DatabaseException(SqliteException(1): while executing, index idx_case_logs_case already exists, SQL logic error (code 1)
+  Causing statement: CREATE INDEX idx_case_logs_case ON case_logs(case_id), parameters: ) sql 'CREATE INDEX idx_case_logs_case ON case_logs(case_id)' {details: {database: {path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db, id: 4, readOnly: false, singleInstance: true}}}
+[2026-02-25T05:03:39.525230Z] Starting _initDatabase
+[2026-02-25T05:03:39.982149Z] Database path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db
+[2026-02-25T05:03:41.603378Z] openDatabase success with FK enabled
+[2026-02-25T05:03:41.622811Z] Safety: Adding is_active to customers
+[2026-02-25T05:03:41.686703Z] Safety: Adding is_active to pets
+[2026-02-25T05:03:41.798848Z] Safety: Adding is_active to medical_cases
+[2026-02-25T05:03:41.953639Z] Safety: Adding is_active to case_services
+[2026-02-25T05:03:42.105541Z] Safety: Adding is_active to appointments
+[2026-02-25T05:03:42.301218Z] Safety: Adding is_active to medicine_transactions
+[2026-02-25T05:03:42.352457Z] Safety: Adding is_active to hospitalizations
+[2026-02-25T05:03:42.619044Z] Safety: Adding is_active to cages
+[2026-02-25T05:03:42.877561Z] Safety: Adding is_active to hospitalization_treatments
+[2026-02-25T05:03:42.997478Z] Safety: Adding is_active to vital_sign_logs
+[2026-02-25T05:03:43.226584Z] Safety: Adding is_active to product_sales
+[2026-02-25T05:03:43.598292Z] Safety: Adding is_active to expenses
+[2026-02-25T05:03:43.692529Z] Safety: Adding _version to case_attachments
+[2026-02-25T05:03:43.956694Z] Safety: Adding is_active to hospitalization_dailies
+[2026-02-25T05:03:44.084640Z] Safety: Adding is_active to case_logs
+[2026-02-25T07:34:55.190095Z] Starting closeDatabase...
+[2026-02-25T07:34:55.205571Z] Database closed successfully.
+[2026-02-25T07:35:19.930181Z] Starting _initDatabase
+[2026-02-25T07:35:19.932114Z] Database path: C:\Users\Administrator\Documents\okada_vet_clinic.db
+[2026-02-25T07:35:19.958542Z] openDatabase success with FK enabled
+[2026-02-25T07:35:19.994719Z] Safety: Adding is_active to case_logs
+[2026-02-25T07:36:07.985656Z] Starting closeDatabase...
+[2026-02-25T07:36:07.995266Z] Database closed successfully.
+[2026-02-25T07:36:10.038996Z] Starting _initDatabase
+[2026-02-25T07:36:10.131904Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T07:36:10.222465Z] openDatabase success with FK enabled
+[2026-02-25T07:36:10.244316Z] Safety: Adding is_active to customers
+[2026-02-25T07:36:10.277162Z] Safety: Adding is_active to pets
+[2026-02-25T07:36:10.296922Z] Safety: Adding is_active to medical_cases
+[2026-02-25T07:36:10.314566Z] Safety: Adding is_active to case_services
+[2026-02-25T07:36:10.331709Z] Safety: Adding is_active to appointments
+[2026-02-25T07:36:10.336842Z] Safety: Adding is_active to medicine_transactions
+[2026-02-25T07:36:10.367470Z] Safety: Adding is_active to hospitalizations
+[2026-02-25T07:36:10.378956Z] Safety: Adding is_active to cages
+[2026-02-25T07:36:10.387806Z] Safety: Adding is_active to hospitalization_treatments
+[2026-02-25T07:36:10.402945Z] Safety: Adding is_active to vital_sign_logs
+[2026-02-25T07:36:10.430420Z] Safety: Adding is_active to product_sales
+[2026-02-25T07:36:10.439109Z] Safety: Adding is_active to expenses
+[2026-02-25T07:36:10.445867Z] Safety: Adding _version to case_attachments
+[2026-02-25T07:36:10.459628Z] Safety: Adding is_active to hospitalization_dailies
+[2026-02-25T07:36:10.469586Z] Safety: Adding is_active to case_logs
+[2026-02-25T07:38:16.800781Z] Starting _initDatabase
+[2026-02-25T07:38:17.100330Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T07:38:17.381148Z] openDatabase success with FK enabled
+[2026-02-25T07:51:02.526264Z] Starting _initDatabase
+[2026-02-25T07:51:03.903377Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T07:51:04.323688Z] openDatabase success with FK enabled
+[2026-02-25T07:57:22.865700Z] Starting _initDatabase
+[2026-02-25T07:57:23.179546Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T07:57:23.429744Z] openDatabase success with FK enabled
+[2026-02-25T08:02:49.248474Z] Starting _initDatabase
+[2026-02-25T08:02:49.566961Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T08:02:49.836506Z] openDatabase success with FK enabled
+[2026-02-25T08:18:43.066067Z] Starting _initDatabase
+[2026-02-25T08:18:43.381520Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T08:18:43.644656Z] openDatabase success with FK enabled
+[2026-02-25T08:44:09.570881Z] Starting _initDatabase
+[2026-02-25T08:44:10.191316Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T08:44:12.285489Z] openDatabase success with FK enabled
+[2026-02-25T08:55:06.044109Z] Starting _initDatabase
+[2026-02-25T08:55:06.351634Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T08:55:06.614077Z] openDatabase success with FK enabled
+[2026-02-25T09:05:12.484349Z] Starting _initDatabase
+[2026-02-25T09:05:13.212707Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T09:05:13.715390Z] openDatabase success with FK enabled
+[2026-02-25T09:09:54.967673Z] Starting _initDatabase
+[2026-02-25T09:09:55.453586Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T09:09:55.804480Z] openDatabase success with FK enabled
+[2026-02-25T09:12:45.576173Z] Starting _initDatabase
+[2026-02-25T09:12:46.028594Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T09:12:46.383673Z] openDatabase success with FK enabled
+[2026-02-25T09:38:57.741675Z] Starting _initDatabase
+[2026-02-25T09:38:58.274678Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T09:38:58.978935Z] openDatabase success with FK enabled
+[2026-02-25T11:46:26.212829Z] Starting _initDatabase
+[2026-02-25T11:46:27.174002Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T11:46:27.735607Z] openDatabase success with FK enabled
+[2026-02-25T12:39:47.050839Z] Starting _initDatabase
+[2026-02-25T12:39:47.396017Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T12:39:47.656924Z] openDatabase success with FK enabled
+[2026-02-25T12:49:28.457379Z] Starting _initDatabase
+[2026-02-25T12:49:29.494087Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T12:49:32.719812Z] openDatabase success with FK enabled
+[2026-02-25T12:55:36.667336Z] Starting _initDatabase
+[2026-02-25T12:55:37.447654Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T12:55:37.907653Z] openDatabase success with FK enabled
+[2026-02-25T13:24:29.928763Z] Starting _initDatabase
+[2026-02-25T13:24:30.578391Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T13:24:31.723336Z] openDatabase success with FK enabled
+[2026-02-25T13:39:54.084267Z] Starting _initDatabase
+[2026-02-25T13:39:54.555485Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T13:39:55.211729Z] openDatabase success with FK enabled
+[2026-02-25T14:24:23.662695Z] Starting _initDatabase
+[2026-02-25T14:24:24.420466Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T14:24:24.863834Z] openDatabase success with FK enabled
+[2026-02-25T14:26:07.540030Z] Starting _initDatabase
+[2026-02-25T14:26:08.071180Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T14:26:09.129330Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): SqfliteFfiException(sqlite_error: 5, , SqliteException(5): while executing, database is locked, database is locked (code 5)
+  Causing statement: PRAGMA journal_mode = WAL, parameters: }) DatabaseException(SqliteException(5): while executing, database is locked, database is locked (code 5)
+  Causing statement: PRAGMA journal_mode = WAL, parameters: ) sql 'PRAGMA journal_mode = WAL' {details: {database: {path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db, id: 1, readOnly: false, singleInstance: true}}}
+[2026-02-25T14:26:09.130605Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-25T14:26:09.172896Z] openDatabase error: SqfliteFfiException(sqlite_error: 5, , SqliteException(5): while selecting from statement, database is locked, database is locked (code 5)
+  Causing statement: PRAGMA user_version}) DatabaseException(SqliteException(5): while selecting from statement, database is locked, database is locked (code 5)
+  Causing statement: PRAGMA user_version) sql 'PRAGMA user_version' {details: {database: {path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db, id: 2, readOnly: false, singleInstance: true}}}
+[2026-02-25T14:26:13.851868Z] Starting _initDatabase
+[2026-02-25T14:26:14.426798Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T14:26:14.624923Z] openDatabase success with FK enabled
+[2026-02-25T14:27:05.894265Z] Starting _initDatabase
+[2026-02-25T14:27:06.447378Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T14:27:07.066663Z] openDatabase success with FK enabled
+[2026-02-25T15:35:48.165574Z] Starting _initDatabase
+[2026-02-25T15:35:49.216021Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T15:35:49.752947Z] openDatabase success with FK enabled
+[2026-02-25T23:18:05.039017Z] Starting _initDatabase
+[2026-02-25T23:18:05.629289Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-25T23:18:06.275300Z] openDatabase success with FK enabled
+[2026-02-26T02:41:21.736459Z] Starting _initDatabase
+[2026-02-26T02:41:22.805276Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T02:41:23.494422Z] openDatabase success with FK enabled
+[2026-02-26T04:49:40.222619Z] Starting _initDatabase
+[2026-02-26T04:49:40.923245Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T04:49:41.327252Z] openDatabase success with FK enabled
+[2026-02-26T04:57:07.267341Z] Starting _initDatabase
+[2026-02-26T04:57:07.866770Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T04:57:08.376931Z] openDatabase success with FK enabled
+[2026-02-26T04:57:22.994178Z] Starting _initDatabase
+[2026-02-26T04:57:23.646792Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T04:57:23.911944Z] openDatabase success with FK enabled
+[2026-02-26T05:03:59.463734Z] Starting _initDatabase
+[2026-02-26T05:03:59.823020Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T05:04:00.105613Z] openDatabase success with FK enabled
+[2026-02-26T05:04:59.569520Z] Starting _initDatabase
+[2026-02-26T05:04:59.888383Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T05:05:00.131433Z] openDatabase success with FK enabled
+[2026-02-26T05:45:47.541179Z] Starting _initDatabase
+[2026-02-26T05:45:47.860909Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T05:45:48.137189Z] openDatabase success with FK enabled
+[2026-02-26T07:19:02.383525Z] Starting _initDatabase
+[2026-02-26T07:19:02.692414Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T07:19:02.919299Z] openDatabase success with FK enabled
+[2026-02-26T10:48:23.759205Z] Starting _initDatabase
+[2026-02-26T10:48:24.484090Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T10:48:25.818938Z] openDatabase success with FK enabled
+[2026-02-26T11:43:01.969221Z] Starting _initDatabase
+[2026-02-26T11:43:02.632730Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T11:43:03.100044Z] openDatabase success with FK enabled
+[2026-02-26T11:48:14.315170Z] Starting _initDatabase
+[2026-02-26T11:48:14.714814Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T11:48:14.993111Z] openDatabase success with FK enabled
+[2026-02-26T12:14:53.648738Z] Starting _initDatabase
+[2026-02-26T12:14:54.085634Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T12:14:54.944476Z] openDatabase success with FK enabled
+[2026-02-26T12:48:59.530837Z] Starting _initDatabase
+[2026-02-26T12:49:00.102508Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T12:49:00.410062Z] openDatabase success with FK enabled
+[2026-02-26T12:51:11.321514Z] Starting _initDatabase
+[2026-02-26T12:51:11.837680Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T12:51:12.208480Z] openDatabase success with FK enabled
+[2026-02-26T13:01:02.252174Z] Starting _initDatabase
+[2026-02-26T13:01:02.629341Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T13:01:03.160962Z] openDatabase success with FK enabled
+[2026-02-26T13:11:03.684061Z] Starting _initDatabase
+[2026-02-26T13:11:04.134252Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T13:11:04.494587Z] openDatabase success with FK enabled
+[2026-02-26T13:30:33.538838Z] Starting _initDatabase
+[2026-02-26T13:30:34.834872Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T13:30:36.825831Z] openDatabase success with FK enabled
+[2026-02-26T13:40:38.788904Z] Starting _initDatabase
+[2026-02-26T13:40:39.391219Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T13:40:40.084995Z] openDatabase success with FK enabled
+[2026-02-26T13:57:37.832903Z] Starting _initDatabase
+[2026-02-26T13:57:38.841822Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T13:57:40.624332Z] openDatabase success with FK enabled
+[2026-02-26T14:15:11.248181Z] Starting _initDatabase
+[2026-02-26T14:15:11.861890Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T14:15:12.101904Z] openDatabase success with FK enabled
+[2026-02-26T15:10:10.323770Z] Starting _initDatabase
+[2026-02-26T15:10:11.129665Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-26T15:10:11.530836Z] openDatabase success with FK enabled
+[2026-02-27T04:53:44.839792Z] Starting _initDatabase
+[2026-02-27T04:53:45.534876Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-27T04:53:46.230109Z] openDatabase success with FK enabled
+[2026-02-27T04:57:03.647542Z] Starting _initDatabase
+[2026-02-27T04:57:04.300859Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-27T04:57:04.728974Z] openDatabase success with FK enabled
+[2026-02-27T07:29:41.869432Z] Starting _initDatabase
+[2026-02-27T07:29:42.205974Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-27T07:29:42.444998Z] openDatabase success with FK enabled
+[2026-02-27T07:46:07.706573Z] Starting _initDatabase
+[2026-02-27T07:46:08.039753Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-27T07:46:08.301030Z] openDatabase success with FK enabled
+[2026-02-27T07:52:52.102113Z] Starting _initDatabase
+[2026-02-27T07:52:52.784490Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-27T07:52:53.335095Z] openDatabase success with FK enabled
+[2026-02-27T08:00:37.533792Z] Starting _initDatabase
+[2026-02-27T08:00:37.869214Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-27T08:00:38.097469Z] openDatabase success with FK enabled
+[2026-02-27T08:12:09.171364Z] Starting _initDatabase
+[2026-02-27T08:12:09.554072Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-27T08:12:09.850247Z] openDatabase success with FK enabled
+[2026-02-27T08:18:57.347733Z] Starting _initDatabase
+[2026-02-27T08:18:58.036523Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-27T08:18:58.595967Z] openDatabase success with FK enabled
+[2026-02-27T08:24:44.078981Z] Starting _initDatabase
+[2026-02-27T08:24:44.417450Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-27T08:24:44.635196Z] openDatabase success with FK enabled
+[2026-02-27T08:25:52.862713Z] Starting _initDatabase
+[2026-02-27T08:25:53.300905Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-27T08:25:53.615275Z] openDatabase success with FK enabled
+[2026-02-27T08:35:52.811302Z] Starting _initDatabase
+[2026-02-27T08:35:53.251487Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-27T08:35:53.533238Z] openDatabase success with FK enabled
+[2026-02-27T08:49:15.040777Z] Starting _initDatabase
+[2026-02-27T08:49:15.444493Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-27T08:49:15.733274Z] openDatabase success with FK enabled
+[2026-02-27T09:02:10.427234Z] Starting _initDatabase
+[2026-02-27T09:02:10.842269Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-27T09:02:11.161342Z] openDatabase success with FK enabled
+[2026-02-27T09:26:33.555721Z] Starting _initDatabase
+[2026-02-27T09:26:34.384841Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-27T09:26:34.711159Z] openDatabase success with FK enabled
+[2026-02-27T14:09:31.613136Z] Starting _initDatabase
+[2026-02-27T14:09:32.774717Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-27T14:09:33.942080Z] openDatabase success with FK enabled
+[2026-02-27T14:09:34.163194Z] Migration: Adding snapshot columns to medical_cases
+[2026-02-27T14:25:59.939578Z] Starting _initDatabase
+[2026-02-27T14:26:00.641892Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-27T14:26:00.983213Z] openDatabase success with FK enabled
+[2026-02-27T15:52:51.276571Z] Starting _initDatabase
+[2026-02-27T15:52:52.358808Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-27T15:52:59.763456Z] Lỗi mở database (có thể do DB cũ chưa mã hóa): SqfliteFfiException(sqlite_error: 5, , SqliteException(5): while executing, database is locked, database is locked (code 5)
+  Causing statement: PRAGMA journal_mode = WAL, parameters: }) DatabaseException(SqliteException(5): while executing, database is locked, database is locked (code 5)
+  Causing statement: PRAGMA journal_mode = WAL, parameters: ) sql 'PRAGMA journal_mode = WAL' {details: {database: {path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db, id: 1, readOnly: false, singleInstance: true}}}
+[2026-02-27T15:52:59.764500Z] Tiến hành xóa database cũ và tạo lại phiên bản mã hóa
+[2026-02-27T15:52:59.784219Z] openDatabase error: SqfliteFfiException(sqlite_error: 5, , SqliteException(5): while selecting from statement, database is locked, database is locked (code 5)
+  Causing statement: PRAGMA user_version}) DatabaseException(SqliteException(5): while selecting from statement, database is locked, database is locked (code 5)
+  Causing statement: PRAGMA user_version) sql 'PRAGMA user_version' {details: {database: {path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db, id: 2, readOnly: false, singleInstance: true}}}
+[2026-02-27T15:53:15.317474Z] Starting _initDatabase
+[2026-02-27T15:53:16.031045Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-27T15:53:17.204860Z] openDatabase success with FK enabled
+[2026-02-28T03:06:30.618850Z] Starting _initDatabase
+[2026-02-28T03:06:32.198133Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-28T03:06:33.764848Z] openDatabase success with FK enabled
+[2026-02-28T09:57:35.867446Z] Starting _initDatabase
+[2026-02-28T09:57:36.534387Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-28T09:57:37.033863Z] openDatabase success with FK enabled
+[2026-02-28T10:18:14.132870Z] Starting _initDatabase
+[2026-02-28T10:18:14.599319Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-28T10:18:14.945204Z] openDatabase success with FK enabled
+[2026-02-28T10:18:15.173004Z] Migration: Adding type and payment_method to expenses
+[2026-02-28T10:25:10.998534Z] Starting _initDatabase
+[2026-02-28T10:25:11.374667Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-28T10:25:11.639110Z] openDatabase success with FK enabled
+[2026-02-28T10:28:04.003084Z] Starting _initDatabase
+[2026-02-28T10:28:04.497029Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-28T10:28:04.926417Z] openDatabase success with FK enabled
+[2026-02-28T10:41:21.774410Z] Starting _initDatabase
+[2026-02-28T10:41:22.166109Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-28T10:41:22.441616Z] openDatabase success with FK enabled
+[2026-02-28T10:53:33.595363Z] Starting _initDatabase
+[2026-02-28T10:53:34.063107Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-28T10:53:34.516478Z] openDatabase success with FK enabled
+[2026-02-28T11:03:09.149626Z] Starting _initDatabase
+[2026-02-28T11:03:09.850890Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-28T11:03:10.334988Z] openDatabase success with FK enabled
+[2026-02-28T11:13:51.595582Z] Starting _initDatabase
+[2026-02-28T11:13:52.088749Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-28T11:13:52.454834Z] openDatabase success with FK enabled
+[2026-02-28T12:21:27.798445Z] Starting _initDatabase
+[2026-02-28T12:21:28.785308Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-28T12:21:29.207032Z] openDatabase success with FK enabled
+[2026-02-28T12:24:11.623864Z] Starting _initDatabase
+[2026-02-28T12:24:12.305696Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-28T12:24:12.868485Z] openDatabase success with FK enabled
+[2026-02-28T12:29:01.271381Z] Starting _initDatabase
+[2026-02-28T12:29:01.935602Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-28T12:29:02.461477Z] openDatabase success with FK enabled
+[2026-02-28T12:33:51.634577Z] Starting _initDatabase
+[2026-02-28T12:33:52.249074Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-28T12:33:52.818683Z] openDatabase success with FK enabled
+[2026-02-28T12:35:47.846609Z] Starting _initDatabase
+[2026-02-28T12:35:48.568424Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-28T12:35:49.109762Z] openDatabase success with FK enabled
+[2026-02-28T12:39:49.221545Z] Starting _initDatabase
+[2026-02-28T12:39:49.822277Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-28T12:39:50.267844Z] openDatabase success with FK enabled
+[2026-02-28T12:42:33.250821Z] Starting _initDatabase
+[2026-02-28T12:42:33.923724Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-28T12:42:34.384158Z] openDatabase success with FK enabled
+[2026-02-28T12:46:30.628998Z] Starting _initDatabase
+[2026-02-28T12:46:31.203195Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-28T12:46:31.700769Z] openDatabase success with FK enabled
+[2026-02-28T12:52:17.445274Z] Starting _initDatabase
+[2026-02-28T12:52:18.025327Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-02-28T12:52:18.853382Z] openDatabase success with FK enabled
+[2026-03-01T02:31:16.011537Z] Starting _initDatabase
+[2026-03-01T02:31:16.618428Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T02:31:17.066023Z] openDatabase success with FK enabled
+[2026-03-01T02:43:28.306783Z] Starting _initDatabase
+[2026-03-01T02:43:28.893529Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T02:43:29.561387Z] openDatabase success with FK enabled
+[2026-03-01T02:53:49.261922Z] Starting _initDatabase
+[2026-03-01T02:53:49.857169Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T02:53:50.503936Z] openDatabase success with FK enabled
+[2026-03-01T03:04:35.609272Z] Starting _initDatabase
+[2026-03-01T03:04:36.411336Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T03:04:36.730263Z] openDatabase success with FK enabled
+[2026-03-01T03:05:24.473757Z] Starting _initDatabase
+[2026-03-01T03:05:24.967793Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T03:05:25.373616Z] openDatabase success with FK enabled
+[2026-03-01T03:34:48.909381Z] Starting _initDatabase
+[2026-03-01T03:34:49.869461Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T03:34:50.763341Z] openDatabase success with FK enabled
+[2026-03-01T04:58:14.425552Z] Starting _initDatabase
+[2026-03-01T04:58:14.916169Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T04:58:15.855079Z] openDatabase success with FK enabled
+[2026-03-01T05:10:36.243847Z] Starting _initDatabase
+[2026-03-01T05:10:36.665801Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T05:10:40.497231Z] openDatabase success with FK enabled
+[2026-03-01T05:23:36.225367Z] Starting _initDatabase
+[2026-03-01T05:23:36.660611Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T05:23:37.436649Z] openDatabase success with FK enabled
+[2026-03-01T08:42:45.828452Z] Starting _initDatabase
+[2026-03-01T08:42:46.307742Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T08:42:46.815967Z] openDatabase success with FK enabled
+[2026-03-01T08:49:20.390146Z] Starting _initDatabase
+[2026-03-01T08:49:20.718555Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T08:49:21.039958Z] openDatabase success with FK enabled
+[2026-03-01T09:08:01.220209Z] Starting _initDatabase
+[2026-03-01T09:08:01.614158Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T09:08:02.341382Z] openDatabase success with FK enabled
+[2026-03-01T09:19:35.353395Z] Starting _initDatabase
+[2026-03-01T09:19:37.105960Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T09:19:38.654013Z] openDatabase success with FK enabled
+[2026-03-01T09:31:30.533261Z] Starting _initDatabase
+[2026-03-01T09:31:32.073383Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T09:31:34.965118Z] openDatabase success with FK enabled
+[2026-03-01T10:23:37.426959Z] Starting _initDatabase
+[2026-03-01T10:23:38.753045Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T10:23:39.845674Z] openDatabase success with FK enabled
+[2026-03-01T10:26:21.548385Z] Starting _initDatabase
+[2026-03-01T10:26:21.968146Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T10:26:22.255476Z] openDatabase success with FK enabled
+[2026-03-01T10:30:41.071074Z] Starting _initDatabase
+[2026-03-01T10:30:41.595365Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T10:30:42.056334Z] openDatabase success with FK enabled
+[2026-03-01T10:32:36.608453Z] Starting _initDatabase
+[2026-03-01T10:32:37.062077Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T10:32:37.440316Z] openDatabase success with FK enabled
+[2026-03-01T10:34:41.573647Z] Starting _initDatabase
+[2026-03-01T10:34:42.319984Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T10:34:42.670620Z] openDatabase success with FK enabled
+[2026-03-01T10:35:17.264560Z] Starting _initDatabase
+[2026-03-01T10:35:17.586712Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T10:35:17.811337Z] openDatabase success with FK enabled
+[2026-03-01T10:38:27.296455Z] Starting _initDatabase
+[2026-03-01T10:38:28.270426Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T10:38:28.834615Z] openDatabase success with FK enabled
+[2026-03-01T14:17:29.000974Z] Starting _initDatabase
+[2026-03-01T14:17:34.270827Z] Database path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db
+[2026-03-01T14:17:39.851509Z] openDatabase success with FK enabled
+[2026-03-01T14:26:46.021500Z] Starting closeDatabase...
+[2026-03-01T14:26:46.074543Z] Database closed successfully.
+[2026-03-01T14:27:04.825920Z] Starting closeDatabase...
+[2026-03-01T14:27:04.833133Z] Database closed successfully.
+[2026-03-01T14:27:12.191335Z] Starting _initDatabase
+[2026-03-01T14:27:16.835964Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T14:27:18.674235Z] openDatabase success with FK enabled
+[2026-03-01T14:33:57.528188Z] Starting _initDatabase
+[2026-03-01T14:34:00.022244Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T14:34:03.703176Z] openDatabase success with FK enabled
+[2026-03-01T14:46:25.418064Z] Starting _initDatabase
+[2026-03-01T14:46:25.879652Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T14:46:26.184032Z] openDatabase success with FK enabled
+[2026-03-01T14:49:41.801007Z] Starting _initDatabase
+[2026-03-01T14:49:42.220778Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T14:49:42.513083Z] openDatabase success with FK enabled
+[2026-03-01T14:52:17.041344Z] Starting _initDatabase
+[2026-03-01T14:52:17.544320Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T14:52:18.117112Z] openDatabase success with FK enabled
+[2026-03-01T14:55:32.388359Z] Starting _initDatabase
+[2026-03-01T14:55:32.719134Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T14:55:32.958624Z] openDatabase success with FK enabled
+[2026-03-01T15:07:47.007855Z] Starting _initDatabase
+[2026-03-01T15:07:47.345908Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T15:07:47.586036Z] openDatabase success with FK enabled
+[2026-03-01T15:40:06.974332Z] Starting _initDatabase
+[2026-03-01T15:40:06.981895Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T15:40:07.151617Z] openDatabase success with FK enabled
+[2026-03-01T15:45:04.069327Z] Starting _initDatabase
+[2026-03-01T15:45:04.643097Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-01T15:45:05.151091Z] openDatabase success with FK enabled
+[2026-03-02T04:45:44.859259Z] Starting _initDatabase
+[2026-03-02T04:45:45.388930Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-02T04:45:45.692916Z] openDatabase success with FK enabled
+[2026-03-02T04:49:16.872500Z] Starting _initDatabase
+[2026-03-02T04:49:17.410768Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-02T04:49:17.833991Z] openDatabase success with FK enabled
+[2026-03-02T04:54:29.177234Z] Starting _initDatabase
+[2026-03-02T04:54:29.582496Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-02T04:54:29.900292Z] openDatabase success with FK enabled
+[2026-03-02T05:09:08.204356Z] Starting _initDatabase
+[2026-03-02T05:09:08.633934Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-02T05:09:09.265861Z] openDatabase success with FK enabled
+[2026-03-02T05:09:34.827786Z] Starting _initDatabase
+[2026-03-02T05:09:35.392744Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-02T05:09:35.835610Z] openDatabase success with FK enabled
+[2026-03-02T08:33:51.284625Z] Starting _initDatabase
+[2026-03-02T08:33:52.449378Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-02T08:33:52.739110Z] openDatabase success with FK enabled
+[2026-03-02T23:01:04.120050Z] Starting _initDatabase
+[2026-03-02T23:01:04.821800Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-02T23:01:05.468668Z] openDatabase success with FK enabled
+[2026-03-02T23:02:42.761068Z] Starting _initDatabase
+[2026-03-02T23:02:43.385965Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-02T23:02:43.907713Z] openDatabase success with FK enabled
+[2026-03-03T00:50:17.817746Z] Starting _initDatabase
+[2026-03-03T00:50:18.340493Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-03T00:50:19.121013Z] openDatabase success with FK enabled
+[2026-03-03T01:37:05.150798Z] Starting _initDatabase
+[2026-03-03T01:37:05.744718Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-03T01:37:06.346099Z] openDatabase success with FK enabled
+[2026-03-03T01:41:26.904828Z] Starting _initDatabase
+[2026-03-03T01:41:27.579642Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-03T01:41:28.238924Z] openDatabase success with FK enabled
+[2026-03-03T02:22:23.236456Z] Starting _initDatabase
+[2026-03-03T02:22:23.765023Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-03T02:22:24.143230Z] openDatabase success with FK enabled
+[2026-03-03T14:50:19.707543Z] Starting _initDatabase
+[2026-03-03T14:50:20.471214Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-03T14:50:22.117532Z] openDatabase success with FK enabled
+[2026-03-03T15:11:55.543583Z] Starting _initDatabase
+[2026-03-03T15:11:55.990382Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-03T15:11:56.472697Z] openDatabase success with FK enabled
+[2026-03-04T00:05:53.569117Z] Starting _initDatabase
+[2026-03-04T00:05:54.740339Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-04T00:05:58.960104Z] openDatabase success with FK enabled
+[2026-03-04T01:31:40.022353Z] Starting _initDatabase
+[2026-03-04T01:31:41.040805Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-04T01:31:42.322488Z] openDatabase success with FK enabled
+[2026-03-04T07:31:47.472654Z] Starting _initDatabase
+[2026-03-04T07:31:48.047002Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-04T07:31:48.872956Z] openDatabase success with FK enabled
+[2026-03-04T07:40:04.219678Z] Starting _initDatabase
+[2026-03-04T07:40:04.991583Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-04T07:40:05.653623Z] openDatabase success with FK enabled
+[2026-03-04T07:41:28.579220Z] Starting _initDatabase
+[2026-03-04T07:41:29.270196Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-04T07:41:29.892909Z] openDatabase success with FK enabled
+[2026-03-04T07:54:34.820471Z] Starting _initDatabase
+[2026-03-04T07:54:49.384450Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-04T07:55:18.008881Z] openDatabase success with FK enabled
+[2026-03-04T09:13:11.212030Z] Starting _initDatabase
+[2026-03-04T09:13:12.001410Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-04T09:13:14.032307Z] openDatabase success with FK enabled
+[2026-03-04T09:20:05.367819Z] Starting _initDatabase
+[2026-03-04T09:20:05.797935Z] Database path: C:\Users\Administrator\Documents\okada_vet_550785a1e91b4c009e8606b7f15d8264.db
+[2026-03-04T09:20:06.767465Z] openDatabase success with FK enabled
+[2026-03-04T09:20:12.704627Z] Starting closeDatabase...
+[2026-03-04T09:20:12.741431Z] Database closed successfully.
+[2026-03-04T09:20:24.817797Z] Starting closeDatabase...
+[2026-03-04T09:20:24.826025Z] Database closed successfully.
+[2026-03-04T09:20:29.402688Z] Starting _initDatabase
+[2026-03-04T09:20:29.656255Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-04T09:20:29.710634Z] openDatabase success with FK enabled
+[2026-03-04T09:26:41.840268Z] Starting _initDatabase
+[2026-03-04T09:26:42.312583Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-04T09:26:42.805256Z] openDatabase success with FK enabled
+[2026-03-04T09:32:11.393477Z] Starting _initDatabase
+[2026-03-04T09:32:11.806655Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-04T09:32:12.135241Z] openDatabase success with FK enabled
+[2026-03-04T09:35:13.853562Z] Starting _initDatabase
+[2026-03-04T09:35:14.532710Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-04T09:35:15.455651Z] openDatabase success with FK enabled
+[2026-03-04T09:45:18.337983Z] Starting _initDatabase
+[2026-03-04T09:45:18.932157Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-04T09:45:19.559275Z] openDatabase success with FK enabled
+[2026-03-04T09:59:15.885766Z] Starting _initDatabase
+[2026-03-04T09:59:16.587345Z] Database path: C:\Users\Administrator\Documents\okada_vet_80cf3ca8f5304963987c005fa5be3025.db
+[2026-03-04T09:59:17.244878Z] openDatabase success with FK enabled

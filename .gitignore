@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Environment & Secrets — NEVER COMMIT!
+.env
+.env.local
+.env*.local
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.apk
+*.aab
+*.ipa
+*.exe
+*.msix
+
+# Debug info (from --split-debug-info)
+build/debug-info/
+
+# Supabase credentials (NEVER commit!)
+lib/core/constants/supabase_credentials.dart
+
+# Firebase config (NEVER commit!)
+google-services.json
+GoogleService-Info.plist
+lib/firebase_options.dart
+
+# Installer output
+Output/
+
+# Analysis & debug logs
+analyze_*.txt
+flutter_analyze.txt
+flutter_build_error.log
+dart_analyze_output.txt
+lib/analyze_*.txt
+
+# Python temp files
+*.pyc
+__pycache__/
+
+# Agent & workflow config (personal)
+.agent/
+.agents/
+_agent/
+_agents/
+.brain/
+
+# Non-essential files
+_misc/
+import_data/
+test_app/
+-p/
+
+# Temp scripts (project-specific)
+check_supabase.dart
+test_pg.js
+fix_*.py
+update_*.py

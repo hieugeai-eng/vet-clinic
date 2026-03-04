@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Clinic — 11. Chi Phí</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            padding: 20px
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 22px;
+            color: #fff;
+            margin-bottom: 4px
+        }
+
+        .sub {
+            text-align: center;
+            color: #64748b;
+            font-size: 12px;
+            margin-bottom: 24px
+        }
+
+        .section {
+            font-size: 15px;
+            font-weight: 700;
+            margin: 28px 0 12px;
+            padding-left: 8px;
+            border-left: 3px solid
+        }
+
+        .grid {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 32px
+        }
+
+        .frame {
+            background: #fff;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            overflow: hidden;
+            color: #1e293b
+        }
+
+        .frame-d {
+            width: 820px
+        }
+
+        .frame-m {
+            width: 360px;
+            border-radius: 20px;
+            border: 3px solid #334155;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, .3)
+        }
+
+        .frame-label {
+            background: #1e293b;
+            color: #94a3b8;
+            font-size: 10px;
+            padding: 3px 12px;
+            text-align: center;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-transform: uppercase
+        }
+
+        .hdr {
+            background: #f8fafc;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 8px 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px
+        }
+
+        .hdr h2 {
+            font-size: 13px;
+            font-weight: 600;
+            flex: 1
+        }
+
+        .btn-s {
+            padding: 3px 10px;
+            font-size: 10px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 3px;
+            font-weight: 500
+        }
+
+        .btn-p {
+            background: #2563eb;
+            color: #fff
+        }
+
+        .badge {
+            padding: 1px 7px;
+            border-radius: 10px;
+            font-size: 9px;
+            font-weight: 500;
+            display: inline-block
+        }
+
+        .b-green {
+            background: #dcfce7;
+            color: #16a34a
+        }
+
+        .b-amber {
+            background: #fef3c7;
+            color: #d97706
+        }
+
+        .b-red {
+            background: #fef2f2;
+            color: #dc2626
+        }
+
+        .b-blue {
+            background: #dbeafe;
+            color: #2563eb
+        }
+
+        .gcard {
+            border-radius: 10px;
+            padding: 12px 14px;
+            color: #fff;
+            position: relative;
+            overflow: hidden
+        }
+
+        .gcard::after {
+            content: '';
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            width: 70px;
+            height: 70px;
+            background: rgba(255, 255, 255, .1);
+            border-radius: 50%
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 11px
+        }
+
+        thead th {
+            background: #f8fafc;
+            padding: 5px 8px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 10px;
+            color: #475569;
+            border-bottom: 2px solid #e2e8f0;
+            white-space: nowrap
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #f1f5f9
+        }
+
+        tbody tr:hover {
+            background: #f8fafc
+        }
+
+        tbody td {
+            padding: 5px 8px
+        }
+
+        .nm {
+            font-weight: 500;
+            color: #0f172a
+        }
+
+        .sub-t {
+            font-size: 10px;
+            color: #94a3b8
+        }
+
+        .status-bar {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 16px;
+            font-size: 10px;
+            font-weight: 600;
+            background: #fff
+        }
+    </style>
+</head>
+
+<body>
+    <h1>💰 Pet Clinic — Chi Phí</h1>
+    <p class="sub">Module 11: Quản lý chi phí, nhập hàng, phát sinh • Desktop & Mobile</p>
+
+    <!-- ═══════ DESKTOP ═══════ -->
+    <div class="section" style="color:#ef4444;border-color:#ef4444">💻 Desktop — Quản Lý Chi Phí</div>
+    <div class="grid">
+        <div class="frame frame-d">
+            <div class="frame-label">Desktop — Chi Phí Tháng</div>
+            <div class="hdr"><span class="material-icons-round"
+                    style="font-size:16px;color:#ef4444">account_balance_wallet</span>
+                <h2>Chi Phí</h2><span style="font-size:10px;color:#64748b">Tháng 02/2026</span><button
+                    class="btn-s btn-p" style="margin-left:auto"><span class="material-icons-round"
+                        style="font-size:12px">add</span>Thêm chi phí</button>
+            </div>
+            <div style="padding:12px;background:#f8fafc">
+                <!-- Stats -->
+                <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:10px;margin-bottom:12px">
+                    <div class="gcard" style="background:linear-gradient(135deg,#ef4444,#f87171)">
+                        <div style="font-size:9px;opacity:.8;text-transform:uppercase">Tổng chi</div>
+                        <div style="font-size:22px;font-weight:700">32.5tr</div>
+                        <div style="font-size:9px;opacity:.7">↑ 5% so với T1</div>
+                    </div>
+                    <div class="gcard" style="background:linear-gradient(135deg,#f59e0b,#fbbf24)">
+                        <div style="font-size:9px;opacity:.8;text-transform:uppercase">Nhập thuốc</div>
+                        <div style="font-size:22px;font-weight:700">18tr</div>
+                        <div style="font-size:9px;opacity:.7">55% tổng chi</div>
+                    </div>
+                    <div class="gcard" style="background:linear-gradient(135deg,#06b6d4,#22d3ee)">
+                        <div style="font-size:9px;opacity:.8;text-transform:uppercase">Vận hành</div>
+                        <div style="font-size:22px;font-weight:700">8.5tr</div>
+                        <div style="font-size:9px;opacity:.7">26% tổng chi</div>
+                    </div>
+                    <div class="gcard" style="background:linear-gradient(135deg,#8b5cf6,#a78bfa)">
+                        <div style="font-size:9px;opacity:.8;text-transform:uppercase">Khác</div>
+                        <div style="font-size:22px;font-weight:700">6tr</div>
+                        <div style="font-size:9px;opacity:.7">19% tổng chi</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Table -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ngày</th>
+                        <th>Danh mục</th>
+                        <th>Mô tả</th>
+                        <th>Người tạo</th>
+                        <th style="text-align:right">Số tiền</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="nm">18/02/2026</td>
+                        <td><span class="badge b-amber">Nhập thuốc</span></td>
+                        <td>
+                            <div class="nm">Nhập Amoxicillin 250mg x100</div>
+                            <div class="sub-t">NCC Pharma Plus</div>
+                        </td>
+                        <td>BS. An</td>
+                        <td style="text-align:right;color:#ef4444;font-weight:600">-2,500,000</td>
+                        <td><span class="material-icons-round" style="font-size:16px;color:#94a3b8">more_vert</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="nm">17/02/2026</td>
+                        <td><span class="badge b-blue">Vận hành</span></td>
+                        <td>
+                            <div class="nm">Tiền điện tháng 02</div>
+                            <div class="sub-t">Điện lực TP.HCM</div>
+                        </td>
+                        <td>Admin</td>
+                        <td style="text-align:right;color:#ef4444;font-weight:600">-1,200,000</td>
+                        <td><span class="material-icons-round" style="font-size:16px;color:#94a3b8">more_vert</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="nm">16/02/2026</td>
+                        <td><span class="badge b-amber">Nhập thuốc</span></td>
+                        <td>
+                            <div class="nm">Nhập Vaccine Rabies x50</div>
+                            <div class="sub-t">NCC VetMed</div>
+                        </td>
+                        <td>BS. Trần</td>
+                        <td style="text-align:right;color:#ef4444;font-weight:600">-5,000,000</td>
+                        <td><span class="material-icons-round" style="font-size:16px;color:#94a3b8">more_vert</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="nm">15/02/2026</td>
+                        <td><span class="badge" style="background:#ede9fe;color:#7c3aed">Khác</span></td>
+                        <td>
+                            <div class="nm">Mua vật tư y tế</div>
+                            <div class="sub-t">Găng tay, khẩu trang, bông gạc</div>
+                        </td>
+                        <td>Admin</td>
+                        <td style="text-align:right;color:#ef4444;font-weight:600">-800,000</td>
+                        <td><span class="material-icons-round" style="font-size:16px;color:#94a3b8">more_vert</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="nm">14/02/2026</td>
+                        <td><span class="badge b-blue">Vận hành</span></td>
+                        <td>
+                            <div class="nm">Tiền thuê mặt bằng</div>
+                            <div class="sub-t">Thanh toán hàng tháng</div>
+                        </td>
+                        <td>Admin</td>
+                        <td style="text-align:right;color:#ef4444;font-weight:600">-8,000,000</td>
+                        <td><span class="material-icons-round" style="font-size:16px;color:#94a3b8">more_vert</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div
+                style="display:flex;justify-content:space-between;padding:5px 10px;font-size:10px;color:#64748b;border-top:1px solid #e2e8f0">
+                <span>Hiển thị 5/42</span><span>1 2 3 ... 9 ›</span></div>
+        </div>
+    </div>
+
+    <!-- ═══════ MOBILE ═══════ -->
+    <div class="section" style="color:#ef4444;border-color:#ef4444">📱 Mobile — Chi Phí</div>
+    <div class="grid">
+        <div class="frame frame-m">
+            <div class="frame-label">Mobile — Chi Phí</div>
+            <div class="status-bar"><span>9:41</span>
+                <div style="display:flex;gap:4px"><span class="material-icons-round"
+                        style="font-size:14px">signal_cellular_alt</span><span class="material-icons-round"
+                        style="font-size:14px">wifi</span><span class="material-icons-round"
+                        style="font-size:14px">battery_full</span></div>
+            </div>
+            <div
+                style="background:#fff;padding:10px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid #f1f5f9">
+                <span class="material-icons-round" style="font-size:20px;color:#475569">arrow_back</span>
+                <div style="flex:1;font-size:15px;font-weight:700;color:#1e293b">Chi Phí</div>
+                <button class="btn-s btn-p"><span class="material-icons-round"
+                        style="font-size:12px">add</span>Thêm</button>
+            </div>
+            <div style="background:#f1f5f9;padding:12px;min-height:380px">
+                <!-- Stats -->
+                <div
+                    style="background:linear-gradient(135deg,#ef4444,#f87171);border-radius:10px;padding:12px;color:#fff;margin-bottom:10px;text-align:center">
+                    <div style="font-size:9px;opacity:.8;text-transform:uppercase">Tổng chi tháng 02</div>
+                    <div style="font-size:24px;font-weight:800">32.5tr</div>
+                    <div style="font-size:9px;opacity:.7">↑ 5% so với tháng trước</div>
+                </div>
+                <!-- Category breakdown -->
+                <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-bottom:10px">
+                    <div
+                        style="background:#fff;border-radius:8px;padding:8px;border:1px solid #e2e8f0;text-align:center">
+                        <div style="font-size:14px;font-weight:800;color:#f59e0b">18tr</div>
+                        <div style="font-size:8px;color:#64748b">Nhập thuốc</div>
+                    </div>
+                    <div
+                        style="background:#fff;border-radius:8px;padding:8px;border:1px solid #e2e8f0;text-align:center">
+                        <div style="font-size:14px;font-weight:800;color:#06b6d4">8.5tr</div>
+                        <div style="font-size:8px;color:#64748b">Vận hành</div>
+                    </div>
+                    <div
+                        style="background:#fff;border-radius:8px;padding:8px;border:1px solid #e2e8f0;text-align:center">
+                        <div style="font-size:14px;font-weight:800;color:#8b5cf6">6tr</div>
+                        <div style="font-size:8px;color:#64748b">Khác</div>
+                    </div>
+                </div>
+                <!-- Items -->
+                <div style="background:#fff;border-radius:10px;border:1px solid #e2e8f0;overflow:hidden">
+                    <div style="display:flex;align-items:center;gap:8px;padding:10px;border-bottom:1px solid #f1f5f9">
+                        <div
+                            style="width:32px;height:32px;background:#fef3c7;border-radius:8px;display:flex;align-items:center;justify-content:center">
+                            <span class="material-icons-round" style="font-size:16px;color:#f59e0b">medication</span>
+                        </div>
+                        <div style="flex:1">
+                            <div style="font-size:11px;font-weight:600">Amoxicillin 250mg x100</div>
+                            <div style="font-size:9px;color:#94a3b8">18/02 • Nhập thuốc</div>
+                        </div>
+                        <div style="font-size:11px;font-weight:600;color:#ef4444">-2.5tr</div>
+                    </div>
+                    <div style="display:flex;align-items:center;gap:8px;padding:10px;border-bottom:1px solid #f1f5f9">
+                        <div
+                            style="width:32px;height:32px;background:#dbeafe;border-radius:8px;display:flex;align-items:center;justify-content:center">
+                            <span class="material-icons-round" style="font-size:16px;color:#2563eb">bolt</span></div>
+                        <div style="flex:1">
+                            <div style="font-size:11px;font-weight:600">Tiền điện T02</div>
+                            <div style="font-size:9px;color:#94a3b8">17/02 • Vận hành</div>
+                        </div>
+                        <div style="font-size:11px;font-weight:600;color:#ef4444">-1.2tr</div>
+                    </div>
+                    <div style="display:flex;align-items:center;gap:8px;padding:10px">
+                        <div
+                            style="width:32px;height:32px;background:#fef3c7;border-radius:8px;display:flex;align-items:center;justify-content:center">
+                            <span class="material-icons-round" style="font-size:16px;color:#f59e0b">vaccines</span>
+                        </div>
+                        <div style="flex:1">
+                            <div style="font-size:11px;font-weight:600">Vaccine Rabies x50</div>
+                            <div style="font-size:9px;color:#94a3b8">16/02 • Nhập thuốc</div>
+                        </div>
+                        <div style="font-size:11px;font-weight:600;color:#ef4444">-5tr</div>
+                    </div>
+                </div>
+            </div>
+            <div style="background:#fff;border-top:1px solid #e2e8f0;display:flex;padding:6px 0 10px">
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#94a3b8"><span
+                        class="material-icons-round" style="font-size:22px">dashboard</span><span
+                        style="font-size:8px">Tổng Quan</span></div>
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#94a3b8"><span
+                        class="material-icons-round" style="font-size:22px">medical_services</span><span
+                        style="font-size:8px">Ca Khám</span></div>
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#94a3b8"><span
+                        class="material-icons-round" style="font-size:22px">local_hospital</span><span
+                        style="font-size:8px">Nội Trú</span></div>
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#94a3b8"><span
+                        class="material-icons-round" style="font-size:22px">medication</span><span
+                        style="font-size:8px">Kho Thuốc</span></div>
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#2563eb"><span
+                        class="material-icons-round" style="font-size:22px">more_horiz</span><span
+                        style="font-size:8px;font-weight:600">Thêm</span></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

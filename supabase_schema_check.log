@@ -1,0 +1,4 @@
+medical_cases has advance_payment_method: true
+product_sales has payment_method: true
+hospitalization tables in cloud: [hospitalization_treatments, hospitalization_regimens, hospitalization_reservations, hospitalization_dailies, hospitalizations]
+case_logs in cloud: false

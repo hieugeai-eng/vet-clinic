@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Clinic — 10. Báo Cáo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            padding: 20px
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 22px;
+            color: #fff;
+            margin-bottom: 4px
+        }
+
+        .sub {
+            text-align: center;
+            color: #64748b;
+            font-size: 12px;
+            margin-bottom: 24px
+        }
+
+        .section {
+            font-size: 15px;
+            font-weight: 700;
+            margin: 28px 0 12px;
+            padding-left: 8px;
+            border-left: 3px solid
+        }
+
+        .grid {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 32px
+        }
+
+        .frame {
+            background: #fff;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+            overflow: hidden;
+            color: #1e293b
+        }
+
+        .frame-d {
+            width: 820px
+        }
+
+        .frame-m {
+            width: 360px;
+            border-radius: 20px;
+            border: 3px solid #334155;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, .3)
+        }
+
+        .frame-label {
+            background: #1e293b;
+            color: #94a3b8;
+            font-size: 10px;
+            padding: 3px 12px;
+            text-align: center;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-transform: uppercase
+        }
+
+        .hdr {
+            background: #f8fafc;
+            border-bottom: 1px solid #e2e8f0;
+            padding: 8px 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px
+        }
+
+        .hdr h2 {
+            font-size: 13px;
+            font-weight: 600;
+            flex: 1
+        }
+
+        .btn-s {
+            padding: 3px 10px;
+            font-size: 10px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 3px;
+            font-weight: 500
+        }
+
+        .btn-p {
+            background: #2563eb;
+            color: #fff
+        }
+
+        .badge {
+            padding: 1px 7px;
+            border-radius: 10px;
+            font-size: 9px;
+            font-weight: 500;
+            display: inline-block
+        }
+
+        .b-green {
+            background: #dcfce7;
+            color: #16a34a
+        }
+
+        .b-amber {
+            background: #fef3c7;
+            color: #d97706
+        }
+
+        .b-red {
+            background: #fef2f2;
+            color: #dc2626
+        }
+
+        .b-blue {
+            background: #dbeafe;
+            color: #2563eb
+        }
+
+        .b-violet {
+            background: #ede9fe;
+            color: #7c3aed
+        }
+
+        .gcard {
+            border-radius: 10px;
+            padding: 12px 14px;
+            color: #fff;
+            position: relative;
+            overflow: hidden
+        }
+
+        .gcard::after {
+            content: '';
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            width: 70px;
+            height: 70px;
+            background: rgba(255, 255, 255, .1);
+            border-radius: 50%
+        }
+
+        .status-bar {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 16px;
+            font-size: 10px;
+            font-weight: 600;
+            background: #fff
+        }
+
+        .tabs {
+            display: flex;
+            background: #f1f5f9;
+            border-radius: 5px;
+            padding: 2px
+        }
+
+        .tab {
+            padding: 4px 12px;
+            font-size: 11px;
+            font-weight: 500;
+            border-radius: 3px;
+            color: #64748b;
+            text-align: center
+        }
+
+        .tab.a {
+            background: #fff;
+            color: #0f172a;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, .05)
+        }
+    </style>
+</head>
+
+<body>
+    <h1>📊 Pet Clinic — Báo Cáo</h1>
+    <p class="sub">Module 10: Thống kê doanh thu, dịch vụ, khách hàng • Desktop & Mobile</p>
+
+    <!-- ═══════ DESKTOP ═══════ -->
+    <div class="section" style="color:#8b5cf6;border-color:#8b5cf6">💻 Desktop — Báo Cáo Tổng Hợp</div>
+    <div class="grid">
+        <div class="frame frame-d">
+            <div class="frame-label">Desktop — Báo Cáo Doanh Thu & Thống Kê</div>
+            <div class="hdr"><span class="material-icons-round" style="font-size:16px;color:#8b5cf6">bar_chart</span>
+                <h2>Báo Cáo</h2>
+                <div class="tabs">
+                    <div class="tab a">Tổng quan</div>
+                    <div class="tab">Doanh thu</div>
+                    <div class="tab">Dịch vụ</div>
+                    <div class="tab">Khách hàng</div>
+                </div><button class="btn-s" style="background:#f1f5f9;color:#475569;margin-left:6px"><span
+                        class="material-icons-round" style="font-size:12px">file_download</span>Xuất</button>
+            </div>
+            <div style="padding:12px;background:#f8fafc">
+                <!-- KPI Cards -->
+                <div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:10px;margin-bottom:12px">
+                    <div class="gcard" style="background:linear-gradient(135deg,#8b5cf6,#a78bfa)">
+                        <div style="font-size:9px;opacity:.8;text-transform:uppercase;letter-spacing:.3px">Tổng doanh
+                            thu tháng</div>
+                        <div style="font-size:22px;font-weight:700;line-height:1.2">68.5tr</div>
+                        <div style="font-size:9px;opacity:.7;margin-top:2px">↑ 12% so với tháng trước</div>
+                    </div>
+                    <div class="gcard" style="background:linear-gradient(135deg,#2563eb,#60a5fa)">
+                        <div style="font-size:9px;opacity:.8;text-transform:uppercase;letter-spacing:.3px">Tổng ca khám
+                        </div>
+                        <div style="font-size:22px;font-weight:700;line-height:1.2">185</div>
+                        <div style="font-size:9px;opacity:.7;margin-top:2px">↑ 8% so với tháng trước</div>
+                    </div>
+                    <div class="gcard" style="background:linear-gradient(135deg,#0891b2,#22d3ee)">
+                        <div style="font-size:9px;opacity:.8;text-transform:uppercase;letter-spacing:.3px">Khách hàng
+                            mới</div>
+                        <div style="font-size:22px;font-weight:700;line-height:1.2">23</div>
+                        <div style="font-size:9px;opacity:.7;margin-top:2px">↓ 3% so với tháng trước</div>
+                    </div>
+                    <div class="gcard" style="background:linear-gradient(135deg,#10b981,#34d399)">
+                        <div style="font-size:9px;opacity:.8;text-transform:uppercase;letter-spacing:.3px">Trung bình/ca
+                        </div>
+                        <div style="font-size:22px;font-weight:700;line-height:1.2">370K</div>
+                        <div style="font-size:9px;opacity:.7;margin-top:2px">↑ 5% cải thiện</div>
+                    </div>
+                </div>
+                <!-- Chart Area + Top Services -->
+                <div style="display:grid;grid-template-columns:1fr 300px;gap:10px">
+                    <!-- Chart -->
+                    <div style="background:#fff;border-radius:8px;border:1px solid #e2e8f0;overflow:hidden">
+                        <div
+                            style="padding:8px 10px;border-bottom:1px solid #e2e8f0;font-size:11px;font-weight:600;color:#475569;display:flex;align-items:center;gap:5px">
+                            <span class="material-icons-round"
+                                style="font-size:14px;color:#8b5cf6">trending_up</span>Doanh Thu 7 Ngày Gần Nhất<span
+                                style="margin-left:auto;font-size:9px;color:#94a3b8">Đơn vị: triệu đ</span></div>
+                        <div style="padding:12px 16px;height:180px;position:relative">
+                            <div style="display:flex;align-items:flex-end;gap:8px;height:140px;padding-bottom:20px">
+                                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px">
+                                    <div
+                                        style="width:100%;background:linear-gradient(to top,#8b5cf6,#a78bfa);height:70px;border-radius:4px 4px 0 0">
+                                    </div>
+                                    <div style="font-size:8px;color:#64748b">T2</div>
+                                </div>
+                                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px">
+                                    <div
+                                        style="width:100%;background:linear-gradient(to top,#8b5cf6,#a78bfa);height:95px;border-radius:4px 4px 0 0">
+                                    </div>
+                                    <div style="font-size:8px;color:#64748b">T3</div>
+                                </div>
+                                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px">
+                                    <div
+                                        style="width:100%;background:linear-gradient(to top,#8b5cf6,#a78bfa);height:55px;border-radius:4px 4px 0 0">
+                                    </div>
+                                    <div style="font-size:8px;color:#64748b">T4</div>
+                                </div>
+                                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px">
+                                    <div
+                                        style="width:100%;background:linear-gradient(to top,#8b5cf6,#a78bfa);height:110px;border-radius:4px 4px 0 0">
+                                    </div>
+                                    <div style="font-size:8px;color:#64748b">T5</div>
+                                </div>
+                                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px">
+                                    <div
+                                        style="width:100%;background:linear-gradient(to top,#8b5cf6,#a78bfa);height:80px;border-radius:4px 4px 0 0">
+                                    </div>
+                                    <div style="font-size:8px;color:#64748b">T6</div>
+                                </div>
+                                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px">
+                                    <div
+                                        style="width:100%;background:linear-gradient(to top,#2563eb,#60a5fa);height:130px;border-radius:4px 4px 0 0">
+                                    </div>
+                                    <div style="font-size:8px;color:#64748b">T7</div>
+                                </div>
+                                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:4px">
+                                    <div
+                                        style="width:100%;background:linear-gradient(to top,#10b981,#34d399);height:45px;border-radius:4px 4px 0 0">
+                                    </div>
+                                    <div style="font-size:8px;color:#64748b">CN</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Top Services -->
+                    <div style="background:#fff;border-radius:8px;border:1px solid #e2e8f0;overflow:hidden">
+                        <div
+                            style="padding:8px 10px;border-bottom:1px solid #e2e8f0;font-size:11px;font-weight:600;color:#475569;display:flex;align-items:center;gap:5px">
+                            <span class="material-icons-round" style="font-size:14px;color:#f59e0b">star</span>Top Dịch
+                            Vụ</div>
+                        <div style="padding:8px 10px">
+                            <div
+                                style="padding:6px 0;border-bottom:1px solid #f1f5f9;display:flex;align-items:center;gap:8px">
+                                <div
+                                    style="width:22px;height:22px;background:#eff6ff;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:800;color:#2563eb">
+                                    1</div>
+                                <div style="flex:1">
+                                    <div style="font-size:11px;font-weight:500">Khám tổng quát</div>
+                                    <div style="font-size:9px;color:#94a3b8">45 ca • 18tr</div>
+                                </div>
+                                <div style="width:80px;height:6px;background:#f1f5f9;border-radius:3px;overflow:hidden">
+                                    <div style="width:90%;height:100%;background:#2563eb;border-radius:3px"></div>
+                                </div>
+                            </div>
+                            <div
+                                style="padding:6px 0;border-bottom:1px solid #f1f5f9;display:flex;align-items:center;gap:8px">
+                                <div
+                                    style="width:22px;height:22px;background:#dcfce7;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:800;color:#16a34a">
+                                    2</div>
+                                <div style="flex:1">
+                                    <div style="font-size:11px;font-weight:500">Tiêm phòng</div>
+                                    <div style="font-size:9px;color:#94a3b8">38 ca • 13tr</div>
+                                </div>
+                                <div style="width:80px;height:6px;background:#f1f5f9;border-radius:3px;overflow:hidden">
+                                    <div style="width:75%;height:100%;background:#10b981;border-radius:3px"></div>
+                                </div>
+                            </div>
+                            <div
+                                style="padding:6px 0;border-bottom:1px solid #f1f5f9;display:flex;align-items:center;gap:8px">
+                                <div
+                                    style="width:22px;height:22px;background:#fef3c7;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:800;color:#d97706">
+                                    3</div>
+                                <div style="flex:1">
+                                    <div style="font-size:11px;font-weight:500">Phẫu thuật</div>
+                                    <div style="font-size:9px;color:#94a3b8">12 ca • 15tr</div>
+                                </div>
+                                <div style="width:80px;height:6px;background:#f1f5f9;border-radius:3px;overflow:hidden">
+                                    <div style="width:60%;height:100%;background:#f59e0b;border-radius:3px"></div>
+                                </div>
+                            </div>
+                            <div
+                                style="padding:6px 0;border-bottom:1px solid #f1f5f9;display:flex;align-items:center;gap:8px">
+                                <div
+                                    style="width:22px;height:22px;background:#ede9fe;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:800;color:#7c3aed">
+                                    4</div>
+                                <div style="flex:1">
+                                    <div style="font-size:11px;font-weight:500">Nội trú</div>
+                                    <div style="font-size:9px;color:#94a3b8">8 ca • 12tr</div>
+                                </div>
+                                <div style="width:80px;height:6px;background:#f1f5f9;border-radius:3px;overflow:hidden">
+                                    <div style="width:48%;height:100%;background:#8b5cf6;border-radius:3px"></div>
+                                </div>
+                            </div>
+                            <div style="padding:6px 0;display:flex;align-items:center;gap:8px">
+                                <div
+                                    style="width:22px;height:22px;background:#fce7f3;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:800;color:#db2777">
+                                    5</div>
+                                <div style="flex:1">
+                                    <div style="font-size:11px;font-weight:500">Xét nghiệm</div>
+                                    <div style="font-size:9px;color:#94a3b8">25 ca • 8.5tr</div>
+                                </div>
+                                <div style="width:80px;height:6px;background:#f1f5f9;border-radius:3px;overflow:hidden">
+                                    <div style="width:34%;height:100%;background:#ec4899;border-radius:3px"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════ MOBILE ═══════ -->
+    <div class="section" style="color:#8b5cf6;border-color:#8b5cf6">📱 Mobile — Báo Cáo</div>
+    <div class="grid">
+        <div class="frame frame-m">
+            <div class="frame-label">Mobile — Báo Cáo</div>
+            <div class="status-bar"><span>9:41</span>
+                <div style="display:flex;gap:4px"><span class="material-icons-round"
+                        style="font-size:14px">signal_cellular_alt</span><span class="material-icons-round"
+                        style="font-size:14px">wifi</span><span class="material-icons-round"
+                        style="font-size:14px">battery_full</span></div>
+            </div>
+            <div
+                style="background:#fff;padding:10px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid #f1f5f9">
+                <span class="material-icons-round" style="font-size:20px;color:#475569">arrow_back</span>
+                <div style="flex:1;font-size:15px;font-weight:700;color:#1e293b">Báo Cáo</div>
+                <span class="material-icons-round" style="font-size:20px;color:#64748b">file_download</span>
+            </div>
+            <div
+                style="background:#fff;padding:8px 16px;display:flex;gap:6px;border-bottom:1px solid #e2e8f0;overflow-x:auto">
+                <div
+                    style="padding:4px 12px;background:#8b5cf6;color:#fff;border-radius:5px;font-size:10px;font-weight:600;white-space:nowrap">
+                    Tháng này</div>
+                <div
+                    style="padding:4px 12px;background:#f1f5f9;color:#64748b;border-radius:5px;font-size:10px;font-weight:500;white-space:nowrap">
+                    Tuần này</div>
+                <div
+                    style="padding:4px 12px;background:#f1f5f9;color:#64748b;border-radius:5px;font-size:10px;font-weight:500;white-space:nowrap">
+                    Hôm nay</div>
+            </div>
+            <div style="background:#f1f5f9;padding:12px;min-height:380px">
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:10px">
+                    <div class="gcard" style="background:linear-gradient(135deg,#8b5cf6,#a78bfa)">
+                        <div style="font-size:8px;opacity:.8">Doanh thu</div>
+                        <div style="font-size:18px;font-weight:800">68.5tr</div>
+                        <div style="font-size:8px;opacity:.7">↑ 12%</div>
+                    </div>
+                    <div class="gcard" style="background:linear-gradient(135deg,#2563eb,#60a5fa)">
+                        <div style="font-size:8px;opacity:.8">Ca khám</div>
+                        <div style="font-size:18px;font-weight:800">185</div>
+                        <div style="font-size:8px;opacity:.7">↑ 8%</div>
+                    </div>
+                </div>
+                <!-- Chart placeholder -->
+                <div
+                    style="background:#fff;border-radius:10px;padding:10px;border:1px solid #e2e8f0;margin-bottom:10px">
+                    <div style="font-size:10px;font-weight:600;color:#1e293b;margin-bottom:8px">Doanh Thu 7 Ngày</div>
+                    <div style="display:flex;align-items:flex-end;gap:4px;height:80px">
+                        <div
+                            style="flex:1;background:linear-gradient(to top,#8b5cf6,#a78bfa);height:50%;border-radius:3px 3px 0 0">
+                        </div>
+                        <div
+                            style="flex:1;background:linear-gradient(to top,#8b5cf6,#a78bfa);height:70%;border-radius:3px 3px 0 0">
+                        </div>
+                        <div
+                            style="flex:1;background:linear-gradient(to top,#8b5cf6,#a78bfa);height:40%;border-radius:3px 3px 0 0">
+                        </div>
+                        <div
+                            style="flex:1;background:linear-gradient(to top,#8b5cf6,#a78bfa);height:85%;border-radius:3px 3px 0 0">
+                        </div>
+                        <div
+                            style="flex:1;background:linear-gradient(to top,#8b5cf6,#a78bfa);height:60%;border-radius:3px 3px 0 0">
+                        </div>
+                        <div
+                            style="flex:1;background:linear-gradient(to top,#2563eb,#60a5fa);height:95%;border-radius:3px 3px 0 0">
+                        </div>
+                        <div
+                            style="flex:1;background:linear-gradient(to top,#10b981,#34d399);height:30%;border-radius:3px 3px 0 0">
+                        </div>
+                    </div>
+                    <div style="display:flex;justify-content:space-between;font-size:7px;color:#94a3b8;margin-top:4px">
+                        <span>T2</span><span>T3</span><span>T4</span><span>T5</span><span>T6</span><span>T7</span><span>CN</span>
+                    </div>
+                </div>
+                <!-- Top Services -->
+                <div style="background:#fff;border-radius:10px;padding:10px;border:1px solid #e2e8f0">
+                    <div style="font-size:10px;font-weight:600;color:#1e293b;margin-bottom:6px">Top Dịch Vụ</div>
+                    <div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #f1f5f9">
+                        <div style="font-size:10px;font-weight:800;color:#2563eb;width:16px">1</div>
+                        <div style="flex:1;font-size:11px;font-weight:500">Khám tổng quát</div>
+                        <div style="font-size:10px;font-weight:600;color:#64748b">45 ca</div>
+                    </div>
+                    <div style="display:flex;align-items:center;gap:6px;padding:5px 0;border-bottom:1px solid #f1f5f9">
+                        <div style="font-size:10px;font-weight:800;color:#10b981;width:16px">2</div>
+                        <div style="flex:1;font-size:11px;font-weight:500">Tiêm phòng</div>
+                        <div style="font-size:10px;font-weight:600;color:#64748b">38 ca</div>
+                    </div>
+                    <div style="display:flex;align-items:center;gap:6px;padding:5px 0">
+                        <div style="font-size:10px;font-weight:800;color:#f59e0b;width:16px">3</div>
+                        <div style="flex:1;font-size:11px;font-weight:500">Phẫu thuật</div>
+                        <div style="font-size:10px;font-weight:600;color:#64748b">12 ca</div>
+                    </div>
+                </div>
+            </div>
+            <div style="background:#fff;border-top:1px solid #e2e8f0;display:flex;padding:6px 0 10px">
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#94a3b8"><span
+                        class="material-icons-round" style="font-size:22px">dashboard</span><span
+                        style="font-size:8px">Tổng Quan</span></div>
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#94a3b8"><span
+                        class="material-icons-round" style="font-size:22px">medical_services</span><span
+                        style="font-size:8px">Ca Khám</span></div>
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#94a3b8"><span
+                        class="material-icons-round" style="font-size:22px">local_hospital</span><span
+                        style="font-size:8px">Nội Trú</span></div>
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#94a3b8"><span
+                        class="material-icons-round" style="font-size:22px">medication</span><span
+                        style="font-size:8px">Kho Thuốc</span></div>
+                <div style="flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;color:#2563eb"><span
+                        class="material-icons-round" style="font-size:22px">more_horiz</span><span
+                        style="font-size:8px;font-weight:600">Thêm</span></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

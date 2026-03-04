@@ -1,0 +1,5 @@
+Building Windows application...                                 
+lib/modules/medical_cases/controllers/case_form_controller.dart(1128,24): error G4127D1E8: The getter 'currentProfile' isn't defined for the type 'CaseFormController'. [D:\okada\thu y\okada_vet_clinic\build\windows\x64\flutter\flutter_assemble.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(254,5): error MSB8066: Custom build for 'D:\okada\thu y\okada_vet_clinic\build\windows\x64\CMakeFiles\6038d5b79ad356e47a64f85b5a0c2a7c\flutter_windows.dll.rule;D:\okada\thu y\okada_vet_clinic\build\windows\x64\CMakeFiles\221f2963fde61e3b4298b9091ab60f53\flutter_assemble.rule' exited with code 1. [D:\okada\thu y\okada_vet_clinic\build\windows\x64\flutter\flutter_assemble.vcxproj]
+Building Windows application...                                    75,2s
+Build process failed.
